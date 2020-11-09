@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2020-11-09T00:23:24.004-08:00"
+    "updated_at": "2020-11-09T00:59:04.409-08:00"
   },
   "components": [
     {
@@ -115,9 +115,9 @@
     {
       "id": "x32lnl8nqcb1",
       "name": "Identity",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-08-31T09:57:23.312-07:00",
-      "updated_at": "2020-11-09T00:01:11.953-08:00",
+      "updated_at": "2020-11-09T00:59:03.751-08:00",
       "position": 8,
       "description": "Netlify's hosted Identity service (https://www.netlify.com/docs/identity)",
       "showcase": false,
@@ -145,9 +145,9 @@
     {
       "id": "j09v23r71736",
       "name": "Git Gateway",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-08-31T09:58:01.661-07:00",
-      "updated_at": "2020-11-09T00:01:12.041-08:00",
+      "updated_at": "2020-11-09T00:59:03.766-08:00",
       "position": 10,
       "description": "Netlify's hosted Git Gateway service (https://www.netlify.com/docs/git-gateway/)",
       "showcase": false,
@@ -264,111 +264,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "swz4vnm9ftn1",
-      "name": "Scheduled Maintenance for Identity and Git Gateway",
-      "status": "in_progress",
-      "created_at": "2020-11-04T11:33:19.283-08:00",
-      "updated_at": "2020-11-09T00:01:13.135-08:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/4cjlhmst3tnz",
-      "started_at": "2020-11-04T11:33:19.278-08:00",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "t7nkn2w5b60q",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "swz4vnm9ftn1",
-          "created_at": "2020-11-09T00:01:12.136-08:00",
-          "updated_at": "2020-11-09T00:01:13.133-08:00",
-          "display_at": "2020-11-09T00:01:12.136-08:00",
-          "affected_components": [
-            {
-              "code": "x32lnl8nqcb1",
-              "name": "Identity",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "j09v23r71736",
-              "name": "Git Gateway",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1325710016179941400
-        },
-        {
-          "id": "8q94hbd5mnb8",
-          "status": "scheduled",
-          "body": "We will have maintenance including downtime for <a href=\"https://docs.netlify.com/visitor-access/git-gateway/\">Git Gateway</a> and <a href=\"https://docs.netlify.com/visitor-access/identity/registration-login/\">Identity logins and signups</a> during the time window. We will update our status page when the maintenance begins, and when customer impact is completed. More details about this work can be found in <a href=\"https://community.netlify.com/t/scheduled-maintenance-for-identity-and-git-gateway-on-9-nov-0800-0900-utc/25768\">this Community post</a>.",
-          "incident_id": "swz4vnm9ftn1",
-          "created_at": "2020-11-04T11:33:19.330-08:00",
-          "updated_at": "2020-11-04T11:33:19.745-08:00",
-          "display_at": "2020-11-04T11:33:19.330-08:00",
-          "affected_components": [
-            {
-              "code": "x32lnl8nqcb1",
-              "name": "Identity",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "j09v23r71736",
-              "name": "Git Gateway",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1324072252090970000
-        }
-      ],
-      "components": [
-        {
-          "id": "j09v23r71736",
-          "name": "Git Gateway",
-          "status": "under_maintenance",
-          "created_at": "2018-08-31T09:58:01.661-07:00",
-          "updated_at": "2020-11-09T00:01:12.041-08:00",
-          "position": 10,
-          "description": "Netlify's hosted Git Gateway service (https://www.netlify.com/docs/git-gateway/)",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "x32lnl8nqcb1",
-          "name": "Identity",
-          "status": "under_maintenance",
-          "created_at": "2018-08-31T09:57:23.312-07:00",
-          "updated_at": "2020-11-09T00:01:11.953-08:00",
-          "position": 8,
-          "description": "Netlify's hosted Identity service (https://www.netlify.com/docs/identity)",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2020-11-09T00:00:00.000-08:00",
-      "scheduled_until": "2020-11-09T01:00:00.000-08:00"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
