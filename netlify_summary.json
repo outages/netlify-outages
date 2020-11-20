@@ -4,15 +4,15 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2020-11-20T01:20:16.770-08:00"
+    "updated_at": "2020-11-20T01:24:10.985-08:00"
   },
   "components": [
     {
       "id": "8cw12qpb2n72",
       "name": "Enterprise Content Distribution Network",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-08-31T09:08:38.161-07:00",
-      "updated_at": "2020-11-20T01:20:15.917-08:00",
+      "updated_at": "2020-11-20T01:23:40.998-08:00",
       "position": 1,
       "description": "This CDN serves web content for Enterprise customers",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "l65dl1552383",
       "name": "Content Distribution Network",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2016-08-26T12:03:36.240-07:00",
-      "updated_at": "2020-11-20T01:20:15.939-08:00",
+      "updated_at": "2020-11-20T01:23:41.013-08:00",
       "position": 2,
       "description": "This CDN serves web pages for free, Pro, and Business accounts",
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "7l9mcmwhp0n4",
       "name": "Origin Servers",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-12-17T08:43:22.093-08:00",
-      "updated_at": "2020-11-20T01:20:15.956-08:00",
+      "updated_at": "2020-11-20T01:23:41.026-08:00",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "42cdn8lcw3pr",
       "name": "API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2016-08-26T12:05:49.535-07:00",
-      "updated_at": "2020-11-20T01:20:15.971-08:00",
+      "updated_at": "2020-11-20T01:23:41.039-08:00",
       "position": 5,
       "description": "Netlify's API configures sites and is needed to receive and process Deploys",
       "showcase": false,
@@ -267,16 +267,54 @@
     {
       "id": "7247hf6xyst7",
       "name": "Origin and API Latency Issues",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2020-11-20T01:20:15.879-08:00",
-      "updated_at": "2020-11-20T01:20:16.762-08:00",
-      "monitoring_at": null,
+      "updated_at": "2020-11-20T01:23:41.877-08:00",
+      "monitoring_at": "2020-11-20T01:23:41.068-08:00",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/vgqrmj1pcp50",
       "started_at": "2020-11-20T01:20:15.872-08:00",
       "page_id": "83dz7syz0j3x",
       "incident_updates": [
+        {
+          "id": "7r3jz0xgtcss",
+          "status": "monitoring",
+          "body": "We believe the issue is now resolved and we are monitoring before closing this incident.",
+          "incident_id": "7247hf6xyst7",
+          "created_at": "2020-11-20T01:23:41.068-08:00",
+          "updated_at": "2020-11-20T01:23:41.873-08:00",
+          "display_at": "2020-11-20T01:23:41.068-08:00",
+          "affected_components": [
+            {
+              "code": "l65dl1552383",
+              "name": "Content Distribution Network",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "42cdn8lcw3pr",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "8cw12qpb2n72",
+              "name": "Enterprise Content Distribution Network",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "7l9mcmwhp0n4",
+              "name": "Origin Servers",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1329717039187984400
+        },
         {
           "id": "r8fyp1rx1zlv",
           "status": "investigating",
@@ -320,9 +358,9 @@
         {
           "id": "42cdn8lcw3pr",
           "name": "API",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2016-08-26T12:05:49.535-07:00",
-          "updated_at": "2020-11-20T01:20:15.971-08:00",
+          "updated_at": "2020-11-20T01:23:41.039-08:00",
           "position": 5,
           "description": "Netlify's API configures sites and is needed to receive and process Deploys",
           "showcase": false,
@@ -335,9 +373,9 @@
         {
           "id": "7l9mcmwhp0n4",
           "name": "Origin Servers",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-12-17T08:43:22.093-08:00",
-          "updated_at": "2020-11-20T01:20:15.956-08:00",
+          "updated_at": "2020-11-20T01:23:41.026-08:00",
           "position": 3,
           "description": null,
           "showcase": false,
@@ -350,9 +388,9 @@
         {
           "id": "l65dl1552383",
           "name": "Content Distribution Network",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2016-08-26T12:03:36.240-07:00",
-          "updated_at": "2020-11-20T01:20:15.939-08:00",
+          "updated_at": "2020-11-20T01:23:41.013-08:00",
           "position": 2,
           "description": "This CDN serves web pages for free, Pro, and Business accounts",
           "showcase": false,
@@ -365,9 +403,9 @@
         {
           "id": "8cw12qpb2n72",
           "name": "Enterprise Content Distribution Network",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-08-31T09:08:38.161-07:00",
-          "updated_at": "2020-11-20T01:20:15.917-08:00",
+          "updated_at": "2020-11-20T01:23:40.998-08:00",
           "position": 1,
           "description": "This CDN serves web content for Enterprise customers",
           "showcase": false,
@@ -382,7 +420,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
