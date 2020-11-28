@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2020-11-28T03:55:41.142-08:00"
+    "updated_at": "2020-11-28T04:29:27.341-08:00"
   },
   "components": [
     {
@@ -263,133 +263,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "msl68v0hxbym",
-      "name": "Load Balancer timeouts",
-      "status": "monitoring",
-      "created_at": "2020-11-28T03:25:09.613-08:00",
-      "updated_at": "2020-11-28T03:55:41.134-08:00",
-      "monitoring_at": "2020-11-28T03:55:40.506-08:00",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/5gcfxhc6zm7d",
-      "started_at": "2020-11-28T03:25:09.607-08:00",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "3t3dhg3jv9hr",
-          "status": "monitoring",
-          "body": "We've applied a fix and initial results are good; traffic is being served again at normal levels from our load balancer.  The team will continue to monitor the situation.",
-          "incident_id": "msl68v0hxbym",
-          "created_at": "2020-11-28T03:55:40.506-08:00",
-          "updated_at": "2020-11-28T03:55:41.131-08:00",
-          "display_at": "2020-11-28T03:55:40.506-08:00",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Content Distribution Network",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            },
-            {
-              "code": "8cw12qpb2n72",
-              "name": "Enterprise Content Distribution Network",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1332654390985977900
-        },
-        {
-          "id": "6bb35cx51ngv",
-          "status": "investigating",
-          "body": "Our team is still working on problems with traffic to our load balancer which began at approximately 11:09 UTC.  Sites using CNAME DNS records, or Netlify DNS hosting, to connect a site to either CDN are not affected.",
-          "incident_id": "msl68v0hxbym",
-          "created_at": "2020-11-28T03:46:28.800-08:00",
-          "updated_at": "2020-11-28T03:46:29.156-08:00",
-          "display_at": "2020-11-28T03:46:28.800-08:00",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Content Distribution Network",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "8cw12qpb2n72",
-              "name": "Enterprise Content Distribution Network",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1332652075801460700
-        },
-        {
-          "id": "ppz01x14zcmt",
-          "status": "investigating",
-          "body": "Our team is looking into timeouts for traffic using our Load Balancer.",
-          "incident_id": "msl68v0hxbym",
-          "created_at": "2020-11-28T03:25:09.713-08:00",
-          "updated_at": "2020-11-28T03:25:11.289-08:00",
-          "display_at": "2020-11-28T03:25:09.713-08:00",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Content Distribution Network",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "8cw12qpb2n72",
-              "name": "Enterprise Content Distribution Network",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1332646715925569500
-        }
-      ],
-      "components": [
-        {
-          "id": "l65dl1552383",
-          "name": "Content Distribution Network",
-          "status": "operational",
-          "created_at": "2016-08-26T12:03:36.240-07:00",
-          "updated_at": "2020-11-28T03:55:40.478-08:00",
-          "position": 2,
-          "description": "This CDN serves web pages for free, Pro, and Business accounts",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "8cw12qpb2n72",
-          "name": "Enterprise Content Distribution Network",
-          "status": "operational",
-          "created_at": "2018-08-31T09:08:38.161-07:00",
-          "updated_at": "2020-11-28T03:55:40.449-08:00",
-          "position": 1,
-          "description": "This CDN serves web content for Enterprise customers",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
