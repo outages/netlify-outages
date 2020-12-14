@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2020-12-14T00:04:04.081-08:00"
+    "updated_at": "2020-12-14T03:41:25.944-08:00"
   },
   "components": [
     {
@@ -12,7 +12,7 @@
       "name": "Enterprise Content Distribution Network",
       "status": "operational",
       "created_at": "2018-08-31T09:08:38.161-07:00",
-      "updated_at": "2020-11-28T03:55:40.449-08:00",
+      "updated_at": "2020-12-14T03:37:44.152-08:00",
       "position": 1,
       "description": "This CDN serves web content for Enterprise customers",
       "showcase": false,
