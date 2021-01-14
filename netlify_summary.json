@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-01-14T00:29:36.783-08:00"
+    "updated_at": "2021-01-14T05:07:01.645-08:00"
   },
   "components": [
     {
@@ -12,7 +12,7 @@
       "name": "Enterprise Content Distribution Network",
       "status": "operational",
       "created_at": "2018-08-31T09:08:38.161-07:00",
-      "updated_at": "2021-01-07T07:08:42.329-08:00",
+      "updated_at": "2021-01-14T05:07:01.038-08:00",
       "position": 1,
       "description": "This CDN serves web content for Enterprise customers",
       "showcase": false,
@@ -27,7 +27,7 @@
       "name": "Content Distribution Network",
       "status": "operational",
       "created_at": "2016-08-26T12:03:36.240-07:00",
-      "updated_at": "2021-01-07T07:08:42.341-08:00",
+      "updated_at": "2021-01-14T05:07:01.049-08:00",
       "position": 2,
       "description": "This CDN serves web pages for free, Pro, and Business accounts",
       "showcase": false,
@@ -42,7 +42,7 @@
       "name": "Origin Servers",
       "status": "operational",
       "created_at": "2018-12-17T08:43:22.093-08:00",
-      "updated_at": "2021-01-07T07:08:42.352-08:00",
+      "updated_at": "2021-01-14T05:07:01.061-08:00",
       "position": 3,
       "description": null,
       "showcase": false,
