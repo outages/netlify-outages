@@ -4,15 +4,15 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-01-24T15:23:34.530-08:00"
+    "updated_at": "2021-01-24T17:48:16.533-08:00"
   },
   "components": [
     {
       "id": "8cw12qpb2n72",
       "name": "Enterprise Content Distribution Network",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-31T09:08:38.161-07:00",
-      "updated_at": "2021-01-24T10:28:18.556-08:00",
+      "updated_at": "2021-01-24T17:48:15.816-08:00",
       "position": 1,
       "description": "This CDN serves web content for Enterprise customers",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "l65dl1552383",
       "name": "Content Distribution Network",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2016-08-26T12:03:36.240-07:00",
-      "updated_at": "2021-01-24T10:28:18.573-08:00",
+      "updated_at": "2021-01-24T17:48:15.835-08:00",
       "position": 2,
       "description": "This CDN serves web pages for free, Pro, and Business accounts",
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "7l9mcmwhp0n4",
       "name": "Origin Servers",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-12-17T08:43:22.093-08:00",
-      "updated_at": "2021-01-24T10:28:18.588-08:00",
+      "updated_at": "2021-01-24T16:40:15.103-08:00",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -278,393 +278,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "l95vf2q29cfn",
-      "name": "Increased Origin Latencies",
-      "status": "identified",
-      "created_at": "2021-01-24T09:57:52.000-08:00",
-      "updated_at": "2021-01-24T15:23:34.525-08:00",
-      "monitoring_at": "2021-01-24T14:58:00.799-08:00",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/1m960cqgshx2",
-      "started_at": "2021-01-24T09:57:52.000-08:00",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "6q51ll2hlppv",
-          "status": "identified",
-          "body": "Traffic routed to our CDN's via the load balancer using an A record with value 104.198.14.52 is again affected and our team continues investigation.  To minimize this impact, you can follow advice in this community post around configuring your site's DNS: https://community.netlify.com/t/details-about-mitigating-impacts-of-our-service-incident/30984",
-          "incident_id": "l95vf2q29cfn",
-          "created_at": "2021-01-24T15:23:34.142-08:00",
-          "updated_at": "2021-01-24T15:23:34.522-08:00",
-          "display_at": "2021-01-24T15:23:34.142-08:00",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Content Distribution Network",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "8cw12qpb2n72",
-              "name": "Enterprise Content Distribution Network",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "7l9mcmwhp0n4",
-              "name": "Origin Servers",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1353483612490879000
-        },
-        {
-          "id": "xvsfk5j74z69",
-          "status": "monitoring",
-          "body": "A fix has been implemented and we are monitoring the results.",
-          "incident_id": "l95vf2q29cfn",
-          "created_at": "2021-01-24T14:58:00.799-08:00",
-          "updated_at": "2021-01-24T14:58:01.243-08:00",
-          "display_at": "2021-01-24T14:58:00.799-08:00",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Content Distribution Network",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "8cw12qpb2n72",
-              "name": "Enterprise Content Distribution Network",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "7l9mcmwhp0n4",
-              "name": "Origin Servers",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1353477181540688000
-        },
-        {
-          "id": "kk5pnv1zs7rp",
-          "status": "identified",
-          "body": "We are continuing to work on a fix for this issue. We will provide an update once we have remediated the issue.",
-          "incident_id": "l95vf2q29cfn",
-          "created_at": "2021-01-24T13:13:45.216-08:00",
-          "updated_at": "2021-01-24T13:13:45.869-08:00",
-          "display_at": "2021-01-24T13:13:45.216-08:00",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Content Distribution Network",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "8cw12qpb2n72",
-              "name": "Enterprise Content Distribution Network",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "7l9mcmwhp0n4",
-              "name": "Origin Servers",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1353450944537661400
-        },
-        {
-          "id": "rny7bklpdmg2",
-          "status": "identified",
-          "body": "We are continuing to work on a fix for this issue.",
-          "incident_id": "l95vf2q29cfn",
-          "created_at": "2021-01-24T12:51:06.525-08:00",
-          "updated_at": "2021-01-24T12:51:06.902-08:00",
-          "display_at": "2021-01-24T12:51:06.525-08:00",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Content Distribution Network",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "8cw12qpb2n72",
-              "name": "Enterprise Content Distribution Network",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "7l9mcmwhp0n4",
-              "name": "Origin Servers",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1353445244692402200
-        },
-        {
-          "id": "4773jk7y6cld",
-          "status": "identified",
-          "body": "We are continuing to work on a fix for this issue.",
-          "incident_id": "l95vf2q29cfn",
-          "created_at": "2021-01-24T12:21:15.273-08:00",
-          "updated_at": "2021-01-24T12:21:15.595-08:00",
-          "display_at": "2021-01-24T12:21:15.273-08:00",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Content Distribution Network",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "8cw12qpb2n72",
-              "name": "Enterprise Content Distribution Network",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "7l9mcmwhp0n4",
-              "name": "Origin Servers",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1353437731372712000
-        },
-        {
-          "id": "c1zfgfssptvc",
-          "status": "identified",
-          "body": "The issue has been identified and we are working on a resolution.",
-          "incident_id": "l95vf2q29cfn",
-          "created_at": "2021-01-24T11:51:24.945-08:00",
-          "updated_at": "2021-01-24T11:51:25.326-08:00",
-          "display_at": "2021-01-24T11:51:24.945-08:00",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Content Distribution Network",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "8cw12qpb2n72",
-              "name": "Enterprise Content Distribution Network",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "7l9mcmwhp0n4",
-              "name": "Origin Servers",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1353430222335484000
-        },
-        {
-          "id": "wgl2117kylgz",
-          "status": "investigating",
-          "body": "We continue to investigate this issue. Traffic routed via an A record for customers who are using an external DNS provider are affected. Please refer to https://docs.netlify.com/domains-https/custom-domains/configure-external-dns for more details on our recommended configuration.",
-          "incident_id": "l95vf2q29cfn",
-          "created_at": "2021-01-24T11:12:58.312-08:00",
-          "updated_at": "2021-01-24T11:12:58.774-08:00",
-          "display_at": "2021-01-24T11:12:58.312-08:00",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Content Distribution Network",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "8cw12qpb2n72",
-              "name": "Enterprise Content Distribution Network",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "7l9mcmwhp0n4",
-              "name": "Origin Servers",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1353420547980365800
-        },
-        {
-          "id": "bxx94vbmpzpj",
-          "status": "investigating",
-          "body": "We continue to investigate this issue. Traffic routed via an A record for customers who are using an external DNS provider are affected. Please refer to https://docs.netlify.com/domains-https/custom-domains/configure-external-dns for more details on our recommended configuration.",
-          "incident_id": "l95vf2q29cfn",
-          "created_at": "2021-01-24T10:50:38.731-08:00",
-          "updated_at": "2021-01-24T10:50:40.148-08:00",
-          "display_at": "2021-01-24T10:50:38.731-08:00",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Content Distribution Network",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "8cw12qpb2n72",
-              "name": "Enterprise Content Distribution Network",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "7l9mcmwhp0n4",
-              "name": "Origin Servers",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1353414933057167400
-        },
-        {
-          "id": "0t9rgmjl3sck",
-          "status": "investigating",
-          "body": "We're experiencing an outage for all CDN traffic routed via our load balancer.",
-          "incident_id": "l95vf2q29cfn",
-          "created_at": "2021-01-24T10:28:18.632-08:00",
-          "updated_at": "2021-01-24T10:28:19.258-08:00",
-          "display_at": "2021-01-24T10:28:18.632-08:00",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Content Distribution Network",
-              "old_status": "degraded_performance",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "8cw12qpb2n72",
-              "name": "Enterprise Content Distribution Network",
-              "old_status": "degraded_performance",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "7l9mcmwhp0n4",
-              "name": "Origin Servers",
-              "old_status": "degraded_performance",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1353409309372084200
-        },
-        {
-          "id": "mw41yxr4zwpy",
-          "status": "investigating",
-          "body": "We are investigating an issue causing latencies impacting CDN content routed via our load balancer.",
-          "incident_id": "l95vf2q29cfn",
-          "created_at": "2021-01-24T10:23:52.393-08:00",
-          "updated_at": "2021-01-24T10:24:26.399-08:00",
-          "display_at": "2021-01-24T09:57:52.000-08:00",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Content Distribution Network",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "8cw12qpb2n72",
-              "name": "Enterprise Content Distribution Network",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7l9mcmwhp0n4",
-              "name": "Origin Servers",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1353408192525394000
-        }
-      ],
-      "components": [
-        {
-          "id": "7l9mcmwhp0n4",
-          "name": "Origin Servers",
-          "status": "partial_outage",
-          "created_at": "2018-12-17T08:43:22.093-08:00",
-          "updated_at": "2021-01-24T10:28:18.588-08:00",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "l65dl1552383",
-          "name": "Content Distribution Network",
-          "status": "partial_outage",
-          "created_at": "2016-08-26T12:03:36.240-07:00",
-          "updated_at": "2021-01-24T10:28:18.573-08:00",
-          "position": 2,
-          "description": "This CDN serves web pages for free, Pro, and Business accounts",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "8cw12qpb2n72",
-          "name": "Enterprise Content Distribution Network",
-          "status": "partial_outage",
-          "created_at": "2018-08-31T09:08:38.161-07:00",
-          "updated_at": "2021-01-24T10:28:18.556-08:00",
-          "position": 1,
-          "description": "This CDN serves web content for Enterprise customers",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
