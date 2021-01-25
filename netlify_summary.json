@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-01-24T14:58:01.251-08:00"
+    "updated_at": "2021-01-24T15:23:34.530-08:00"
   },
   "components": [
     {
@@ -282,9 +282,9 @@
     {
       "id": "l95vf2q29cfn",
       "name": "Increased Origin Latencies",
-      "status": "monitoring",
+      "status": "identified",
       "created_at": "2021-01-24T09:57:52.000-08:00",
-      "updated_at": "2021-01-24T14:58:01.246-08:00",
+      "updated_at": "2021-01-24T15:23:34.525-08:00",
       "monitoring_at": "2021-01-24T14:58:00.799-08:00",
       "resolved_at": null,
       "impact": "major",
@@ -292,6 +292,38 @@
       "started_at": "2021-01-24T09:57:52.000-08:00",
       "page_id": "83dz7syz0j3x",
       "incident_updates": [
+        {
+          "id": "6q51ll2hlppv",
+          "status": "identified",
+          "body": "Traffic routed to our CDN's via the load balancer using an A record with value 104.198.14.52 is again affected and our team continues investigation.  To minimize this impact, you can follow advice in this community post around configuring your site's DNS: https://community.netlify.com/t/details-about-mitigating-impacts-of-our-service-incident/30984",
+          "incident_id": "l95vf2q29cfn",
+          "created_at": "2021-01-24T15:23:34.142-08:00",
+          "updated_at": "2021-01-24T15:23:34.522-08:00",
+          "display_at": "2021-01-24T15:23:34.142-08:00",
+          "affected_components": [
+            {
+              "code": "l65dl1552383",
+              "name": "Content Distribution Network",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8cw12qpb2n72",
+              "name": "Enterprise Content Distribution Network",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "7l9mcmwhp0n4",
+              "name": "Origin Servers",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1353483612490879000
+        },
         {
           "id": "xvsfk5j74z69",
           "status": "monitoring",
