@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-03-06T11:09:37.960-08:00"
+    "updated_at": "2021-03-07T05:16:44.663-08:00"
   },
   "components": [
     {
@@ -130,9 +130,9 @@
     {
       "id": "rdfdmhqxp2wq",
       "name": "Analytics",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-11-08T09:02:09.624-08:00",
-      "updated_at": "2021-03-03T11:49:33.113-08:00",
+      "updated_at": "2021-03-07T05:16:44.203-08:00",
       "position": 9,
       "description": "Analytics provides data captured directly from our servers.",
       "showcase": false,
@@ -278,163 +278,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "lmx4fxt18y71",
-      "name": "Delayed analytics ingest",
-      "status": "monitoring",
-      "created_at": "2021-03-02T10:06:40.295-08:00",
-      "updated_at": "2021-03-06T11:09:37.953-08:00",
-      "monitoring_at": "2021-03-06T11:09:37.524-08:00",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/d4pd8t6zj2j0",
-      "started_at": "2021-03-02T10:06:40.290-08:00",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "zyy54wzs3d9k",
-          "status": "monitoring",
-          "body": "Data ingest for all sites with existing Analytics subscriptions is complete. The team will continue to monitor the service and re-enable new subscriptions shortly.",
-          "incident_id": "lmx4fxt18y71",
-          "created_at": "2021-03-06T11:09:37.524-08:00",
-          "updated_at": "2021-03-06T11:09:37.950-08:00",
-          "display_at": "2021-03-06T11:09:37.524-08:00",
-          "affected_components": [
-            {
-              "code": "rdfdmhqxp2wq",
-              "name": "Analytics",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1368277608173957000
-        },
-        {
-          "id": "05vlhcwl2s8n",
-          "status": "identified",
-          "body": "We've repaired a majority of affected sites, and less than 3% of sites using our Analytics service still have delays of potentially more than 24 hours. No data has been lost. Our team continues to work to help our system catch up, and we  new analytics signups are still disabled, to help speed up processing the backlog; we'll re-enable new signups as soon as we catch up.",
-          "incident_id": "lmx4fxt18y71",
-          "created_at": "2021-03-05T08:36:30.437-08:00",
-          "updated_at": "2021-03-05T08:36:31.739-08:00",
-          "display_at": "2021-03-05T08:36:30.437-08:00",
-          "affected_components": [
-            {
-              "code": "rdfdmhqxp2wq",
-              "name": "Analytics",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1367876690400047000
-        },
-        {
-          "id": "vd6kwbjp6st7",
-          "status": "identified",
-          "body": "We've repaired a majority of affected sites, but less than 10% of sites using our Analytics service still have delays of potentially more than 24 hours. No data has been lost. Our team continues to work to help our system catch up, and we have disabled new analytics signups to help speed up processing the backlog; we'll re-enable new signups as soon as we catch up.",
-          "incident_id": "lmx4fxt18y71",
-          "created_at": "2021-03-04T09:28:34.083-08:00",
-          "updated_at": "2021-03-04T09:28:34.908-08:00",
-          "display_at": "2021-03-04T09:28:34.083-08:00",
-          "affected_components": [
-            {
-              "code": "rdfdmhqxp2wq",
-              "name": "Analytics",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1367527402096656400
-        },
-        {
-          "id": "8hcdq2xl5byb",
-          "status": "identified",
-          "body": "We've repaired a majority of affected sites, but less than 10% of sites using our Analytics service still have delays of potentially more than 24 hours. No data has been lost. Our team continues to work to help our system catch up.",
-          "incident_id": "lmx4fxt18y71",
-          "created_at": "2021-03-04T08:25:55.802-08:00",
-          "updated_at": "2021-03-04T08:25:56.340-08:00",
-          "display_at": "2021-03-04T08:25:55.802-08:00",
-          "affected_components": [
-            {
-              "code": "rdfdmhqxp2wq",
-              "name": "Analytics",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1367511637335232500
-        },
-        {
-          "id": "kzj9jsgtjjrp",
-          "status": "identified",
-          "body": "We've repaired a majority of affected sites, but approximately 15% of sites using Analytics service still have delays of potentially more than 24 hours.  No data has been lost.  Our team is still working to help our system catch up.",
-          "incident_id": "lmx4fxt18y71",
-          "created_at": "2021-03-03T11:49:33.146-08:00",
-          "updated_at": "2021-03-03T11:49:33.627-08:00",
-          "display_at": "2021-03-03T11:49:33.146-08:00",
-          "affected_components": [
-            {
-              "code": "rdfdmhqxp2wq",
-              "name": "Analytics",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1367200492774781000
-        },
-        {
-          "id": "ph0qwzf4vv5d",
-          "status": "identified",
-          "body": "Some analytics data is delayed by up to 6 hours, but no data has been lost.  We are working to repair the delays.",
-          "incident_id": "lmx4fxt18y71",
-          "created_at": "2021-03-02T10:06:40.339-08:00",
-          "updated_at": "2021-03-02T10:06:40.711-08:00",
-          "display_at": "2021-03-02T10:06:40.339-08:00",
-          "affected_components": [
-            {
-              "code": "rdfdmhqxp2wq",
-              "name": "Analytics",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1366812213923618800
-        }
-      ],
-      "components": [
-        {
-          "id": "rdfdmhqxp2wq",
-          "name": "Analytics",
-          "status": "degraded_performance",
-          "created_at": "2019-11-08T09:02:09.624-08:00",
-          "updated_at": "2021-03-03T11:49:33.113-08:00",
-          "position": 9,
-          "description": "Analytics provides data captured directly from our servers.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
