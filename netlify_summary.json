@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-03-07T05:16:44.663-08:00"
+    "updated_at": "2021-03-11T10:31:28.409-08:00"
   },
   "components": [
     {
@@ -279,7 +279,168 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "56j7r615vhn8",
+      "name": "Potential downtime for team overview (Application UI)",
+      "status": "scheduled",
+      "created_at": "2021-03-11T10:27:04.372-08:00",
+      "updated_at": "2021-03-11T10:27:04.864-08:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/5j7x00ndv7mf",
+      "started_at": "2021-03-11T10:27:04.359-08:00",
+      "page_id": "83dz7syz0j3x",
+      "incident_updates": [
+        {
+          "id": "qm5jyjkt3176",
+          "status": "scheduled",
+          "body": "We will have maintenance including possible downtime to the team overview portion of our Application UI. We will update our status page should the conditions change and when the maintenance is completed. More details about this work can be found here – https://answers.netlify.com/t/scheduled-maintenance-brief-downtime-mar-12th-and-15th-for-large-media-identity-and-git-gateway/33635 – in our Forums post.",
+          "incident_id": "56j7r615vhn8",
+          "created_at": "2021-03-11T10:27:04.432-08:00",
+          "updated_at": "2021-03-11T10:27:04.861-08:00",
+          "display_at": "2021-03-11T10:27:04.432-08:00",
+          "affected_components": [
+            {
+              "code": "y7hq47ts327k",
+              "name": "Netlify Application UI",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1370078839137702000
+        }
+      ],
+      "components": [
+        {
+          "id": "y7hq47ts327k",
+          "name": "Netlify Application UI",
+          "status": "operational",
+          "created_at": "2020-09-03T16:45:57.385-07:00",
+          "updated_at": "2020-10-23T02:53:20.704-07:00",
+          "position": 21,
+          "description": "The web UI for administering your sites at http://app.netlify.com",
+          "showcase": false,
+          "start_date": "2020-09-03",
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-03-12T03:00:00.000-08:00",
+      "scheduled_until": "2021-03-12T04:00:00.000-08:00"
+    },
+    {
+      "id": "y50126p25pxk",
+      "name": "Potential downtime for Large Media",
+      "status": "scheduled",
+      "created_at": "2021-03-11T10:31:27.948-08:00",
+      "updated_at": "2021-03-11T10:31:28.402-08:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/1m2z0bz068sv",
+      "started_at": "2021-03-11T10:31:27.944-08:00",
+      "page_id": "83dz7syz0j3x",
+      "incident_updates": [
+        {
+          "id": "chd8q1s6gf9r",
+          "status": "scheduled",
+          "body": "We will have maintenance including possible downtime to Large Media. We will update our status page should the conditions change and when the maintenance is completed. More details about this work can be found here – https://answers.netlify.com/t/scheduled-maintenance-brief-downtime-mar-12th-and-15th-for-large-media-identity-and-git-gateway/33635 – in our Forums post.",
+          "incident_id": "y50126p25pxk",
+          "created_at": "2021-03-11T10:31:27.989-08:00",
+          "updated_at": "2021-03-11T10:31:28.398-08:00",
+          "display_at": "2021-03-11T10:31:27.989-08:00",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1370079944508727300
+        }
+      ],
+      "components": [],
+      "scheduled_for": "2021-03-15T00:00:00.000-07:00",
+      "scheduled_until": "2021-03-15T01:00:00.000-07:00"
+    },
+    {
+      "id": "dh5y64z5dx7b",
+      "name": "Potential downtime for Git Gateway and Identity logins and signups",
+      "status": "scheduled",
+      "created_at": "2021-03-11T10:29:49.753-08:00",
+      "updated_at": "2021-03-11T10:29:50.271-08:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/92kv7gsnnfc1",
+      "started_at": "2021-03-11T10:29:49.747-08:00",
+      "page_id": "83dz7syz0j3x",
+      "incident_updates": [
+        {
+          "id": "05hjfc3dpmq7",
+          "status": "scheduled",
+          "body": "We will have maintenance including possible downtime to Git Gateway and Identity logins/signups during the time window. We will update our status page should the conditions change and when the maintenance is completed. More details about this work can be found here – https://answers.netlify.com/t/scheduled-maintenance-brief-downtime-mar-12th-and-15th-for-large-media-identity-and-git-gateway/33635 – in our Forums post.",
+          "incident_id": "dh5y64z5dx7b",
+          "created_at": "2021-03-11T10:29:49.810-08:00",
+          "updated_at": "2021-03-11T10:29:50.268-08:00",
+          "display_at": "2021-03-11T10:29:49.810-08:00",
+          "affected_components": [
+            {
+              "code": "x32lnl8nqcb1",
+              "name": "Identity",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "j09v23r71736",
+              "name": "Git Gateway",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1370079532904976400
+        }
+      ],
+      "components": [
+        {
+          "id": "j09v23r71736",
+          "name": "Git Gateway",
+          "status": "operational",
+          "created_at": "2018-08-31T09:58:01.661-07:00",
+          "updated_at": "2020-11-09T00:59:03.766-08:00",
+          "position": 10,
+          "description": "Netlify's hosted Git Gateway service (https://www.netlify.com/docs/git-gateway/)",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "x32lnl8nqcb1",
+          "name": "Identity",
+          "status": "operational",
+          "created_at": "2018-08-31T09:57:23.312-07:00",
+          "updated_at": "2020-11-09T00:59:03.751-08:00",
+          "position": 8,
+          "description": "Netlify's hosted Identity service (https://www.netlify.com/docs/identity)",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-03-15T00:00:00.000-07:00",
+      "scheduled_until": "2021-03-15T01:00:00.000-07:00"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
