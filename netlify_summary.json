@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-03-17T10:44:01.161-07:00"
+    "updated_at": "2021-03-17T10:54:31.666-07:00"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "999zpz7s4z44",
       "name": "Build Pipeline",
-      "status": "degraded_performance",
+      "status": "partial_outage",
       "created_at": "2016-08-26T12:06:12.274-07:00",
-      "updated_at": "2021-03-17T10:26:29.785-07:00",
+      "updated_at": "2021-03-17T10:54:31.051-07:00",
       "position": 4,
       "description": "The system that builds your source code into websites (for git-backed deployments)",
       "showcase": false,
@@ -284,14 +284,34 @@
       "name": "Build failures due to network connectivity",
       "status": "identified",
       "created_at": "2021-03-17T10:26:29.741-07:00",
-      "updated_at": "2021-03-17T10:44:01.155-07:00",
+      "updated_at": "2021-03-17T10:54:31.661-07:00",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "minor",
+      "impact": "major",
       "shortlink": "https://stspg.io/608pyjby98hq",
       "started_at": "2021-03-17T10:26:29.734-07:00",
       "page_id": "83dz7syz0j3x",
       "incident_updates": [
+        {
+          "id": "jfsh8dgm9b3j",
+          "status": "identified",
+          "body": "We are continuing to work on a fix for this issue.",
+          "incident_id": "5tj673z2zbwl",
+          "created_at": "2021-03-17T10:54:31.099-07:00",
+          "updated_at": "2021-03-17T10:54:31.659-07:00",
+          "display_at": "2021-03-17T10:54:31.099-07:00",
+          "affected_components": [
+            {
+              "code": "999zpz7s4z44",
+              "name": "Build Pipeline",
+              "old_status": "degraded_performance",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1372244973991555000
+        },
         {
           "id": "w2xlxg5j7lwj",
           "status": "identified",
@@ -337,9 +357,9 @@
         {
           "id": "999zpz7s4z44",
           "name": "Build Pipeline",
-          "status": "degraded_performance",
+          "status": "partial_outage",
           "created_at": "2016-08-26T12:06:12.274-07:00",
-          "updated_at": "2021-03-17T10:26:29.785-07:00",
+          "updated_at": "2021-03-17T10:54:31.051-07:00",
           "position": 4,
           "description": "The system that builds your source code into websites (for git-backed deployments)",
           "showcase": false,
@@ -355,6 +375,6 @@
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "description": "Minor Service Outage"
   }
 }
