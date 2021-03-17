@@ -4,10 +4,10 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-03-17T08:47:30.111-07:00"
+    "updated_at": "2021-03-17T09:31:52.298-07:00"
   },
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
