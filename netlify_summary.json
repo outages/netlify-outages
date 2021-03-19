@@ -4,15 +4,15 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-03-18T09:43:15.823-07:00"
+    "updated_at": "2021-03-19T00:48:31.072-07:00"
   },
   "components": [
     {
       "id": "8cw12qpb2n72",
       "name": "Enterprise Content Distribution Network",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2018-08-31T09:08:38.161-07:00",
-      "updated_at": "2021-02-18T08:30:56.318-08:00",
+      "updated_at": "2021-03-19T00:46:36.782-07:00",
       "position": 1,
       "description": "This CDN serves web content for Enterprise customers",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "l65dl1552383",
       "name": "Content Distribution Network",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2016-08-26T12:03:36.240-07:00",
-      "updated_at": "2021-02-18T08:30:56.336-08:00",
+      "updated_at": "2021-03-19T00:46:36.805-07:00",
       "position": 2,
       "description": "This CDN serves web pages for free, Pro, and Business accounts",
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "7l9mcmwhp0n4",
       "name": "Origin Servers",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2018-12-17T08:43:22.093-08:00",
-      "updated_at": "2021-02-18T08:30:56.352-08:00",
+      "updated_at": "2021-03-19T00:46:36.832-07:00",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "42cdn8lcw3pr",
       "name": "API",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2016-08-26T12:05:49.535-07:00",
-      "updated_at": "2021-02-18T08:30:56.370-08:00",
+      "updated_at": "2021-03-19T00:46:36.851-07:00",
       "position": 5,
       "description": "Netlify's API configures sites and is needed to receive and process Deploys",
       "showcase": false,
@@ -250,9 +250,9 @@
     {
       "id": "y7hq47ts327k",
       "name": "Netlify Application UI",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2020-09-03T16:45:57.385-07:00",
-      "updated_at": "2020-10-23T02:53:20.704-07:00",
+      "updated_at": "2021-03-19T00:48:30.378-07:00",
       "position": 21,
       "description": "The web UI for administering your sites at http://app.netlify.com",
       "showcase": false,
@@ -278,10 +278,185 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "v01hrx4g9cdp",
+      "name": "Origin and API issues",
+      "status": "investigating",
+      "created_at": "2021-03-19T00:46:36.739-07:00",
+      "updated_at": "2021-03-19T00:48:31.068-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "critical",
+      "shortlink": "https://stspg.io/krk5vqng9jmc",
+      "started_at": "2021-03-19T00:46:36.000-07:00",
+      "page_id": "83dz7syz0j3x",
+      "incident_updates": [
+        {
+          "id": "jmlv5gssp9l5",
+          "status": "investigating",
+          "body": "We are continuing to investigate this issue.",
+          "incident_id": "v01hrx4g9cdp",
+          "created_at": "2021-03-19T00:48:30.416-07:00",
+          "updated_at": "2021-03-19T00:48:31.066-07:00",
+          "display_at": "2021-03-19T00:48:30.416-07:00",
+          "affected_components": [
+            {
+              "code": "l65dl1552383",
+              "name": "Content Distribution Network",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "42cdn8lcw3pr",
+              "name": "API",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "8cw12qpb2n72",
+              "name": "Enterprise Content Distribution Network",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "7l9mcmwhp0n4",
+              "name": "Origin Servers",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "y7hq47ts327k",
+              "name": "Netlify Application UI",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1372817242182668300
+        },
+        {
+          "id": "y3n0g3lf091g",
+          "status": "investigating",
+          "body": "We are currently investigating an issue causing our API and origin to be unavailable.",
+          "incident_id": "v01hrx4g9cdp",
+          "created_at": "2021-03-19T00:46:36.891-07:00",
+          "updated_at": "2021-03-19T00:47:42.331-07:00",
+          "display_at": "2021-03-19T00:46:36.000-07:00",
+          "affected_components": [
+            {
+              "code": "l65dl1552383",
+              "name": "Content Distribution Network",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "42cdn8lcw3pr",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "8cw12qpb2n72",
+              "name": "Enterprise Content Distribution Network",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "7l9mcmwhp0n4",
+              "name": "Origin Servers",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1372816765978218500
+        }
+      ],
+      "components": [
+        {
+          "id": "y7hq47ts327k",
+          "name": "Netlify Application UI",
+          "status": "major_outage",
+          "created_at": "2020-09-03T16:45:57.385-07:00",
+          "updated_at": "2021-03-19T00:48:30.378-07:00",
+          "position": 21,
+          "description": "The web UI for administering your sites at http://app.netlify.com",
+          "showcase": false,
+          "start_date": "2020-09-03",
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "42cdn8lcw3pr",
+          "name": "API",
+          "status": "major_outage",
+          "created_at": "2016-08-26T12:05:49.535-07:00",
+          "updated_at": "2021-03-19T00:46:36.851-07:00",
+          "position": 5,
+          "description": "Netlify's API configures sites and is needed to receive and process Deploys",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "7l9mcmwhp0n4",
+          "name": "Origin Servers",
+          "status": "major_outage",
+          "created_at": "2018-12-17T08:43:22.093-08:00",
+          "updated_at": "2021-03-19T00:46:36.832-07:00",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "l65dl1552383",
+          "name": "Content Distribution Network",
+          "status": "major_outage",
+          "created_at": "2016-08-26T12:03:36.240-07:00",
+          "updated_at": "2021-03-19T00:46:36.805-07:00",
+          "position": 2,
+          "description": "This CDN serves web pages for free, Pro, and Business accounts",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "8cw12qpb2n72",
+          "name": "Enterprise Content Distribution Network",
+          "status": "major_outage",
+          "created_at": "2018-08-31T09:08:38.161-07:00",
+          "updated_at": "2021-03-19T00:46:36.782-07:00",
+          "position": 1,
+          "description": "This CDN serves web content for Enterprise customers",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
