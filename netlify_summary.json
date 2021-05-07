@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-05-06T09:49:05.923-07:00"
+    "updated_at": "2021-05-06T18:47:02.664-07:00"
   },
   "components": [
     {
@@ -252,7 +252,7 @@
       "name": "Netlify Application UI",
       "status": "operational",
       "created_at": "2020-09-03T16:45:57.385-07:00",
-      "updated_at": "2021-03-19T01:16:49.399-07:00",
+      "updated_at": "2021-05-06T18:47:01.920-07:00",
       "position": 21,
       "description": "The web UI for administering your sites at http://app.netlify.com",
       "showcase": false,
@@ -278,7 +278,120 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "960wd6r0vm94",
+      "name": "Login issues when using GitLab for authentication",
+      "status": "monitoring",
+      "created_at": "2021-05-06T18:07:20.883-07:00",
+      "updated_at": "2021-05-06T18:47:02.659-07:00",
+      "monitoring_at": "2021-05-06T18:21:53.761-07:00",
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/3nxvsytf3lyk",
+      "started_at": "2021-05-06T18:07:20.876-07:00",
+      "page_id": "83dz7syz0j3x",
+      "incident_updates": [
+        {
+          "id": "7tsx5krzt0x3",
+          "status": "monitoring",
+          "body": "The issue preventing adding new sites using GitLab repositories is now resolved. We are again monitoring to confirm all issues are resolved.",
+          "incident_id": "960wd6r0vm94",
+          "created_at": "2021-05-06T18:47:01.955-07:00",
+          "updated_at": "2021-05-06T18:47:02.657-07:00",
+          "display_at": "2021-05-06T18:47:01.955-07:00",
+          "affected_components": [
+            {
+              "code": "y7hq47ts327k",
+              "name": "Netlify Application UI",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1390483279912915000
+        },
+        {
+          "id": "34st0bvffdv8",
+          "status": "identified",
+          "body": "The login issue is resolved. However, there are still issues adding new sites from GitLab and we are working on a resolution now.",
+          "incident_id": "960wd6r0vm94",
+          "created_at": "2021-05-06T18:38:38.492-07:00",
+          "updated_at": "2021-05-06T18:38:39.015-07:00",
+          "display_at": "2021-05-06T18:38:38.492-07:00",
+          "affected_components": [
+            {
+              "code": "y7hq47ts327k",
+              "name": "Netlify Application UI",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1390481167510429700
+        },
+        {
+          "id": "gp1ts69v721b",
+          "status": "monitoring",
+          "body": "The GitLab authentication issues are now resolved and we are monitoring to confirm the resolution.",
+          "incident_id": "960wd6r0vm94",
+          "created_at": "2021-05-06T18:21:53.761-07:00",
+          "updated_at": "2021-05-06T18:21:54.210-07:00",
+          "display_at": "2021-05-06T18:21:53.761-07:00",
+          "affected_components": [
+            {
+              "code": "y7hq47ts327k",
+              "name": "Netlify Application UI",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1390476953115775000
+        },
+        {
+          "id": "ztpmb1hkt43z",
+          "status": "identified",
+          "body": "We are investigating an issue preventing logins to our service when using GitLab for authentication. All other authentication methods are working and we are working to resolve the GitLab authentication issues now.",
+          "incident_id": "960wd6r0vm94",
+          "created_at": "2021-05-06T18:07:20.969-07:00",
+          "updated_at": "2021-05-06T18:07:22.440-07:00",
+          "display_at": "2021-05-06T18:07:20.969-07:00",
+          "affected_components": [
+            {
+              "code": "y7hq47ts327k",
+              "name": "Netlify Application UI",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1390473296215380000
+        }
+      ],
+      "components": [
+        {
+          "id": "y7hq47ts327k",
+          "name": "Netlify Application UI",
+          "status": "operational",
+          "created_at": "2020-09-03T16:45:57.385-07:00",
+          "updated_at": "2021-05-06T18:47:01.920-07:00",
+          "position": 21,
+          "description": "The web UI for administering your sites at http://app.netlify.com",
+          "showcase": false,
+          "start_date": "2020-09-03",
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
