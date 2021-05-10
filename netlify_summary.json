@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-05-10T15:59:25.671-07:00"
+    "updated_at": "2021-05-10T16:15:13.720-07:00"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "l65dl1552383",
       "name": "Content Distribution Network",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2016-08-26T12:03:36.240-07:00",
-      "updated_at": "2021-05-10T13:14:42.791-07:00",
+      "updated_at": "2021-05-10T16:15:12.843-07:00",
       "position": 2,
       "description": "This CDN serves web pages for free, Pro, and Business accounts",
       "showcase": false,
@@ -278,143 +278,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "t6nl40q91dv2",
-      "name": "Elevated TLS/SSL connection errors to Netlify-hosted sites served over IPv6 on our regular CDN",
-      "status": "monitoring",
-      "created_at": "2021-05-10T13:14:16.065-07:00",
-      "updated_at": "2021-05-10T15:59:25.667-07:00",
-      "monitoring_at": "2021-05-10T15:59:25.063-07:00",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/2h2d435dqd12",
-      "started_at": "2021-05-10T13:14:16.060-07:00",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "cgfddg7d311x",
-          "status": "monitoring",
-          "body": "We completed the deploy of the fix across our entire CDN network. We will continue monitoring the situation.",
-          "incident_id": "t6nl40q91dv2",
-          "created_at": "2021-05-10T15:59:25.063-07:00",
-          "updated_at": "2021-05-10T15:59:25.665-07:00",
-          "display_at": "2021-05-10T15:59:25.063-07:00",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Content Distribution Network",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1391890649314590700
-        },
-        {
-          "id": "5pyzy1f84x5n",
-          "status": "identified",
-          "body": "We are starting to deploy the fix across the CDN network.",
-          "incident_id": "t6nl40q91dv2",
-          "created_at": "2021-05-10T15:11:05.491-07:00",
-          "updated_at": "2021-05-10T15:11:06.113-07:00",
-          "display_at": "2021-05-10T15:11:05.491-07:00",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Content Distribution Network",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1391878487598768000
-        },
-        {
-          "id": "yw6zk46gycn0",
-          "status": "identified",
-          "body": "We have identified the cause of the IPv6 connectivity problems and we are preparing a fix.",
-          "incident_id": "t6nl40q91dv2",
-          "created_at": "2021-05-10T14:23:14.139-07:00",
-          "updated_at": "2021-05-10T14:23:14.757-07:00",
-          "display_at": "2021-05-10T14:23:14.139-07:00",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Content Distribution Network",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1391866444439122000
-        },
-        {
-          "id": "50zylcvwc57d",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "t6nl40q91dv2",
-          "created_at": "2021-05-10T13:14:42.846-07:00",
-          "updated_at": "2021-05-10T13:14:44.567-07:00",
-          "display_at": "2021-05-10T13:14:42.846-07:00",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Content Distribution Network",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1391849205031850000
-        },
-        {
-          "id": "df8s5s8dwr0b",
-          "status": "investigating",
-          "body": "We are investigating user reports of connectivity problems over IPv6 to sites served by our CDN (non-Enterprise).",
-          "incident_id": "t6nl40q91dv2",
-          "created_at": "2021-05-10T13:14:16.169-07:00",
-          "updated_at": "2021-05-10T13:14:16.838-07:00",
-          "display_at": "2021-05-10T13:14:16.169-07:00",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Content Distribution Network",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1391849088719593500
-        }
-      ],
-      "components": [
-        {
-          "id": "l65dl1552383",
-          "name": "Content Distribution Network",
-          "status": "degraded_performance",
-          "created_at": "2016-08-26T12:03:36.240-07:00",
-          "updated_at": "2021-05-10T13:14:42.791-07:00",
-          "position": 2,
-          "description": "This CDN serves web pages for free, Pro, and Business accounts",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
