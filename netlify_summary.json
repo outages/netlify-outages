@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-05-10T13:23:41.322-07:00"
+    "updated_at": "2021-05-10T14:23:14.766-07:00"
   },
   "components": [
     {
@@ -282,9 +282,9 @@
     {
       "id": "t6nl40q91dv2",
       "name": "Elevated TLS/SSL connection errors to Netlify-hosted sites served over IPv6 on our regular CDN",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2021-05-10T13:14:16.065-07:00",
-      "updated_at": "2021-05-10T13:14:44.570-07:00",
+      "updated_at": "2021-05-10T14:23:14.760-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -292,6 +292,26 @@
       "started_at": "2021-05-10T13:14:16.060-07:00",
       "page_id": "83dz7syz0j3x",
       "incident_updates": [
+        {
+          "id": "yw6zk46gycn0",
+          "status": "identified",
+          "body": "We have identified the cause of the IPv6 connectivity problems and we are preparing a fix.",
+          "incident_id": "t6nl40q91dv2",
+          "created_at": "2021-05-10T14:23:14.139-07:00",
+          "updated_at": "2021-05-10T14:23:14.757-07:00",
+          "display_at": "2021-05-10T14:23:14.139-07:00",
+          "affected_components": [
+            {
+              "code": "l65dl1552383",
+              "name": "Content Distribution Network",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1391866444439122000
+        },
         {
           "id": "50zylcvwc57d",
           "status": "investigating",
