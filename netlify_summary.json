@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-05-14T03:54:39.421-07:00"
+    "updated_at": "2021-05-14T04:19:59.203-07:00"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "l65dl1552383",
       "name": "Content Distribution Network",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2016-08-26T12:03:36.240-07:00",
-      "updated_at": "2021-05-14T02:56:46.511-07:00",
+      "updated_at": "2021-05-14T04:19:56.922-07:00",
       "position": 2,
       "description": "This CDN serves web pages for free, Pro, and Business accounts",
       "showcase": false,
@@ -278,123 +278,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "4zg4hd2gw46p",
-      "name": "Latency and request failures on our Regular CDN",
-      "status": "monitoring",
-      "created_at": "2021-05-14T02:50:46.000-07:00",
-      "updated_at": "2021-05-14T03:54:39.414-07:00",
-      "monitoring_at": "2021-05-14T03:54:38.485-07:00",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/bzk6ncvy5jcq",
-      "started_at": "2021-05-14T02:50:46.000-07:00",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "w2b02k8sggcx",
-          "status": "monitoring",
-          "body": "A fix has been implemented and we are monitoring the results.",
-          "incident_id": "4zg4hd2gw46p",
-          "created_at": "2021-05-14T03:54:38.485-07:00",
-          "updated_at": "2021-05-14T03:54:39.411-07:00",
-          "display_at": "2021-05-14T03:54:38.485-07:00",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Content Distribution Network",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1393157805691916300
-        },
-        {
-          "id": "fjhxp9yc6j6k",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue. Please check https://answers.netlify.com/t/support-guide-minimizing-impact-of-load-balancer-not-working/34888 for potential mitigation steps including updating domain site apex A records from 104.198.14.52 to 75.2.60.5.",
-          "incident_id": "4zg4hd2gw46p",
-          "created_at": "2021-05-14T03:41:56.658-07:00",
-          "updated_at": "2021-05-14T03:41:57.075-07:00",
-          "display_at": "2021-05-14T03:41:56.658-07:00",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Content Distribution Network",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1393154608667644000
-        },
-        {
-          "id": "grc577mqbmkl",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "4zg4hd2gw46p",
-          "created_at": "2021-05-14T03:13:35.522-07:00",
-          "updated_at": "2021-05-14T03:13:36.667-07:00",
-          "display_at": "2021-05-14T03:13:35.522-07:00",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Content Distribution Network",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1393147476241043500
-        },
-        {
-          "id": "2qkvrl19r65z",
-          "status": "investigating",
-          "body": "We are investigating timeouts on our Regular CDN load balancer with IP 104.198.14.52.",
-          "incident_id": "4zg4hd2gw46p",
-          "created_at": "2021-05-14T02:56:46.550-07:00",
-          "updated_at": "2021-05-14T03:05:06.723-07:00",
-          "display_at": "2021-05-14T02:50:46.000-07:00",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Content Distribution Network",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1393143246583255000
-        }
-      ],
-      "components": [
-        {
-          "id": "l65dl1552383",
-          "name": "Content Distribution Network",
-          "status": "degraded_performance",
-          "created_at": "2016-08-26T12:03:36.240-07:00",
-          "updated_at": "2021-05-14T02:56:46.511-07:00",
-          "position": 2,
-          "description": "This CDN serves web pages for free, Pro, and Business accounts",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
