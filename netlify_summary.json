@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-05-14T04:19:59.203-07:00"
+    "updated_at": "2021-05-15T12:00:51.880-07:00"
   },
   "components": [
     {
@@ -160,9 +160,9 @@
     {
       "id": "45w16bmv4dnb",
       "name": "Atlassian Bitbucket API",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-08-31T09:25:03.742-07:00",
-      "updated_at": "2021-05-11T02:45:26.212-07:00",
+      "updated_at": "2021-05-15T12:00:51.876-07:00",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -175,9 +175,9 @@
     {
       "id": "vtqs0zd7zncc",
       "name": "Atlassian Bitbucket SSH",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-08-31T09:25:05.702-07:00",
-      "updated_at": "2021-05-07T18:00:55.385-07:00",
+      "updated_at": "2021-05-15T12:00:51.421-07:00",
       "position": 12,
       "description": null,
       "showcase": false,
@@ -190,9 +190,9 @@
     {
       "id": "ty69by5298qw",
       "name": "Atlassian Bitbucket Webhooks",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-08-31T09:25:21.455-07:00",
-      "updated_at": "2021-05-11T02:43:30.989-07:00",
+      "updated_at": "2021-05-15T12:00:51.130-07:00",
       "position": 13,
       "description": null,
       "showcase": false,
@@ -281,7 +281,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
