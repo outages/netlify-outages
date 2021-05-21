@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-05-21T00:05:38.149-07:00"
+    "updated_at": "2021-05-21T02:50:28.163-07:00"
   },
   "components": [
     {
@@ -299,7 +299,7 @@
       "name": "Delayed analytics ingest",
       "status": "identified",
       "created_at": "2021-05-20T08:37:29.252-07:00",
-      "updated_at": "2021-05-21T00:05:38.144-07:00",
+      "updated_at": "2021-05-21T02:50:28.157-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -307,6 +307,26 @@
       "started_at": "2021-05-20T08:37:29.246-07:00",
       "page_id": "83dz7syz0j3x",
       "incident_updates": [
+        {
+          "id": "qkvn97b24c4z",
+          "status": "identified",
+          "body": "More than 98% of delayed analytics are now up to date and we are continuing to work through the backlog.",
+          "incident_id": "gl63r4m6204j",
+          "created_at": "2021-05-21T02:50:27.760-07:00",
+          "updated_at": "2021-05-21T02:50:28.154-07:00",
+          "display_at": "2021-05-21T02:50:27.760-07:00",
+          "affected_components": [
+            {
+              "code": "rdfdmhqxp2wq",
+              "name": "Analytics",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1395678367920255000
+        },
         {
           "id": "9hnqr952dv7g",
           "status": "identified",
