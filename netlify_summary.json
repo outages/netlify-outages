@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-05-27T18:55:26.403-07:00"
+    "updated_at": "2021-05-28T14:00:54.911-07:00"
   },
   "components": [
     {
@@ -205,9 +205,9 @@
     {
       "id": "45w16bmv4dnb",
       "name": "Atlassian Bitbucket API",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-08-31T09:25:03.742-07:00",
-      "updated_at": "2021-05-23T15:32:30.526-07:00",
+      "updated_at": "2021-05-28T14:00:52.427-07:00",
       "position": 14,
       "description": null,
       "showcase": false,
@@ -220,9 +220,9 @@
     {
       "id": "vtqs0zd7zncc",
       "name": "Atlassian Bitbucket SSH",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-08-31T09:25:05.702-07:00",
-      "updated_at": "2021-05-27T02:19:18.672-07:00",
+      "updated_at": "2021-05-28T14:00:54.908-07:00",
       "position": 15,
       "description": null,
       "showcase": false,
@@ -296,7 +296,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
