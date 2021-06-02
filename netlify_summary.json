@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-06-01T14:15:30.037-07:00"
+    "updated_at": "2021-06-02T01:48:31.218-07:00"
   },
   "components": [
     {
@@ -237,7 +237,7 @@
       "name": "Atlassian Bitbucket Webhooks",
       "status": "operational",
       "created_at": "2018-08-31T09:25:21.455-07:00",
-      "updated_at": "2021-06-01T07:55:26.875-07:00",
+      "updated_at": "2021-06-02T01:19:32.051-07:00",
       "position": 16,
       "description": null,
       "showcase": false,
@@ -265,9 +265,9 @@
     {
       "id": "6g1x347jrws4",
       "name": "GitHub API Requests",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-02-07T14:24:49.584-08:00",
-      "updated_at": "2021-05-19T09:42:00.641-07:00",
+      "updated_at": "2021-06-02T01:36:20.319-07:00",
       "position": 18,
       "description": null,
       "showcase": false,
@@ -280,9 +280,9 @@
     {
       "id": "595z8vy5n3wm",
       "name": "GitHub Webhooks",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T13:44:22.950-08:00",
-      "updated_at": "2021-05-19T09:42:00.647-07:00",
+      "updated_at": "2021-06-02T01:48:31.214-07:00",
       "position": 19,
       "description": null,
       "showcase": false,
@@ -296,7 +296,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
