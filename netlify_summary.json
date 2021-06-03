@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-06-02T02:59:10.167-07:00"
+    "updated_at": "2021-06-03T12:46:38.137-07:00"
   },
   "components": [
     {
@@ -235,9 +235,9 @@
     {
       "id": "ty69by5298qw",
       "name": "Atlassian Bitbucket Webhooks",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-08-31T09:25:21.455-07:00",
-      "updated_at": "2021-06-02T01:19:32.051-07:00",
+      "updated_at": "2021-06-03T12:46:38.134-07:00",
       "position": 16,
       "description": null,
       "showcase": false,
@@ -296,7 +296,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
