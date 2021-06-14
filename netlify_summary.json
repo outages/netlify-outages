@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-06-11T04:59:14.580-07:00"
+    "updated_at": "2021-06-14T06:01:20.544-07:00"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "999zpz7s4z44",
       "name": "Build Pipeline",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2016-08-26T12:06:12.274-07:00",
-      "updated_at": "2021-04-23T07:11:55.111-07:00",
+      "updated_at": "2021-06-14T05:45:06.983-07:00",
       "position": 4,
       "description": "The system that builds your source code into websites (for git-backed deployments)",
       "showcase": false,
@@ -293,10 +293,83 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "xg5w9w4ydbf3",
+      "name": "Redirect Configuration Causing Build Failures",
+      "status": "monitoring",
+      "created_at": "2021-06-14T05:45:06.953-07:00",
+      "updated_at": "2021-06-14T06:01:20.418-07:00",
+      "monitoring_at": "2021-06-14T06:01:18.982-07:00",
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/rk04rc3l3sn7",
+      "started_at": "2021-06-14T05:45:06.948-07:00",
+      "page_id": "83dz7syz0j3x",
+      "incident_updates": [
+        {
+          "id": "ft8jlcy21k9g",
+          "status": "monitoring",
+          "body": "We have identified the problem and deployed a fix. We will continue monitoring the situation.",
+          "incident_id": "xg5w9w4ydbf3",
+          "created_at": "2021-06-14T06:01:18.982-07:00",
+          "updated_at": "2021-06-14T06:01:20.413-07:00",
+          "display_at": "2021-06-14T06:01:18.982-07:00",
+          "affected_components": [
+            {
+              "code": "999zpz7s4z44",
+              "name": "Build Pipeline",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1404423710971293700
+        },
+        {
+          "id": "kbndh39q6jl9",
+          "status": "investigating",
+          "body": "We are investigating an issue associated with redirect configuration in builds which is causing some builds to fail.",
+          "incident_id": "xg5w9w4ydbf3",
+          "created_at": "2021-06-14T05:45:07.024-07:00",
+          "updated_at": "2021-06-14T05:45:08.716-07:00",
+          "display_at": "2021-06-14T05:45:07.024-07:00",
+          "affected_components": [
+            {
+              "code": "999zpz7s4z44",
+              "name": "Build Pipeline",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1404419635420692500
+        }
+      ],
+      "components": [
+        {
+          "id": "999zpz7s4z44",
+          "name": "Build Pipeline",
+          "status": "degraded_performance",
+          "created_at": "2016-08-26T12:06:12.274-07:00",
+          "updated_at": "2021-06-14T05:45:06.983-07:00",
+          "position": 4,
+          "description": "The system that builds your source code into websites (for git-backed deployments)",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
