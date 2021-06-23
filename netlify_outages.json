@@ -3,8 +3,8 @@
     "id": "83dz7syz0j3x",
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
-    "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-06-23T04:12:46.395-07:00"
+    "time_zone": "Etc/UTC",
+    "updated_at": "2021-06-23T18:33:29.648Z"
   },
   "status": {
     "indicator": "none",
