@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-06-23T03:52:32.463-07:00"
+    "updated_at": "2021-06-23T04:12:46.395-07:00"
   },
   "components": [
     {
@@ -205,9 +205,9 @@
     {
       "id": "45w16bmv4dnb",
       "name": "Atlassian Bitbucket API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-08-31T09:25:03.742-07:00",
-      "updated_at": "2021-06-23T03:42:46.838-07:00",
+      "updated_at": "2021-06-23T04:12:46.391-07:00",
       "position": 14,
       "description": null,
       "showcase": false,
@@ -296,7 +296,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
