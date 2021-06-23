@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-06-21T15:23:34.577-07:00"
+    "updated_at": "2021-06-23T00:07:50.948-07:00"
   },
   "components": [
     {
@@ -250,9 +250,9 @@
     {
       "id": "ch6wx8lq2pgk",
       "name": "npm, Inc. Registry Reads",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-09-05T08:42:37.547-07:00",
-      "updated_at": "2021-05-19T09:42:00.635-07:00",
+      "updated_at": "2021-06-23T00:07:50.946-07:00",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -296,7 +296,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
