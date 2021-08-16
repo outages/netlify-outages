@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-16T18:46:48.061Z"
+    "updated_at": "2021-08-16T19:19:24.523Z"
   },
   "components": [
     {
@@ -293,140 +293,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "4n8cmy20kl01",
-      "name": "Truncated HTML responses",
-      "status": "monitoring",
-      "created_at": "2021-08-16T17:23:51.490Z",
-      "updated_at": "2021-08-16T18:46:48.055Z",
-      "monitoring_at": "2021-08-16T18:46:14.655Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/d8xqwc4h82t1",
-      "started_at": "2021-08-16T17:23:51.485Z",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "8hlbnfdypsx9",
-          "status": "monitoring",
-          "body": "We are continuing to monitor for any further issues.",
-          "incident_id": "4n8cmy20kl01",
-          "created_at": "2021-08-16T18:46:47.641Z",
-          "updated_at": "2021-08-16T18:46:48.052Z",
-          "display_at": "2021-08-16T18:46:47.641Z",
-          "affected_components": [
-            {
-              "code": "999zpz7s4z44",
-              "name": "Build Pipeline",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1427341084623982600
-        },
-        {
-          "id": "l595dm9g4540",
-          "status": "monitoring",
-          "body": "A fix has been implemented and we are monitoring the results.",
-          "incident_id": "4n8cmy20kl01",
-          "created_at": "2021-08-16T18:46:14.655Z",
-          "updated_at": "2021-08-16T18:46:15.634Z",
-          "display_at": "2021-08-16T18:46:14.655Z",
-          "affected_components": [
-            {
-              "code": "999zpz7s4z44",
-              "name": "Build Pipeline",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1427340948489457700
-        },
-        {
-          "id": "dcc829b282zw",
-          "status": "identified",
-          "body": "Our team is working to repair all affected sites, but if you see the problem on any of your sites, you can redeploy to fix immediately.",
-          "incident_id": "4n8cmy20kl01",
-          "created_at": "2021-08-16T17:58:09.156Z",
-          "updated_at": "2021-08-16T17:58:10.646Z",
-          "display_at": "2021-08-16T17:58:09.156Z",
-          "affected_components": [
-            {
-              "code": "999zpz7s4z44",
-              "name": "Build Pipeline",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1427328847528173600
-        },
-        {
-          "id": "v6wlxflvbwh4",
-          "status": "identified",
-          "body": "The issue has been identified and a fix is being implemented.",
-          "incident_id": "4n8cmy20kl01",
-          "created_at": "2021-08-16T17:44:31.713Z",
-          "updated_at": "2021-08-16T17:44:32.181Z",
-          "display_at": "2021-08-16T17:44:31.713Z",
-          "affected_components": [
-            {
-              "code": "999zpz7s4z44",
-              "name": "Build Pipeline",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1427325415245303800
-        },
-        {
-          "id": "642z32m36dy9",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "4n8cmy20kl01",
-          "created_at": "2021-08-16T17:23:51.572Z",
-          "updated_at": "2021-08-16T17:23:52.287Z",
-          "display_at": "2021-08-16T17:23:51.572Z",
-          "affected_components": [
-            {
-              "code": "999zpz7s4z44",
-              "name": "Build Pipeline",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1427320214807404500
-        }
-      ],
-      "components": [
-        {
-          "id": "999zpz7s4z44",
-          "name": "Build Pipeline",
-          "status": "operational",
-          "created_at": "2016-08-26T19:06:12.274Z",
-          "updated_at": "2021-08-16T18:46:47.611Z",
-          "position": 4,
-          "description": "The system that builds your source code into websites (for git-backed deployments)",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
