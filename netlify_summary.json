@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-24T12:08:56.740Z"
+    "updated_at": "2021-08-24T12:54:16.185Z"
   },
   "components": [
     {
@@ -250,9 +250,9 @@
     {
       "id": "ch6wx8lq2pgk",
       "name": "npm, Inc. Registry Reads",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-09-05T15:42:37.547Z",
-      "updated_at": "2021-06-23T07:39:00.830Z",
+      "updated_at": "2021-08-24T12:54:16.182Z",
       "position": 17,
       "description": null,
       "showcase": false,
