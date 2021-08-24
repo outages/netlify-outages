@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-24T13:14:02.347Z"
+    "updated_at": "2021-08-24T13:22:20.047Z"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "999zpz7s4z44",
       "name": "Build Pipeline",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2016-08-26T19:06:12.274Z",
-      "updated_at": "2021-08-24T11:20:42.020Z",
+      "updated_at": "2021-08-24T13:22:19.522Z",
       "position": 4,
       "description": "The system that builds your source code into websites (for git-backed deployments)",
       "showcase": false,
@@ -250,9 +250,9 @@
     {
       "id": "ch6wx8lq2pgk",
       "name": "npm, Inc. Registry Reads",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-09-05T15:42:37.547Z",
-      "updated_at": "2021-08-24T12:54:16.182Z",
+      "updated_at": "2021-08-24T13:21:30.131Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -293,123 +293,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "k4kmxkyc0v40",
-      "name": "Builds Hanging During Dependency Installation",
-      "status": "monitoring",
-      "created_at": "2021-08-24T11:20:41.973Z",
-      "updated_at": "2021-08-24T13:14:02.341Z",
-      "monitoring_at": "2021-08-24T13:14:01.874Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/7c5vrx6mq716",
-      "started_at": "2021-08-24T11:20:41.967Z",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "3wd65z2yhnh0",
-          "status": "monitoring",
-          "body": "Our upstream provider have identified and mitigated an issue which was causing builds to hang during dependency installation.",
-          "incident_id": "k4kmxkyc0v40",
-          "created_at": "2021-08-24T13:14:01.874Z",
-          "updated_at": "2021-08-24T13:14:02.338Z",
-          "display_at": "2021-08-24T13:14:01.874Z",
-          "affected_components": [
-            {
-              "code": "999zpz7s4z44",
-              "name": "Build Pipeline",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1430156445144649700
-        },
-        {
-          "id": "qxy2stmdm3rp",
-          "status": "identified",
-          "body": "We are confident that this issue is attributable to an upstream provider, based on similar reports from other providers and poor local dependency installation performance. We will continue to provide updates.",
-          "incident_id": "k4kmxkyc0v40",
-          "created_at": "2021-08-24T12:08:56.393Z",
-          "updated_at": "2021-08-24T12:08:56.731Z",
-          "display_at": "2021-08-24T12:08:56.393Z",
-          "affected_components": [
-            {
-              "code": "999zpz7s4z44",
-              "name": "Build Pipeline",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1430140063875178500
-        },
-        {
-          "id": "dp9pmwddt40g",
-          "status": "investigating",
-          "body": "We are continuing to investigate an issue where builds are hanging during dependency installation.",
-          "incident_id": "k4kmxkyc0v40",
-          "created_at": "2021-08-24T11:40:37.186Z",
-          "updated_at": "2021-08-24T11:40:38.201Z",
-          "display_at": "2021-08-24T11:40:37.186Z",
-          "affected_components": [
-            {
-              "code": "999zpz7s4z44",
-              "name": "Build Pipeline",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1430132939535241200
-        },
-        {
-          "id": "qzftcwn70bms",
-          "status": "investigating",
-          "body": "We are currently investigating an issue where builds are hanging during dependency installation.",
-          "incident_id": "k4kmxkyc0v40",
-          "created_at": "2021-08-24T11:20:42.104Z",
-          "updated_at": "2021-08-24T11:20:42.602Z",
-          "display_at": "2021-08-24T11:20:42.104Z",
-          "affected_components": [
-            {
-              "code": "999zpz7s4z44",
-              "name": "Build Pipeline",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1430127924984782800
-        }
-      ],
-      "components": [
-        {
-          "id": "999zpz7s4z44",
-          "name": "Build Pipeline",
-          "status": "degraded_performance",
-          "created_at": "2016-08-26T19:06:12.274Z",
-          "updated_at": "2021-08-24T11:20:42.020Z",
-          "position": 4,
-          "description": "The system that builds your source code into websites (for git-backed deployments)",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
