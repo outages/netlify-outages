@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-21T17:23:51.940Z"
+    "updated_at": "2021-09-22T09:17:12.367Z"
   },
   "components": [
     {
@@ -250,9 +250,9 @@
     {
       "id": "ch6wx8lq2pgk",
       "name": "npm, Inc. Registry Reads",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-09-05T15:42:37.547Z",
-      "updated_at": "2021-08-24T13:21:30.131Z",
+      "updated_at": "2021-09-22T09:17:12.361Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -296,7 +296,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
