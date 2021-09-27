@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-26T21:03:52.427Z"
+    "updated_at": "2021-09-27T19:00:35.232Z"
   },
   "components": [
     {
@@ -85,9 +85,9 @@
     {
       "id": "42cdn8lcw3pr",
       "name": "API",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2016-08-26T19:05:49.535Z",
-      "updated_at": "2021-07-13T16:34:06.621Z",
+      "updated_at": "2021-09-27T19:00:34.075Z",
       "position": 6,
       "description": "Netlify's API configures sites and is needed to receive and process Deploys",
       "showcase": false,
@@ -293,10 +293,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "1546dxkxfb74",
+      "name": "Email delivery backlog",
+      "status": "investigating",
+      "created_at": "2021-09-27T19:00:34.031Z",
+      "updated_at": "2021-09-27T19:00:35.220Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/9jyr011v06jn",
+      "started_at": "2021-09-27T19:00:34.023Z",
+      "page_id": "83dz7syz0j3x",
+      "incident_updates": [
+        {
+          "id": "4sldp83znnkn",
+          "status": "investigating",
+          "body": "Investigating: Netlify's transactional emails are not being delivered since approximately 1600 UTC.  This will impact password resets, signups, billing emails, and all other email-based notifications such as form responses and deploy notifications.  Only emails are paused;  all features are otherwise working correctly so we are not losing form responses or failing to perform deploys.",
+          "incident_id": "1546dxkxfb74",
+          "created_at": "2021-09-27T19:00:34.127Z",
+          "updated_at": "2021-09-27T19:00:35.177Z",
+          "display_at": "2021-09-27T19:00:34.127Z",
+          "affected_components": [
+            {
+              "code": "42cdn8lcw3pr",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1442564843383320600
+        }
+      ],
+      "components": [
+        {
+          "id": "42cdn8lcw3pr",
+          "name": "API",
+          "status": "degraded_performance",
+          "created_at": "2016-08-26T19:05:49.535Z",
+          "updated_at": "2021-09-27T19:00:34.075Z",
+          "position": 6,
+          "description": "Netlify's API configures sites and is needed to receive and process Deploys",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
