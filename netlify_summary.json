@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-07T19:23:47.719Z"
+    "updated_at": "2021-10-07T21:12:40.391Z"
   },
   "components": [
     {
@@ -293,80 +293,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "pby0cfjmqn43",
-      "name": "Enterprise CDN load balancer partial outage",
-      "status": "monitoring",
-      "created_at": "2021-10-07T18:53:00.369Z",
-      "updated_at": "2021-10-07T19:23:47.713Z",
-      "monitoring_at": "2021-10-07T19:23:47.298Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/147gtw07p8dm",
-      "started_at": "2021-10-07T18:53:00.364Z",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "c6fhdg5tyjr1",
-          "status": "monitoring",
-          "body": "Connectivity has been repaired and our team continues to monitor the situation.  Only customers receiving traffic to our enterprise load balancer from some locations in the Americas were impacted.",
-          "incident_id": "pby0cfjmqn43",
-          "created_at": "2021-10-07T19:23:47.298Z",
-          "updated_at": "2021-10-07T19:23:47.708Z",
-          "display_at": "2021-10-07T19:23:47.298Z",
-          "affected_components": [
-            {
-              "code": "8cw12qpb2n72",
-              "name": "Enterprise Content Distribution Network",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1446194563480096800
-        },
-        {
-          "id": "z89psj6158x1",
-          "status": "investigating",
-          "body": "Our Enterprise CDN's load balancer is having trouble accepting connections in some regions.",
-          "incident_id": "pby0cfjmqn43",
-          "created_at": "2021-10-07T18:53:00.461Z",
-          "updated_at": "2021-10-07T18:53:02.169Z",
-          "display_at": "2021-10-07T18:53:00.461Z",
-          "affected_components": [
-            {
-              "code": "8cw12qpb2n72",
-              "name": "Enterprise Content Distribution Network",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1446186822338433000
-        }
-      ],
-      "components": [
-        {
-          "id": "8cw12qpb2n72",
-          "name": "Enterprise Content Distribution Network",
-          "status": "operational",
-          "created_at": "2018-08-31T16:08:38.161Z",
-          "updated_at": "2021-10-07T19:23:47.254Z",
-          "position": 1,
-          "description": "This CDN serves web content for Enterprise customers",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
