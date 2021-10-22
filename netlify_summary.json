@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-21T16:03:21.962Z"
+    "updated_at": "2021-10-22T17:59:04.852Z"
   },
   "components": [
     {
@@ -314,7 +314,7 @@
       "name": "Delay in Analytics data",
       "status": "identified",
       "created_at": "2021-10-19T16:47:28.792Z",
-      "updated_at": "2021-10-21T15:04:01.777Z",
+      "updated_at": "2021-10-22T17:59:04.735Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -322,6 +322,26 @@
       "started_at": "2021-10-19T16:47:28.786Z",
       "page_id": "83dz7syz0j3x",
       "incident_updates": [
+        {
+          "id": "7mry9qg4ylnd",
+          "status": "identified",
+          "body": "Analytics data is now up to date for nearly all sites, with only some seeing missing data for the last up to 3 days. We are continuing to work on getting all Analytics subscriptions up to date. No data has been lost, and all will be backfilled.",
+          "incident_id": "vrdh9y902zjl",
+          "created_at": "2021-10-22T17:59:03.533Z",
+          "updated_at": "2021-10-22T17:59:04.729Z",
+          "display_at": "2021-10-22T17:59:03.533Z",
+          "affected_components": [
+            {
+              "code": "rdfdmhqxp2wq",
+              "name": "Analytics",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1451609061665882000
+        },
         {
           "id": "vr7qc3cwmhwh",
           "status": "identified",
