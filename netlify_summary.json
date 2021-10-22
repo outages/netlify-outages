@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-22T17:59:04.852Z"
+    "updated_at": "2021-10-22T21:53:50.537Z"
   },
   "components": [
     {
@@ -314,7 +314,7 @@
       "name": "Delay in Analytics data",
       "status": "identified",
       "created_at": "2021-10-19T16:47:28.792Z",
-      "updated_at": "2021-10-22T17:59:04.735Z",
+      "updated_at": "2021-10-22T21:53:50.532Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -322,6 +322,26 @@
       "started_at": "2021-10-19T16:47:28.786Z",
       "page_id": "83dz7syz0j3x",
       "incident_updates": [
+        {
+          "id": "27pzkf6p75hm",
+          "status": "identified",
+          "body": "We are continuing to work on getting remaining Analytics subscriptions up to date. All other sites should be seeing data updated hourly as normal. No data has been lost, and all will be backfilled.",
+          "incident_id": "vrdh9y902zjl",
+          "created_at": "2021-10-22T21:53:50.109Z",
+          "updated_at": "2021-10-22T21:53:50.527Z",
+          "display_at": "2021-10-22T21:53:50.109Z",
+          "affected_components": [
+            {
+              "code": "rdfdmhqxp2wq",
+              "name": "Analytics",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1451668142011269000
+        },
         {
           "id": "7mry9qg4ylnd",
           "status": "identified",
