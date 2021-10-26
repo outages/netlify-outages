@@ -4,15 +4,15 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-26T15:09:00.286Z"
+    "updated_at": "2021-10-26T15:31:53.139Z"
   },
   "components": [
     {
       "id": "8cw12qpb2n72",
       "name": "Enterprise Content Distribution Network",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2018-08-31T16:08:38.161Z",
-      "updated_at": "2021-10-26T15:03:32.170Z",
+      "updated_at": "2021-10-26T15:31:52.074Z",
       "position": 1,
       "description": "This CDN serves web content for Enterprise customers",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "l65dl1552383",
       "name": "Content Distribution Network",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2016-08-26T19:03:36.240Z",
-      "updated_at": "2021-10-26T15:03:32.188Z",
+      "updated_at": "2021-10-26T15:31:52.092Z",
       "position": 2,
       "description": "This CDN serves web pages for free, Pro, and Business accounts",
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "7l9mcmwhp0n4",
       "name": "Origin Servers",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2018-12-17T16:43:22.093Z",
-      "updated_at": "2021-10-26T15:03:32.205Z",
+      "updated_at": "2021-10-26T15:31:52.110Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -308,137 +308,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "sflzwl8hn0nc",
-      "name": "Latency for uncached requests",
-      "status": "monitoring",
-      "created_at": "2021-10-26T15:03:32.131Z",
-      "updated_at": "2021-10-26T15:09:00.277Z",
-      "monitoring_at": "2021-10-26T15:08:59.875Z",
-      "resolved_at": null,
-      "impact": "critical",
-      "shortlink": "https://stspg.io/7l0qm6rxxjzp",
-      "started_at": "2021-10-26T15:03:32.125Z",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "xlyzv17q5f19",
-          "status": "monitoring",
-          "body": "Our team has applied a mitigation and we are moitoring the results",
-          "incident_id": "sflzwl8hn0nc",
-          "created_at": "2021-10-26T15:08:59.875Z",
-          "updated_at": "2021-10-26T15:09:00.269Z",
-          "display_at": "2021-10-26T15:08:59.875Z",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Content Distribution Network",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "8cw12qpb2n72",
-              "name": "Enterprise Content Distribution Network",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "7l9mcmwhp0n4",
-              "name": "Origin Servers",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1453015812780925000
-        },
-        {
-          "id": "qzlz8cv5zmh7",
-          "status": "investigating",
-          "body": "Starting at 14:45 UTC today, we are experiencing an issue with increased latency for uncached requests. We are investigating.",
-          "incident_id": "sflzwl8hn0nc",
-          "created_at": "2021-10-26T15:03:32.249Z",
-          "updated_at": "2021-10-26T15:03:33.255Z",
-          "display_at": "2021-10-26T15:03:32.249Z",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Content Distribution Network",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "8cw12qpb2n72",
-              "name": "Enterprise Content Distribution Network",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "7l9mcmwhp0n4",
-              "name": "Origin Servers",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1453014440685748200
-        }
-      ],
-      "components": [
-        {
-          "id": "8cw12qpb2n72",
-          "name": "Enterprise Content Distribution Network",
-          "status": "major_outage",
-          "created_at": "2018-08-31T16:08:38.161Z",
-          "updated_at": "2021-10-26T15:03:32.170Z",
-          "position": 1,
-          "description": "This CDN serves web content for Enterprise customers",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "l65dl1552383",
-          "name": "Content Distribution Network",
-          "status": "major_outage",
-          "created_at": "2016-08-26T19:03:36.240Z",
-          "updated_at": "2021-10-26T15:03:32.188Z",
-          "position": 2,
-          "description": "This CDN serves web pages for free, Pro, and Business accounts",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "7l9mcmwhp0n4",
-          "name": "Origin Servers",
-          "status": "major_outage",
-          "created_at": "2018-12-17T16:43:22.093Z",
-          "updated_at": "2021-10-26T15:03:32.205Z",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
