@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-28T18:39:17.985Z"
+    "updated_at": "2021-10-28T19:09:09.424Z"
   },
   "components": [
     {
@@ -308,120 +308,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "8brfbq9jmx91",
-      "name": "Delay in Builds",
-      "status": "monitoring",
-      "created_at": "2021-10-28T17:45:11.710Z",
-      "updated_at": "2021-10-28T18:39:17.977Z",
-      "monitoring_at": "2021-10-28T18:39:17.267Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/v3ddtryp6xq0",
-      "started_at": "2021-10-28T17:45:11.705Z",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "lwzf6m1qkm1c",
-          "status": "monitoring",
-          "body": "A fix has been implemented and builds are now starting without delays. We will continue to monitor the results.",
-          "incident_id": "8brfbq9jmx91",
-          "created_at": "2021-10-28T18:39:17.267Z",
-          "updated_at": "2021-10-28T18:39:17.969Z",
-          "display_at": "2021-10-28T18:39:17.267Z",
-          "affected_components": [
-            {
-              "code": "999zpz7s4z44",
-              "name": "Build Pipeline",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1453793510843314200
-        },
-        {
-          "id": "ktf5wq52vydt",
-          "status": "identified",
-          "body": "We have identified the issue and are working on a fix.",
-          "incident_id": "8brfbq9jmx91",
-          "created_at": "2021-10-28T18:22:28.091Z",
-          "updated_at": "2021-10-28T18:22:28.624Z",
-          "display_at": "2021-10-28T18:22:28.091Z",
-          "affected_components": [
-            {
-              "code": "999zpz7s4z44",
-              "name": "Build Pipeline",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1453789277532213200
-        },
-        {
-          "id": "zygsd45b0z09",
-          "status": "investigating",
-          "body": "We are continuing to investigate issue with builds not starting.",
-          "incident_id": "8brfbq9jmx91",
-          "created_at": "2021-10-28T18:07:46.522Z",
-          "updated_at": "2021-10-28T18:07:47.833Z",
-          "display_at": "2021-10-28T18:07:46.522Z",
-          "affected_components": [
-            {
-              "code": "999zpz7s4z44",
-              "name": "Build Pipeline",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1453785583067697200
-        },
-        {
-          "id": "9vz5x3cqrjk0",
-          "status": "investigating",
-          "body": "We are investigating issue with builds not starting.",
-          "incident_id": "8brfbq9jmx91",
-          "created_at": "2021-10-28T17:45:11.803Z",
-          "updated_at": "2021-10-28T17:45:12.219Z",
-          "display_at": "2021-10-28T17:45:11.803Z",
-          "affected_components": [
-            {
-              "code": "999zpz7s4z44",
-              "name": "Build Pipeline",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1453779897394995200
-        }
-      ],
-      "components": [
-        {
-          "id": "999zpz7s4z44",
-          "name": "Build Pipeline",
-          "status": "operational",
-          "created_at": "2016-08-26T19:06:12.274Z",
-          "updated_at": "2021-10-28T18:39:17.230Z",
-          "position": 4,
-          "description": "The system that builds your source code into websites (for git-backed deployments)",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
