@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-28T17:45:12.235Z"
+    "updated_at": "2021-10-28T18:07:48.211Z"
   },
   "components": [
     {
@@ -314,7 +314,7 @@
       "name": "Delay in Builds",
       "status": "investigating",
       "created_at": "2021-10-28T17:45:11.710Z",
-      "updated_at": "2021-10-28T17:45:12.226Z",
+      "updated_at": "2021-10-28T18:07:47.973Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -322,6 +322,26 @@
       "started_at": "2021-10-28T17:45:11.705Z",
       "page_id": "83dz7syz0j3x",
       "incident_updates": [
+        {
+          "id": "zygsd45b0z09",
+          "status": "investigating",
+          "body": "We are continuing to investigate issue with builds not starting.",
+          "incident_id": "8brfbq9jmx91",
+          "created_at": "2021-10-28T18:07:46.522Z",
+          "updated_at": "2021-10-28T18:07:47.833Z",
+          "display_at": "2021-10-28T18:07:46.522Z",
+          "affected_components": [
+            {
+              "code": "999zpz7s4z44",
+              "name": "Build Pipeline",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1453785583067697200
+        },
         {
           "id": "9vz5x3cqrjk0",
           "status": "investigating",
