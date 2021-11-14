@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-11-14T03:01:10.353Z"
+    "updated_at": "2021-11-14T04:11:32.543Z"
   },
   "components": [
     {
@@ -308,7 +308,50 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "1jbltn0n1347",
+      "name": "Degraded performance with Deploy to Netlify button",
+      "status": "monitoring",
+      "created_at": "2021-11-14T04:05:06.067Z",
+      "updated_at": "2021-11-14T04:11:32.536Z",
+      "monitoring_at": "2021-11-14T04:11:31.847Z",
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/26mqw39hmsbx",
+      "started_at": "2021-11-14T04:05:06.059Z",
+      "page_id": "83dz7syz0j3x",
+      "incident_updates": [
+        {
+          "id": "tjfmz9l83q5x",
+          "status": "monitoring",
+          "body": "A fix has been implemented and customers should now be able to deploy sites using the Deploy to Netlify button. We will continue to monitor the results.",
+          "incident_id": "1jbltn0n1347",
+          "created_at": "2021-11-14T04:11:31.847Z",
+          "updated_at": "2021-11-14T04:11:32.530Z",
+          "display_at": "2021-11-14T04:11:31.847Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1459735726405288000
+        },
+        {
+          "id": "grw67k6x396t",
+          "status": "investigating",
+          "body": "We are currently investigating an issue with customers currently unable to deploy sites using the Deploy to Netlify button.",
+          "incident_id": "1jbltn0n1347",
+          "created_at": "2021-11-14T04:05:06.107Z",
+          "updated_at": "2021-11-14T04:05:06.479Z",
+          "display_at": "2021-11-14T04:05:06.107Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1459734107189956600
+        }
+      ],
+      "components": []
+    }
+  ],
   "scheduled_maintenances": [
     {
       "id": "wgnnjgnzf4c4",
