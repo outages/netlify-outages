@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-11-16T18:23:58.772Z"
+    "updated_at": "2021-11-16T18:37:11.587Z"
   },
   "components": [
     {
@@ -40,9 +40,9 @@
     {
       "id": "7l9mcmwhp0n4",
       "name": "Origin Servers",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-12-17T16:43:22.093Z",
-      "updated_at": "2021-11-16T18:19:18.188Z",
+      "updated_at": "2021-11-16T18:37:10.548Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -55,9 +55,9 @@
     {
       "id": "999zpz7s4z44",
       "name": "Build Pipeline",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2016-08-26T19:06:12.274Z",
-      "updated_at": "2021-11-16T18:19:18.211Z",
+      "updated_at": "2021-11-16T18:37:10.565Z",
       "position": 4,
       "description": "The system that builds your source code into websites (for git-backed deployments)",
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "y7hq47ts327k",
       "name": "Netlify Application UI",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-09-03T23:45:57.385Z",
-      "updated_at": "2021-11-16T18:19:18.232Z",
+      "updated_at": "2021-11-16T18:37:10.580Z",
       "position": 5,
       "description": "The web UI for administering your sites at http://app.netlify.com",
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "42cdn8lcw3pr",
       "name": "API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2016-08-26T19:05:49.535Z",
-      "updated_at": "2021-11-16T18:19:18.259Z",
+      "updated_at": "2021-11-16T18:37:10.596Z",
       "position": 6,
       "description": "Netlify's API configures sites and is needed to receive and process Deploys",
       "showcase": false,
@@ -160,9 +160,9 @@
     {
       "id": "rdfdmhqxp2wq",
       "name": "Analytics",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-11-08T17:02:09.624Z",
-      "updated_at": "2021-11-16T18:19:18.280Z",
+      "updated_at": "2021-11-16T18:37:10.610Z",
       "position": 11,
       "description": "Analytics provides data captured directly from our servers.",
       "showcase": false,
@@ -190,9 +190,9 @@
     {
       "id": "xrk5sg40bdvs",
       "name": "Collaborative Deploy Previews",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2021-05-19T16:40:54.745Z",
-      "updated_at": "2021-11-16T18:19:18.303Z",
+      "updated_at": "2021-11-16T18:37:10.625Z",
       "position": 13,
       "description": null,
       "showcase": false,
@@ -205,9 +205,9 @@
     {
       "id": "j09v23r71736",
       "name": "Git Gateway",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-08-31T16:58:01.661Z",
-      "updated_at": "2021-11-16T18:19:18.325Z",
+      "updated_at": "2021-11-16T18:37:10.641Z",
       "position": 14,
       "description": "Netlify's hosted Git Gateway service (https://www.netlify.com/docs/git-gateway/)",
       "showcase": false,
@@ -308,327 +308,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "0t2kgg5qy86r",
-      "name": "Service Degradation",
-      "status": "monitoring",
-      "created_at": "2021-11-16T17:50:47.645Z",
-      "updated_at": "2021-11-16T18:19:19.303Z",
-      "monitoring_at": "2021-11-16T18:11:49.281Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/852lzg0p39cz",
-      "started_at": "2021-11-16T17:50:47.639Z",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "xc0s10klhfbg",
-          "status": "monitoring",
-          "body": "Google has acknowledged the problem (https://status.cloud.google.com/incidents/6PM5mNd43NbMqjCZ5REh) and seems to have mitigated the situation.  Our systems are catching up with backlogged builds but everything else (API, UI, uncached content service) seems to be recovered/recovering.",
-          "incident_id": "0t2kgg5qy86r",
-          "created_at": "2021-11-16T18:19:18.374Z",
-          "updated_at": "2021-11-16T18:19:19.293Z",
-          "display_at": "2021-11-16T18:19:18.374Z",
-          "affected_components": [
-            {
-              "code": "42cdn8lcw3pr",
-              "name": "API",
-              "old_status": "partial_outage",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "999zpz7s4z44",
-              "name": "Build Pipeline",
-              "old_status": "partial_outage",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "j09v23r71736",
-              "name": "Git Gateway",
-              "old_status": "partial_outage",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7l9mcmwhp0n4",
-              "name": "Origin Servers",
-              "old_status": "partial_outage",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "rdfdmhqxp2wq",
-              "name": "Analytics",
-              "old_status": "partial_outage",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "y7hq47ts327k",
-              "name": "Netlify Application UI",
-              "old_status": "partial_outage",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "xrk5sg40bdvs",
-              "name": "Collaborative Deploy Previews",
-              "old_status": "partial_outage",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1460673852724240400
-        },
-        {
-          "id": "yzstr87xlrzh",
-          "status": "monitoring",
-          "body": "We're seeing services begin to recover, and we are monitoring the situation.",
-          "incident_id": "0t2kgg5qy86r",
-          "created_at": "2021-11-16T18:11:49.281Z",
-          "updated_at": "2021-11-16T18:11:49.917Z",
-          "display_at": "2021-11-16T18:11:49.281Z",
-          "affected_components": [
-            {
-              "code": "42cdn8lcw3pr",
-              "name": "API",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "999zpz7s4z44",
-              "name": "Build Pipeline",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "j09v23r71736",
-              "name": "Git Gateway",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "7l9mcmwhp0n4",
-              "name": "Origin Servers",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "rdfdmhqxp2wq",
-              "name": "Analytics",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "y7hq47ts327k",
-              "name": "Netlify Application UI",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "xrk5sg40bdvs",
-              "name": "Collaborative Deploy Previews",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1460671967812407300
-        },
-        {
-          "id": "ysm29q89gw8c",
-          "status": "investigating",
-          "body": "Our services depending on Google HTTP load balancers seem to be down, and our team is working to mitigate the situation.  Already-cached content on our CDN should continue to be served.",
-          "incident_id": "0t2kgg5qy86r",
-          "created_at": "2021-11-16T18:02:12.957Z",
-          "updated_at": "2021-11-16T18:02:13.848Z",
-          "display_at": "2021-11-16T18:02:12.957Z",
-          "affected_components": [
-            {
-              "code": "42cdn8lcw3pr",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "999zpz7s4z44",
-              "name": "Build Pipeline",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "j09v23r71736",
-              "name": "Git Gateway",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "7l9mcmwhp0n4",
-              "name": "Origin Servers",
-              "old_status": "degraded_performance",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "rdfdmhqxp2wq",
-              "name": "Analytics",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "y7hq47ts327k",
-              "name": "Netlify Application UI",
-              "old_status": "degraded_performance",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "xrk5sg40bdvs",
-              "name": "Collaborative Deploy Previews",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1460669551343927300
-        },
-        {
-          "id": "fvw64c5mvzn2",
-          "status": "investigating",
-          "body": "Our monitors report problems with multiple services and our team are investigating.",
-          "incident_id": "0t2kgg5qy86r",
-          "created_at": "2021-11-16T17:50:47.745Z",
-          "updated_at": "2021-11-16T17:50:48.584Z",
-          "display_at": "2021-11-16T17:50:47.745Z",
-          "affected_components": [
-            {
-              "code": "7l9mcmwhp0n4",
-              "name": "Origin Servers",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "y7hq47ts327k",
-              "name": "Netlify Application UI",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1460666677675188200
-        }
-      ],
-      "components": [
-        {
-          "id": "7l9mcmwhp0n4",
-          "name": "Origin Servers",
-          "status": "degraded_performance",
-          "created_at": "2018-12-17T16:43:22.093Z",
-          "updated_at": "2021-11-16T18:19:18.188Z",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "999zpz7s4z44",
-          "name": "Build Pipeline",
-          "status": "degraded_performance",
-          "created_at": "2016-08-26T19:06:12.274Z",
-          "updated_at": "2021-11-16T18:19:18.211Z",
-          "position": 4,
-          "description": "The system that builds your source code into websites (for git-backed deployments)",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "y7hq47ts327k",
-          "name": "Netlify Application UI",
-          "status": "degraded_performance",
-          "created_at": "2020-09-03T23:45:57.385Z",
-          "updated_at": "2021-11-16T18:19:18.232Z",
-          "position": 5,
-          "description": "The web UI for administering your sites at http://app.netlify.com",
-          "showcase": false,
-          "start_date": "2020-09-03",
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "42cdn8lcw3pr",
-          "name": "API",
-          "status": "degraded_performance",
-          "created_at": "2016-08-26T19:05:49.535Z",
-          "updated_at": "2021-11-16T18:19:18.259Z",
-          "position": 6,
-          "description": "Netlify's API configures sites and is needed to receive and process Deploys",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "rdfdmhqxp2wq",
-          "name": "Analytics",
-          "status": "degraded_performance",
-          "created_at": "2019-11-08T17:02:09.624Z",
-          "updated_at": "2021-11-16T18:19:18.280Z",
-          "position": 11,
-          "description": "Analytics provides data captured directly from our servers.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "xrk5sg40bdvs",
-          "name": "Collaborative Deploy Previews",
-          "status": "degraded_performance",
-          "created_at": "2021-05-19T16:40:54.745Z",
-          "updated_at": "2021-11-16T18:19:18.303Z",
-          "position": 13,
-          "description": null,
-          "showcase": false,
-          "start_date": "2021-05-19",
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "j09v23r71736",
-          "name": "Git Gateway",
-          "status": "degraded_performance",
-          "created_at": "2018-08-31T16:58:01.661Z",
-          "updated_at": "2021-11-16T18:19:18.325Z",
-          "position": 14,
-          "description": "Netlify's hosted Git Gateway service (https://www.netlify.com/docs/git-gateway/)",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
