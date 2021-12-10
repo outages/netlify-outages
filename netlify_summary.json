@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-10T12:10:24.137Z"
+    "updated_at": "2021-12-10T12:47:56.345Z"
   },
   "components": [
     {
@@ -308,63 +308,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "trv3yzqbs2sy",
-      "name": "netlify-cli not installing with yarn",
-      "status": "identified",
-      "created_at": "2021-12-10T11:12:38.558Z",
-      "updated_at": "2021-12-10T12:10:24.130Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/w50176ytrm75",
-      "started_at": "2021-12-10T11:12:38.553Z",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "bqnpmyc5tlg0",
-          "status": "identified",
-          "body": "The team is working on a fix for the issue.",
-          "incident_id": "trv3yzqbs2sy",
-          "created_at": "2021-12-10T12:10:23.562Z",
-          "updated_at": "2021-12-10T12:10:24.125Z",
-          "display_at": "2021-12-10T12:10:23.562Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1469278320013365200
-        },
-        {
-          "id": "by6k6v22cqgf",
-          "status": "identified",
-          "body": "We're continuing to investigate this issue.",
-          "incident_id": "trv3yzqbs2sy",
-          "created_at": "2021-12-10T11:33:38.209Z",
-          "updated_at": "2021-12-10T11:33:39.149Z",
-          "display_at": "2021-12-10T11:33:38.209Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1469269071690563600
-        },
-        {
-          "id": "xkpc9lplh3v5",
-          "status": "identified",
-          "body": "We've identified an issue where netlify-cli is not being installed when using yarn. This appears to be an issue with yarn at the moment. While we investigate further, the workaround is to use npm.",
-          "incident_id": "trv3yzqbs2sy",
-          "created_at": "2021-12-10T11:12:38.589Z",
-          "updated_at": "2021-12-10T11:12:39.588Z",
-          "display_at": "2021-12-10T11:12:38.589Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1469263788620669000
-        }
-      ],
-      "components": []
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
