@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-11T00:27:25.975Z"
+    "updated_at": "2021-12-15T15:47:36.642Z"
   },
   "components": [
     {
@@ -265,9 +265,9 @@
     {
       "id": "ch6wx8lq2pgk",
       "name": "npm, Inc. Registry Reads",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2018-09-05T15:42:37.547Z",
-      "updated_at": "2021-10-13T15:18:02.374Z",
+      "updated_at": "2021-12-15T15:47:36.635Z",
       "position": 18,
       "description": null,
       "showcase": false,
@@ -311,7 +311,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
