@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-20T19:15:45.423Z"
+    "updated_at": "2021-12-20T19:24:58.599Z"
   },
   "components": [
     {
@@ -312,16 +312,36 @@
     {
       "id": "q2tl4g5v7h4w",
       "name": "Degraded performance on regular CDN",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2021-12-20T19:15:44.595Z",
-      "updated_at": "2021-12-20T19:15:45.418Z",
-      "monitoring_at": null,
+      "updated_at": "2021-12-20T19:24:58.594Z",
+      "monitoring_at": "2021-12-20T19:24:58.243Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/022551w4td4c",
       "started_at": "2021-12-20T19:15:44.591Z",
       "page_id": "83dz7syz0j3x",
       "incident_updates": [
+        {
+          "id": "4tn2p29165ln",
+          "status": "monitoring",
+          "body": "Performance on our regular CDN appear to have recovered. We are monitoring the results.",
+          "incident_id": "q2tl4g5v7h4w",
+          "created_at": "2021-12-20T19:24:58.243Z",
+          "updated_at": "2021-12-20T19:24:58.590Z",
+          "display_at": "2021-12-20T19:24:58.243Z",
+          "affected_components": [
+            {
+              "code": "l65dl1552383",
+              "name": "Content Distribution Network",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1473011562927386600
+        },
         {
           "id": "q8gxzz24spv1",
           "status": "investigating",
