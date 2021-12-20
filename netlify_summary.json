@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-18T07:23:40.885Z"
+    "updated_at": "2021-12-20T19:15:45.423Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "l65dl1552383",
       "name": "Content Distribution Network",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2016-08-26T19:03:36.240Z",
-      "updated_at": "2021-12-15T16:36:51.039Z",
+      "updated_at": "2021-12-20T19:15:44.677Z",
       "position": 2,
       "description": "This CDN serves web pages for free, Pro, and Business accounts",
       "showcase": false,
@@ -308,10 +308,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "q2tl4g5v7h4w",
+      "name": "Degraded performance on regular CDN",
+      "status": "investigating",
+      "created_at": "2021-12-20T19:15:44.595Z",
+      "updated_at": "2021-12-20T19:15:45.418Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/022551w4td4c",
+      "started_at": "2021-12-20T19:15:44.591Z",
+      "page_id": "83dz7syz0j3x",
+      "incident_updates": [
+        {
+          "id": "q8gxzz24spv1",
+          "status": "investigating",
+          "body": "Our team is investigating an increase in reported issues with customer sites loading from our regular CDN.",
+          "incident_id": "q2tl4g5v7h4w",
+          "created_at": "2021-12-20T19:15:44.732Z",
+          "updated_at": "2021-12-20T19:15:45.414Z",
+          "display_at": "2021-12-20T19:15:44.732Z",
+          "affected_components": [
+            {
+              "code": "l65dl1552383",
+              "name": "Content Distribution Network",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1473009242709786600
+        }
+      ],
+      "components": [
+        {
+          "id": "l65dl1552383",
+          "name": "Content Distribution Network",
+          "status": "partial_outage",
+          "created_at": "2016-08-26T19:03:36.240Z",
+          "updated_at": "2021-12-20T19:15:44.677Z",
+          "position": 2,
+          "description": "This CDN serves web pages for free, Pro, and Business accounts",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
