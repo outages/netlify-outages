@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-01-12T22:30:28.776Z"
+    "updated_at": "2022-01-12T23:10:42.122Z"
   },
   "components": [
     {
@@ -295,9 +295,9 @@
     {
       "id": "595z8vy5n3wm",
       "name": "GitHub Webhooks",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-11-13T21:44:22.950Z",
-      "updated_at": "2021-11-27T23:31:11.284Z",
+      "updated_at": "2022-01-12T23:10:41.655Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -308,10 +308,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "td6vp6mhvpqq",
+      "name": "Webhook failures observed",
+      "status": "investigating",
+      "created_at": "2022-01-12T23:10:41.619Z",
+      "updated_at": "2022-01-12T23:10:42.117Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/glsmmkq5cnp1",
+      "started_at": "2022-01-12T23:10:41.614Z",
+      "page_id": "83dz7syz0j3x",
+      "incident_updates": [
+        {
+          "id": "wbstv3n64t6d",
+          "status": "investigating",
+          "body": "We are currently investigating failures with GitHub webhooks",
+          "incident_id": "td6vp6mhvpqq",
+          "created_at": "2022-01-12T23:10:41.703Z",
+          "updated_at": "2022-01-12T23:10:42.114Z",
+          "display_at": "2022-01-12T23:10:41.703Z",
+          "affected_components": [
+            {
+              "code": "595z8vy5n3wm",
+              "name": "GitHub Webhooks",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1481403289518280700
+        }
+      ],
+      "components": [
+        {
+          "id": "595z8vy5n3wm",
+          "name": "GitHub Webhooks",
+          "status": "degraded_performance",
+          "created_at": "2019-11-13T21:44:22.950Z",
+          "updated_at": "2022-01-12T23:10:41.655Z",
+          "position": 20,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
