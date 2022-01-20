@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-01-17T23:23:51.761Z"
+    "updated_at": "2022-01-20T19:52:12.825Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "zvf0k2ht9164",
       "name": "Hosted DNS",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2016-08-26T19:03:36.276Z",
-      "updated_at": "2021-10-07T18:21:58.438Z",
+      "updated_at": "2022-01-20T19:52:12.192Z",
       "position": 7,
       "description": "Netlify's hosted Domain Name Service",
       "showcase": false,
@@ -308,10 +308,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "jpp68v39k7t3",
+      "name": "Issues with Hosted DNS changes",
+      "status": "identified",
+      "created_at": "2022-01-20T19:52:12.155Z",
+      "updated_at": "2022-01-20T19:52:12.817Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/j39c4hn74s8l",
+      "started_at": "2022-01-20T19:52:12.149Z",
+      "page_id": "83dz7syz0j3x",
+      "incident_updates": [
+        {
+          "id": "96ry1vh792y3",
+          "status": "identified",
+          "body": "Customers are currently unable to make changes to their Netlify-hosted DNS due to an issue at our DNS hosting provider. We have temporarily prevented changes via our UI or API until the issue is resolved. \nDNS records created or modified between 19:08 and 19:45 UTC may be affected and you should confirm that they are working as expected once we resolve this incident.\nDNS lookups for existing records have not been impacted at any point.",
+          "incident_id": "jpp68v39k7t3",
+          "created_at": "2022-01-20T19:52:12.240Z",
+          "updated_at": "2022-01-20T19:52:12.794Z",
+          "display_at": "2022-01-20T19:52:12.240Z",
+          "affected_components": [
+            {
+              "code": "zvf0k2ht9164",
+              "name": "Hosted DNS",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1484252440950034400
+        }
+      ],
+      "components": [
+        {
+          "id": "zvf0k2ht9164",
+          "name": "Hosted DNS",
+          "status": "degraded_performance",
+          "created_at": "2016-08-26T19:03:36.276Z",
+          "updated_at": "2022-01-20T19:52:12.192Z",
+          "position": 7,
+          "description": "Netlify's hosted Domain Name Service",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
