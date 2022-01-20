@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-01-20T23:23:45.759Z"
+    "updated_at": "2022-01-20T23:30:52.453Z"
   },
   "components": [
     {
@@ -312,16 +312,36 @@
     {
       "id": "94j0qv60dx1j",
       "name": "Problems serving recently created hosted DNS records",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2022-01-20T22:25:23.928Z",
-      "updated_at": "2022-01-20T22:25:24.964Z",
-      "monitoring_at": null,
+      "updated_at": "2022-01-20T23:30:52.446Z",
+      "monitoring_at": "2022-01-20T23:30:52.073Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/zkst2whf5l3n",
       "started_at": "2022-01-20T22:25:23.922Z",
       "page_id": "83dz7syz0j3x",
       "incident_updates": [
+        {
+          "id": "fqsg5gg16c8w",
+          "status": "monitoring",
+          "body": "We have re-enabled new record creation and old record deletion and expect new records to work well. Some records created between 1907 and 2220 UTC are still experiencing regional resolution issues, we continue to work with the provider to resolve as quickly as possible.",
+          "incident_id": "94j0qv60dx1j",
+          "created_at": "2022-01-20T23:30:52.073Z",
+          "updated_at": "2022-01-20T23:30:52.440Z",
+          "display_at": "2022-01-20T23:30:52.073Z",
+          "affected_components": [
+            {
+              "code": "zvf0k2ht9164",
+              "name": "Hosted DNS",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1484307468754698200
+        },
         {
           "id": "dsn1twhyvw40",
           "status": "investigating",
