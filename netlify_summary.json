@@ -4,15 +4,15 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-02-10T17:38:05.115Z"
+    "updated_at": "2022-02-10T18:01:31.897Z"
   },
   "components": [
     {
       "id": "8cw12qpb2n72",
       "name": "Enterprise Content Distribution Network",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-31T16:08:38.161Z",
-      "updated_at": "2022-02-10T17:38:02.264Z",
+      "updated_at": "2022-02-10T18:01:31.036Z",
       "position": 1,
       "description": "This CDN serves web content for Enterprise customers",
       "showcase": false,
@@ -308,63 +308,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "p73zkzv2ztfw",
-      "name": "Downtime on our Enterprise CDN",
-      "status": "monitoring",
-      "created_at": "2022-02-10T17:38:02.217Z",
-      "updated_at": "2022-02-10T17:38:04.950Z",
-      "monitoring_at": "2022-02-10T17:38:02.326Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/z2tfq4fjxgwq",
-      "started_at": "2022-02-10T17:38:02.211Z",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "pdf0rqk23mzk",
-          "status": "monitoring",
-          "body": "We saw approximately a minute of downtime on our Enterprise CDN between 17:29 and 17:31 UTC. Our team is investigating and will continue to monitor.",
-          "incident_id": "p73zkzv2ztfw",
-          "created_at": "2022-02-10T17:38:02.326Z",
-          "updated_at": "2022-02-10T17:38:04.845Z",
-          "display_at": "2022-02-10T17:38:02.326Z",
-          "affected_components": [
-            {
-              "code": "8cw12qpb2n72",
-              "name": "Enterprise Content Distribution Network",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1491828830092230700
-        }
-      ],
-      "components": [
-        {
-          "id": "8cw12qpb2n72",
-          "name": "Enterprise Content Distribution Network",
-          "status": "partial_outage",
-          "created_at": "2018-08-31T16:08:38.161Z",
-          "updated_at": "2022-02-10T17:38:02.264Z",
-          "position": 1,
-          "description": "This CDN serves web content for Enterprise customers",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
