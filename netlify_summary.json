@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-02-15T09:34:23.302Z"
+    "updated_at": "2022-02-15T13:33:52.145Z"
   },
   "components": [
     {
@@ -220,9 +220,9 @@
     {
       "id": "45w16bmv4dnb",
       "name": "Atlassian Bitbucket API",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-08-31T16:25:03.742Z",
-      "updated_at": "2021-12-22T14:31:06.824Z",
+      "updated_at": "2022-02-15T13:33:52.141Z",
       "position": 15,
       "description": null,
       "showcase": false,
