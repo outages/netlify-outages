@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-02-18T09:23:44.706Z"
+    "updated_at": "2022-02-19T19:29:46.409Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "l65dl1552383",
       "name": "Content Distribution Network",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2016-08-26T19:03:36.240Z",
-      "updated_at": "2022-02-04T21:25:23.819Z",
+      "updated_at": "2022-02-19T19:29:45.649Z",
       "position": 2,
       "description": "This CDN serves web pages for free, Pro, and Business accounts",
       "showcase": false,
@@ -308,10 +308,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "znfns3lqw1dm",
+      "name": "Higher latencies on regular CDN",
+      "status": "investigating",
+      "created_at": "2022-02-19T19:29:45.612Z",
+      "updated_at": "2022-02-19T19:29:46.402Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/6wd0gjykvqf0",
+      "started_at": "2022-02-19T19:29:45.606Z",
+      "page_id": "83dz7syz0j3x",
+      "incident_updates": [
+        {
+          "id": "fbr11cthfv8n",
+          "status": "investigating",
+          "body": "We are currently experiencing higher latencies on our regular CDN. Enterprise CDN is unaffected.",
+          "incident_id": "znfns3lqw1dm",
+          "created_at": "2022-02-19T19:29:45.709Z",
+          "updated_at": "2022-02-19T19:29:46.397Z",
+          "display_at": "2022-02-19T19:29:45.709Z",
+          "affected_components": [
+            {
+              "code": "l65dl1552383",
+              "name": "Content Distribution Network",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1495118429887471600
+        }
+      ],
+      "components": [
+        {
+          "id": "l65dl1552383",
+          "name": "Content Distribution Network",
+          "status": "degraded_performance",
+          "created_at": "2016-08-26T19:03:36.240Z",
+          "updated_at": "2022-02-19T19:29:45.649Z",
+          "position": 2,
+          "description": "This CDN serves web pages for free, Pro, and Business accounts",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
