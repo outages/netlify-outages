@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-02-24T20:42:20.344Z"
+    "updated_at": "2022-02-24T20:57:39.500Z"
   },
   "components": [
     {
@@ -312,16 +312,36 @@
     {
       "id": "v019sr9bs8k6",
       "name": "Errors provisioning new SSL certificates on our Standard Edge Network",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2022-02-24T20:42:19.863Z",
-      "updated_at": "2022-02-24T20:42:20.334Z",
-      "monitoring_at": null,
+      "updated_at": "2022-02-24T20:57:39.491Z",
+      "monitoring_at": "2022-02-24T20:57:38.239Z",
       "resolved_at": null,
       "impact": "none",
       "shortlink": "https://stspg.io/yk3q5mtxygrn",
       "started_at": "2022-02-24T20:42:19.858Z",
       "page_id": "83dz7syz0j3x",
       "incident_updates": [
+        {
+          "id": "c54gvqnlm7bj",
+          "status": "monitoring",
+          "body": "Our team has implemented a fix and things are working better.  Please see this forum post for next steps if you are struggling to get a certificate created, starting anytime in the past 20 hours or so:  https://answers.netlify.com/t/cannot-provision-cert-because-domain-doesnt-appear-to-be-served-by-netlify/52499",
+          "incident_id": "v019sr9bs8k6",
+          "created_at": "2022-02-24T20:57:38.239Z",
+          "updated_at": "2022-02-24T20:57:39.484Z",
+          "display_at": "2022-02-24T20:57:38.239Z",
+          "affected_components": [
+            {
+              "code": "l65dl1552383",
+              "name": "Content Distribution Network",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1496952486065696800
+        },
         {
           "id": "9r9czv7wqjjp",
           "status": "investigating",
