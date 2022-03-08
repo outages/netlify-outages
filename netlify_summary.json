@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-08T09:54:08.399Z"
+    "updated_at": "2022-03-08T10:38:34.741Z"
   },
   "components": [
     {
@@ -70,9 +70,9 @@
     {
       "id": "y7hq47ts327k",
       "name": "Netlify Application UI",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-09-03T23:45:57.385Z",
-      "updated_at": "2022-03-02T19:17:46.933Z",
+      "updated_at": "2022-03-08T10:36:13.599Z",
       "position": 5,
       "description": "The web UI for administering your sites at http://app.netlify.com",
       "showcase": false,
@@ -308,10 +308,76 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "ttl26b711fzh",
+      "name": "Login issues with GitHub, GitLab, and Bitbucket integrations.",
+      "status": "investigating",
+      "created_at": "2022-03-08T10:35:43.567Z",
+      "updated_at": "2022-03-08T10:36:14.249Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/qzt05vd9slf5",
+      "started_at": "2022-03-08T10:35:43.560Z",
+      "page_id": "83dz7syz0j3x",
+      "incident_updates": [
+        {
+          "id": "xn2xnl0920j4",
+          "status": "investigating",
+          "body": "We are continuing to investigate this issue.",
+          "incident_id": "ttl26b711fzh",
+          "created_at": "2022-03-08T10:36:13.649Z",
+          "updated_at": "2022-03-08T10:36:14.240Z",
+          "display_at": "2022-03-08T10:36:13.649Z",
+          "affected_components": [
+            {
+              "code": "y7hq47ts327k",
+              "name": "Netlify Application UI",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1501144754825805800
+        },
+        {
+          "id": "rywzt1gczqh2",
+          "status": "investigating",
+          "body": "We have identified an issue starting at 9:45 UTC preventing login using GitHub, GitLab, and Bitbucket integrations and are working on a solution now. Login using email address and password is not affected by this incident.",
+          "incident_id": "ttl26b711fzh",
+          "created_at": "2022-03-08T10:35:43.604Z",
+          "updated_at": "2022-03-08T10:35:45.296Z",
+          "display_at": "2022-03-08T10:35:43.604Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1501144632968704000
+        }
+      ],
+      "components": [
+        {
+          "id": "y7hq47ts327k",
+          "name": "Netlify Application UI",
+          "status": "degraded_performance",
+          "created_at": "2020-09-03T23:45:57.385Z",
+          "updated_at": "2022-03-08T10:36:13.599Z",
+          "position": 5,
+          "description": "The web UI for administering your sites at http://app.netlify.com",
+          "showcase": false,
+          "start_date": "2020-09-03",
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
