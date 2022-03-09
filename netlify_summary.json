@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-09T15:13:59.166Z"
+    "updated_at": "2022-03-09T15:44:21.898Z"
   },
   "components": [
     {
@@ -314,7 +314,7 @@
       "name": "Experiencing degraded performance",
       "status": "identified",
       "created_at": "2022-03-09T13:32:19.769Z",
-      "updated_at": "2022-03-09T15:13:59.160Z",
+      "updated_at": "2022-03-09T15:43:47.576Z",
       "monitoring_at": "2022-03-09T14:43:54.902Z",
       "resolved_at": null,
       "impact": "minor",
@@ -322,6 +322,56 @@
       "started_at": "2022-03-09T13:32:19.762Z",
       "page_id": "83dz7syz0j3x",
       "incident_updates": [
+        {
+          "id": "swpyjr3f3mbd",
+          "status": "identified",
+          "body": "Team continues to work to stabilize and resolve the service degradation.  Effects should be intermittent errors and latency affecting customer sites, our API, and UI.",
+          "incident_id": "f0frsy75h7n2",
+          "created_at": "2022-03-09T15:43:47.156Z",
+          "updated_at": "2022-03-09T15:43:47.570Z",
+          "display_at": "2022-03-09T15:43:47.156Z",
+          "affected_components": [
+            {
+              "code": "l65dl1552383",
+              "name": "Content Distribution Network",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "42cdn8lcw3pr",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "999zpz7s4z44",
+              "name": "Build Pipeline",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "8cw12qpb2n72",
+              "name": "Enterprise Content Distribution Network",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7l9mcmwhp0n4",
+              "name": "Origin Servers",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "y7hq47ts327k",
+              "name": "Netlify Application UI",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1501584541537878000
+        },
         {
           "id": "fcdczlv4nq7v",
           "status": "identified",
