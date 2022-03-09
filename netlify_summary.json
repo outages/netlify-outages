@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-09T19:05:03.087Z"
+    "updated_at": "2022-03-09T19:18:07.254Z"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "999zpz7s4z44",
       "name": "Build Pipeline",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2016-08-26T19:06:12.274Z",
-      "updated_at": "2022-03-09T19:05:02.480Z",
+      "updated_at": "2022-03-09T19:18:06.796Z",
       "position": 4,
       "description": "The system that builds your source code into websites (for git-backed deployments)",
       "showcase": false,
@@ -312,16 +312,42 @@
     {
       "id": "c613xxv0l23f",
       "name": "Failing builds",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2022-03-09T19:05:02.441Z",
-      "updated_at": "2022-03-09T19:05:03.082Z",
+      "updated_at": "2022-03-09T19:18:07.250Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "major",
+      "impact": "minor",
       "shortlink": "https://stspg.io/tq5vsfxpqjvt",
       "started_at": "2022-03-09T19:05:02.435Z",
       "page_id": "83dz7syz0j3x",
       "incident_updates": [
+        {
+          "id": "7ynxdt3rg8qz",
+          "status": "identified",
+          "body": "New deploys since 14:18 UTC which attempt to deploy scheduled functions have failed.  Older deploys using scheduled functions will continue to work as expected.  If you need to deploy a new copy of your site that uses scheduled functions while our team works on a fix, you will need to remove scheduled functions from your code.  We are working on a smoother way to disable the feature than a code change and will report back when that is available.",
+          "incident_id": "c613xxv0l23f",
+          "created_at": "2022-03-09T19:18:06.818Z",
+          "updated_at": "2022-03-09T19:18:07.246Z",
+          "display_at": "2022-03-09T19:18:06.818Z",
+          "affected_components": [
+            {
+              "code": "999zpz7s4z44",
+              "name": "Build Pipeline",
+              "old_status": "partial_outage",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "slkrr5915mm4",
+              "name": "Netlify Functions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1501638478894801000
+        },
         {
           "id": "9b0jpnz9s37c",
           "status": "investigating",
@@ -353,9 +379,9 @@
         {
           "id": "999zpz7s4z44",
           "name": "Build Pipeline",
-          "status": "partial_outage",
+          "status": "degraded_performance",
           "created_at": "2016-08-26T19:06:12.274Z",
-          "updated_at": "2022-03-09T19:05:02.480Z",
+          "updated_at": "2022-03-09T19:18:06.796Z",
           "position": 4,
           "description": "The system that builds your source code into websites (for git-backed deployments)",
           "showcase": false,
