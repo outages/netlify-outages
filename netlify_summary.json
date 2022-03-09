@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-09T15:44:21.898Z"
+    "updated_at": "2022-03-09T16:07:28.127Z"
   },
   "components": [
     {
@@ -311,10 +311,10 @@
   "incidents": [
     {
       "id": "f0frsy75h7n2",
-      "name": "Experiencing degraded performance",
+      "name": "Increased errors and latency affecting multiple services",
       "status": "identified",
       "created_at": "2022-03-09T13:32:19.769Z",
-      "updated_at": "2022-03-09T15:43:47.576Z",
+      "updated_at": "2022-03-09T16:07:28.123Z",
       "monitoring_at": "2022-03-09T14:43:54.902Z",
       "resolved_at": null,
       "impact": "minor",
