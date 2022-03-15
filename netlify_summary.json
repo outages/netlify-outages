@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-15T15:56:07.009Z"
+    "updated_at": "2022-03-15T16:37:54.332Z"
   },
   "components": [
     {
@@ -12,7 +12,7 @@
       "name": "Enterprise Content Distribution Network",
       "status": "operational",
       "created_at": "2018-08-31T16:08:38.161Z",
-      "updated_at": "2022-03-09T16:53:55.804Z",
+      "updated_at": "2022-03-15T16:37:53.570Z",
       "position": 1,
       "description": "This CDN serves web content for Enterprise customers",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "l65dl1552383",
       "name": "Content Distribution Network",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2016-08-26T19:03:36.240Z",
-      "updated_at": "2022-03-09T16:53:55.820Z",
+      "updated_at": "2022-03-15T16:21:42.510Z",
       "position": 2,
       "description": "This CDN serves web pages for free, Pro, and Business accounts",
       "showcase": false,
@@ -311,7 +311,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
