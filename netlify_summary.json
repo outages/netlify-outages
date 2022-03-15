@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-15T11:36:34.857Z"
+    "updated_at": "2022-03-15T12:16:25.966Z"
   },
   "components": [
     {
@@ -312,9 +312,9 @@
     {
       "id": "lzpn56hymd7r",
       "name": "Delay in our Self-Server Build system",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2022-03-15T11:36:09.975Z",
-      "updated_at": "2022-03-15T11:36:10.875Z",
+      "updated_at": "2022-03-15T12:16:25.954Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -322,6 +322,46 @@
       "started_at": "2022-03-15T11:36:09.969Z",
       "page_id": "83dz7syz0j3x",
       "incident_updates": [
+        {
+          "id": "d84437t634pf",
+          "status": "identified",
+          "body": "We are still processing pending builds.",
+          "incident_id": "lzpn56hymd7r",
+          "created_at": "2022-03-15T12:16:25.346Z",
+          "updated_at": "2022-03-15T12:16:25.944Z",
+          "display_at": "2022-03-15T12:16:25.346Z",
+          "affected_components": [
+            {
+              "code": "999zpz7s4z44",
+              "name": "Build Pipeline",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1503706684811743200
+        },
+        {
+          "id": "kss1nnylqlt5",
+          "status": "identified",
+          "body": "We are processing pending builds.",
+          "incident_id": "lzpn56hymd7r",
+          "created_at": "2022-03-15T11:50:55.669Z",
+          "updated_at": "2022-03-15T11:50:56.057Z",
+          "display_at": "2022-03-15T11:50:55.669Z",
+          "affected_components": [
+            {
+              "code": "999zpz7s4z44",
+              "name": "Build Pipeline",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1503700268034125800
+        },
         {
           "id": "hk4z54jddbgw",
           "status": "investigating",
