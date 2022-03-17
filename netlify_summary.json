@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-17T12:56:49.284Z"
+    "updated_at": "2022-03-17T14:08:23.629Z"
   },
   "components": [
     {
@@ -280,9 +280,9 @@
     {
       "id": "6g1x347jrws4",
       "name": "GitHub API Requests",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-02-07T22:24:49.584Z",
-      "updated_at": "2021-11-27T23:31:01.923Z",
+      "updated_at": "2022-03-17T14:08:23.623Z",
       "position": 19,
       "description": null,
       "showcase": false,
@@ -311,7 +311,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
