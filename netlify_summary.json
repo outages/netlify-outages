@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-22T12:52:24.743Z"
+    "updated_at": "2022-03-22T15:22:43.079Z"
   },
   "components": [
     {
@@ -70,9 +70,9 @@
     {
       "id": "y7hq47ts327k",
       "name": "Netlify Application UI",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-09-03T23:45:57.385Z",
-      "updated_at": "2022-03-09T16:53:55.868Z",
+      "updated_at": "2022-03-22T15:22:42.358Z",
       "position": 5,
       "description": "The web UI for administering your sites at http://app.netlify.com",
       "showcase": false,
@@ -308,10 +308,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "fln5ttcdk8dv",
+      "name": "Form submission errors",
+      "status": "investigating",
+      "created_at": "2022-03-22T15:22:42.315Z",
+      "updated_at": "2022-03-22T15:22:43.072Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/5jd7tqmy53yp",
+      "started_at": "2022-03-22T15:22:42.310Z",
+      "page_id": "83dz7syz0j3x",
+      "incident_updates": [
+        {
+          "id": "xmk731yxd5w0",
+          "status": "investigating",
+          "body": "We are investigating classifying form submissions with our third party provider.",
+          "incident_id": "fln5ttcdk8dv",
+          "created_at": "2022-03-22T15:22:42.412Z",
+          "updated_at": "2022-03-22T15:22:43.067Z",
+          "display_at": "2022-03-22T15:22:42.412Z",
+          "affected_components": [
+            {
+              "code": "y7hq47ts327k",
+              "name": "Netlify Application UI",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1506290279938150400
+        }
+      ],
+      "components": [
+        {
+          "id": "y7hq47ts327k",
+          "name": "Netlify Application UI",
+          "status": "degraded_performance",
+          "created_at": "2020-09-03T23:45:57.385Z",
+          "updated_at": "2022-03-22T15:22:42.358Z",
+          "position": 5,
+          "description": "The web UI for administering your sites at http://app.netlify.com",
+          "showcase": false,
+          "start_date": "2020-09-03",
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
