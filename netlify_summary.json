@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-22T15:22:43.079Z"
+    "updated_at": "2022-03-22T16:00:28.375Z"
   },
   "components": [
     {
@@ -280,9 +280,9 @@
     {
       "id": "6g1x347jrws4",
       "name": "GitHub API Requests",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-02-07T22:24:49.584Z",
-      "updated_at": "2022-03-17T16:01:21.114Z",
+      "updated_at": "2022-03-22T16:00:28.366Z",
       "position": 19,
       "description": null,
       "showcase": false,
@@ -314,7 +314,7 @@
       "name": "Form submission errors",
       "status": "investigating",
       "created_at": "2022-03-22T15:22:42.315Z",
-      "updated_at": "2022-03-22T15:22:43.072Z",
+      "updated_at": "2022-03-22T15:34:17.421Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -322,6 +322,26 @@
       "started_at": "2022-03-22T15:22:42.310Z",
       "page_id": "83dz7syz0j3x",
       "incident_updates": [
+        {
+          "id": "l5t2g6xv3c3f",
+          "status": "investigating",
+          "body": "Customers should now see form submissions in the UI but submissions haven't been properly classified. We are continuing to investigate this issue with third party provider.",
+          "incident_id": "fln5ttcdk8dv",
+          "created_at": "2022-03-22T15:34:16.823Z",
+          "updated_at": "2022-03-22T15:34:17.416Z",
+          "display_at": "2022-03-22T15:34:16.823Z",
+          "affected_components": [
+            {
+              "code": "y7hq47ts327k",
+              "name": "Netlify Application UI",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1506293192051892200
+        },
         {
           "id": "xmk731yxd5w0",
           "status": "investigating",
@@ -365,6 +385,6 @@
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "description": "Minor Service Outage"
   }
 }
