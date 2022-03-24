@@ -4,15 +4,15 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-24T22:09:46.691Z"
+    "updated_at": "2022-03-24T22:20:21.345Z"
   },
   "components": [
     {
       "id": "8cw12qpb2n72",
-      "name": "High-Performance Edge network",
+      "name": "High-Performance Edge Network",
       "status": "operational",
       "created_at": "2018-08-31T16:08:38.161Z",
-      "updated_at": "2022-03-24T22:09:12.812Z",
+      "updated_at": "2022-03-24T22:20:21.342Z",
       "position": 1,
       "description": "The High-Performance Edge network is available for Enterprise customers to serve web content",
       "showcase": false,
