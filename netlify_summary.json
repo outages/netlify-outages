@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-07T15:30:37.582Z"
+    "updated_at": "2022-04-07T15:44:44.081Z"
   },
   "components": [
     {
@@ -312,16 +312,36 @@
     {
       "id": "fhjkqg8jpr0l",
       "name": "Increased errors and latency on High Performance CDN",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2022-04-07T14:34:44.631Z",
-      "updated_at": "2022-04-07T14:48:06.659Z",
-      "monitoring_at": null,
+      "updated_at": "2022-04-07T15:40:56.994Z",
+      "monitoring_at": "2022-04-07T15:40:56.292Z",
       "resolved_at": null,
       "impact": "critical",
       "shortlink": "https://stspg.io/8gsl1qkfh8tn",
       "started_at": "2022-04-07T14:34:44.626Z",
       "page_id": "83dz7syz0j3x",
       "incident_updates": [
+        {
+          "id": "7mp8c3k7xkzc",
+          "status": "monitoring",
+          "body": "Increased error rates have recovered for our High Performance Anycast and Enterprise Apex load balancer. We have resumed normal service levels and will continue to monitor.",
+          "incident_id": "fhjkqg8jpr0l",
+          "created_at": "2022-04-07T15:40:56.292Z",
+          "updated_at": "2022-04-07T15:40:56.987Z",
+          "display_at": "2022-04-07T15:40:56.292Z",
+          "affected_components": [
+            {
+              "code": "8cw12qpb2n72",
+              "name": "High-Performance Edge Network",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1512093074175918000
+        },
         {
           "id": "49szyv7mhfgs",
           "status": "investigating",
