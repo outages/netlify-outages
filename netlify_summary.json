@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-07T14:48:06.732Z"
+    "updated_at": "2022-04-07T15:01:52.342Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "l65dl1552383",
       "name": "Standard Edge Network",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2016-08-26T19:03:36.240Z",
-      "updated_at": "2022-04-07T14:33:29.575Z",
+      "updated_at": "2022-04-07T15:01:51.413Z",
       "position": 2,
       "description": "The Standard Edge Network serves web pages for Starter, Pro, and Business accounts",
       "showcase": false,
@@ -310,6 +310,78 @@
   ],
   "incidents": [
     {
+      "id": "9w2lwgg8yyw5",
+      "name": "Increased errors and latency on Standard CDN within Europe",
+      "status": "monitoring",
+      "created_at": "2022-04-07T14:33:29.533Z",
+      "updated_at": "2022-04-07T15:01:52.334Z",
+      "monitoring_at": "2022-04-07T15:01:51.450Z",
+      "resolved_at": null,
+      "impact": "critical",
+      "shortlink": "https://stspg.io/45966pc764bx",
+      "started_at": "2022-04-07T14:33:29.527Z",
+      "page_id": "83dz7syz0j3x",
+      "incident_updates": [
+        {
+          "id": "2vd5q14rhckt",
+          "status": "monitoring",
+          "body": "Since 14:49 UTC, customer sites loading from our Standard CDN within Europe are loading without errors. We will continue to monitor.",
+          "incident_id": "9w2lwgg8yyw5",
+          "created_at": "2022-04-07T15:01:51.450Z",
+          "updated_at": "2022-04-07T15:01:52.329Z",
+          "display_at": "2022-04-07T15:01:51.450Z",
+          "affected_components": [
+            {
+              "code": "l65dl1552383",
+              "name": "Standard Edge Network",
+              "old_status": "major_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1512083239883575300
+        },
+        {
+          "id": "n4ym9jghzjg4",
+          "status": "investigating",
+          "body": "Our team is investigating an increase in reported issues with customer sites loading from our Standard CDN within Europe.",
+          "incident_id": "9w2lwgg8yyw5",
+          "created_at": "2022-04-07T14:33:29.631Z",
+          "updated_at": "2022-04-07T14:33:30.219Z",
+          "display_at": "2022-04-07T14:33:29.631Z",
+          "affected_components": [
+            {
+              "code": "l65dl1552383",
+              "name": "Standard Edge Network",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1512076100695851000
+        }
+      ],
+      "components": [
+        {
+          "id": "l65dl1552383",
+          "name": "Standard Edge Network",
+          "status": "operational",
+          "created_at": "2016-08-26T19:03:36.240Z",
+          "updated_at": "2022-04-07T15:01:51.413Z",
+          "position": 2,
+          "description": "The Standard Edge Network serves web pages for Starter, Pro, and Business accounts",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
+    {
       "id": "fhjkqg8jpr0l",
       "name": "Increased errors and latency on High Performance CDN",
       "status": "investigating",
@@ -380,63 +452,11 @@
           "only_show_if_degraded": false
         }
       ]
-    },
-    {
-      "id": "9w2lwgg8yyw5",
-      "name": "Increased errors and latency on Standard CDN within Europe",
-      "status": "investigating",
-      "created_at": "2022-04-07T14:33:29.533Z",
-      "updated_at": "2022-04-07T14:33:30.226Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "critical",
-      "shortlink": "https://stspg.io/45966pc764bx",
-      "started_at": "2022-04-07T14:33:29.527Z",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "n4ym9jghzjg4",
-          "status": "investigating",
-          "body": "Our team is investigating an increase in reported issues with customer sites loading from our Standard CDN within Europe.",
-          "incident_id": "9w2lwgg8yyw5",
-          "created_at": "2022-04-07T14:33:29.631Z",
-          "updated_at": "2022-04-07T14:33:30.219Z",
-          "display_at": "2022-04-07T14:33:29.631Z",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Standard Edge Network",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1512076100695851000
-        }
-      ],
-      "components": [
-        {
-          "id": "l65dl1552383",
-          "name": "Standard Edge Network",
-          "status": "major_outage",
-          "created_at": "2016-08-26T19:03:36.240Z",
-          "updated_at": "2022-04-07T14:33:29.575Z",
-          "position": 2,
-          "description": "The Standard Edge Network serves web pages for Starter, Pro, and Business accounts",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
     }
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
