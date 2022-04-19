@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-19T12:46:56.268Z"
+    "updated_at": "2022-04-19T13:55:36.574Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "l65dl1552383",
       "name": "Standard Edge Network",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2016-08-26T19:03:36.240Z",
-      "updated_at": "2022-04-14T13:58:38.440Z",
+      "updated_at": "2022-04-19T13:50:13.110Z",
       "position": 2,
       "description": "The Standard Edge Network serves web pages for Starter, Pro, and Business accounts",
       "showcase": false,
@@ -308,10 +308,83 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "x750gg57lglx",
+      "name": "Connections failing on Standard Edge Network",
+      "status": "monitoring",
+      "created_at": "2022-04-19T13:50:13.065Z",
+      "updated_at": "2022-04-19T13:55:36.567Z",
+      "monitoring_at": "2022-04-19T13:55:35.866Z",
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/xvrl57k650fr",
+      "started_at": "2022-04-19T13:50:13.059Z",
+      "page_id": "83dz7syz0j3x",
+      "incident_updates": [
+        {
+          "id": "sjpmz8tzqzny",
+          "status": "monitoring",
+          "body": "The issue with connections failing on our Standard Edge Network started at 13:35 UTC till 13:48 UTC. The issue has been identified and a fix has been implemented. Our team will continue to monitor.",
+          "incident_id": "x750gg57lglx",
+          "created_at": "2022-04-19T13:55:35.866Z",
+          "updated_at": "2022-04-19T13:55:36.562Z",
+          "display_at": "2022-04-19T13:55:35.866Z",
+          "affected_components": [
+            {
+              "code": "l65dl1552383",
+              "name": "Standard Edge Network",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1516415218536140800
+        },
+        {
+          "id": "vs13366qynhn",
+          "status": "investigating",
+          "body": "Since 13:35 UTC our team is Investigating issue with connections failing on our Standard Edge Network",
+          "incident_id": "x750gg57lglx",
+          "created_at": "2022-04-19T13:50:13.164Z",
+          "updated_at": "2022-04-19T13:50:13.672Z",
+          "display_at": "2022-04-19T13:50:13.164Z",
+          "affected_components": [
+            {
+              "code": "l65dl1552383",
+              "name": "Standard Edge Network",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1516413864379887600
+        }
+      ],
+      "components": [
+        {
+          "id": "l65dl1552383",
+          "name": "Standard Edge Network",
+          "status": "degraded_performance",
+          "created_at": "2016-08-26T19:03:36.240Z",
+          "updated_at": "2022-04-19T13:50:13.110Z",
+          "position": 2,
+          "description": "The Standard Edge Network serves web pages for Starter, Pro, and Business accounts",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
