@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-30T18:35:00.188Z"
+    "updated_at": "2022-04-30T18:46:26.808Z"
   },
   "components": [
     {
@@ -40,9 +40,9 @@
     {
       "id": "l65dl1552383",
       "name": "Standard Edge Network",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2016-08-26T19:03:36.240Z",
-      "updated_at": "2022-04-30T18:17:02.627Z",
+      "updated_at": "2022-04-30T18:46:26.008Z",
       "position": 2,
       "description": "The Standard Edge Network serves web pages for Starter, Pro, and Business accounts",
       "showcase": false,
@@ -331,83 +331,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "lnl8lnqp65d1",
-      "name": "Outage on Standard Edge Network",
-      "status": "monitoring",
-      "created_at": "2022-04-30T18:17:02.586Z",
-      "updated_at": "2022-04-30T18:35:00.182Z",
-      "monitoring_at": "2022-04-30T18:34:59.811Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/swtzvg9nh86j",
-      "started_at": "2022-04-30T18:17:02.581Z",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "2w2n9bjdft7h",
-          "status": "monitoring",
-          "body": "Sites on the Standard Edge Network could have experienced higher latencies than usual. Some pages could have met with an error. We're currently monitoring the situation closely.",
-          "incident_id": "lnl8lnqp65d1",
-          "created_at": "2022-04-30T18:34:59.811Z",
-          "updated_at": "2022-04-30T18:35:00.177Z",
-          "display_at": "2022-04-30T18:34:59.811Z",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Standard Edge Network",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1520471796985647000
-        },
-        {
-          "id": "wydhytz1wx61",
-          "status": "investigating",
-          "body": "We're currently investigating an outage on the Standard Edge Network. We'd continue to post updates as we have more information.",
-          "incident_id": "lnl8lnqp65d1",
-          "created_at": "2022-04-30T18:17:02.678Z",
-          "updated_at": "2022-04-30T18:17:03.190Z",
-          "display_at": "2022-04-30T18:17:02.678Z",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Standard Edge Network",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1520467279699267600
-        }
-      ],
-      "components": [
-        {
-          "id": "l65dl1552383",
-          "name": "Standard Edge Network",
-          "status": "degraded_performance",
-          "created_at": "2016-08-26T19:03:36.240Z",
-          "updated_at": "2022-04-30T18:17:02.627Z",
-          "position": 2,
-          "description": "The Standard Edge Network serves web pages for Starter, Pro, and Business accounts",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
