@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-04T20:38:08.338Z"
+    "updated_at": "2022-05-04T20:56:33.313Z"
   },
   "components": [
     {
@@ -331,120 +331,7 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "gz2bk96fszt5",
-      "name": "Investigating reports of trouble with our Standard Edge Network",
-      "status": "identified",
-      "created_at": "2022-05-04T20:04:47.061Z",
-      "updated_at": "2022-05-04T20:38:08.172Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/vz7sqc2b29nf",
-      "started_at": "2022-05-04T20:04:47.056Z",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "9npd6fx2swx3",
-          "status": "identified",
-          "body": "A subset of domains on the Standard Edge Network were affected, and our monitors and customers are reporting normal behavior now for the affected component.  Our team continues to investigate and monitor.",
-          "incident_id": "gz2bk96fszt5",
-          "created_at": "2022-05-04T20:38:06.687Z",
-          "updated_at": "2022-05-04T20:38:08.167Z",
-          "display_at": "2022-05-04T20:38:06.687Z",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Standard Edge Network",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1521952335764754400
-        },
-        {
-          "id": "gm0h04pwlv06",
-          "status": "investigating",
-          "body": "We are working on addressing issues with SSL certificates on our primary load balancer for the standard edge network.  As a mitigation, you can adjust your A records to point to 99.83.231.61, which is our secondary load balancer address and is working well.",
-          "incident_id": "gz2bk96fszt5",
-          "created_at": "2022-05-04T20:16:05.807Z",
-          "updated_at": "2022-05-04T20:16:06.196Z",
-          "display_at": "2022-05-04T20:16:05.807Z",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Standard Edge Network",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1521946791008104400
-        },
-        {
-          "id": "h88nb5vk83v0",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "gz2bk96fszt5",
-          "created_at": "2022-05-04T20:13:02.460Z",
-          "updated_at": "2022-05-04T20:13:03.200Z",
-          "display_at": "2022-05-04T20:13:02.460Z",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Standard Edge Network",
-              "old_status": "degraded_performance",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1521946023672762400
-        },
-        {
-          "id": "6qp1b8y31nq7",
-          "status": "investigating",
-          "body": "We are investigating reports of downtime on our Standard Edge Network",
-          "incident_id": "gz2bk96fszt5",
-          "created_at": "2022-05-04T20:04:47.155Z",
-          "updated_at": "2022-05-04T20:04:47.663Z",
-          "display_at": "2022-05-04T20:04:47.155Z",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Standard Edge Network",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1521943945319633000
-        }
-      ],
-      "components": [
-        {
-          "id": "l65dl1552383",
-          "name": "Standard Edge Network",
-          "status": "operational",
-          "created_at": "2016-08-26T19:03:36.240Z",
-          "updated_at": "2022-05-04T20:38:06.663Z",
-          "position": 2,
-          "description": "The Standard Edge Network serves web pages for Starter, Pro, and Business accounts",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
