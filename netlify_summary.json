@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-04T15:47:00.719Z"
+    "updated_at": "2022-05-04T16:09:40.467Z"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "l65dl1552383",
       "name": "Standard Edge Network",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2016-08-26T19:03:36.240Z",
-      "updated_at": "2022-05-04T15:45:14.535Z",
+      "updated_at": "2022-05-04T15:56:51.877Z",
       "position": 2,
       "description": "The Standard Edge Network serves web pages for Starter, Pro, and Business accounts",
       "showcase": false,
@@ -331,63 +331,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "0zvw6pzh5smz",
-      "name": "Increased latency and some errors on the Standard Edge Network",
-      "status": "identified",
-      "created_at": "2022-05-04T15:45:14.501Z",
-      "updated_at": "2022-05-04T15:45:16.231Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/fzbgxmw65b02",
-      "started_at": "2022-05-04T15:45:14.495Z",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "0scnkwh67511",
-          "status": "identified",
-          "body": "We have identified some intermittent latency on our Standard Edge Network and working to stabilize the network for all regions.",
-          "incident_id": "0zvw6pzh5smz",
-          "created_at": "2022-05-04T15:45:14.577Z",
-          "updated_at": "2022-05-04T15:45:16.220Z",
-          "display_at": "2022-05-04T15:45:14.577Z",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Standard Edge Network",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1521878633287086000
-        }
-      ],
-      "components": [
-        {
-          "id": "l65dl1552383",
-          "name": "Standard Edge Network",
-          "status": "degraded_performance",
-          "created_at": "2016-08-26T19:03:36.240Z",
-          "updated_at": "2022-05-04T15:45:14.535Z",
-          "position": 2,
-          "description": "The Standard Edge Network serves web pages for Starter, Pro, and Business accounts",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
