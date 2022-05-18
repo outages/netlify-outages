@@ -4,24 +4,9 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-17T17:47:43.066Z"
+    "updated_at": "2022-05-18T16:55:34.464Z"
   },
   "components": [
-    {
-      "id": "45w16bmv4dnb",
-      "name": "Atlassian Bitbucket API",
-      "status": "operational",
-      "created_at": "2018-08-31T16:25:03.742Z",
-      "updated_at": "2022-05-02T21:36:51.591Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "912v4l5dqqhk",
-      "page_id": "83dz7syz0j3x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "8cw12qpb2n72",
       "name": "High-Performance Edge Network",
@@ -33,6 +18,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
+      "page_id": "83dz7syz0j3x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "45w16bmv4dnb",
+      "name": "Atlassian Bitbucket API",
+      "status": "operational",
+      "created_at": "2018-08-31T16:25:03.742Z",
+      "updated_at": "2022-05-02T21:36:51.591Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "912v4l5dqqhk",
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
@@ -68,21 +68,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "7l9mcmwhp0n4",
-      "name": "Origin Servers",
-      "status": "operational",
-      "created_at": "2018-12-17T16:43:22.093Z",
-      "updated_at": "2022-03-09T16:53:55.836Z",
-      "position": 3,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "83dz7syz0j3x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "vtqs0zd7zncc",
       "name": "Atlassian Bitbucket SSH",
       "status": "operational",
@@ -93,6 +78,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "912v4l5dqqhk",
+      "page_id": "83dz7syz0j3x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "7l9mcmwhp0n4",
+      "name": "Origin Servers",
+      "status": "operational",
+      "created_at": "2018-12-17T16:43:22.093Z",
+      "updated_at": "2022-03-09T16:53:55.836Z",
+      "position": 3,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
@@ -295,9 +295,9 @@
     {
       "id": "j09v23r71736",
       "name": "Git Gateway",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-08-31T16:58:01.661Z",
-      "updated_at": "2021-11-16T18:37:10.641Z",
+      "updated_at": "2022-05-18T16:55:33.953Z",
       "position": 14,
       "description": "Netlify's hosted Git Gateway service (https://www.netlify.com/docs/git-gateway/)",
       "showcase": false,
@@ -331,10 +331,63 @@
       ]
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "sbqtbbg807qf",
+      "name": "Git Gateway connection issues with GitLab",
+      "status": "investigating",
+      "created_at": "2022-05-18T16:55:33.922Z",
+      "updated_at": "2022-05-18T16:55:34.459Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/dzm66m3y02dr",
+      "started_at": "2022-05-18T16:55:33.917Z",
+      "page_id": "83dz7syz0j3x",
+      "incident_updates": [
+        {
+          "id": "554n8rg2z9xq",
+          "status": "investigating",
+          "body": "Git Gateway tokens with GitLab need to be re-issued every 2 hours. The team is investigating this issue. Users of other Git providers like GitHub and Bitbucket should be unaffected.",
+          "incident_id": "sbqtbbg807qf",
+          "created_at": "2022-05-18T16:55:33.993Z",
+          "updated_at": "2022-05-18T16:55:34.456Z",
+          "display_at": "2022-05-18T16:55:33.993Z",
+          "affected_components": [
+            {
+              "code": "j09v23r71736",
+              "name": "Git Gateway",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1526969756514889700
+        }
+      ],
+      "components": [
+        {
+          "id": "j09v23r71736",
+          "name": "Git Gateway",
+          "status": "degraded_performance",
+          "created_at": "2018-08-31T16:58:01.661Z",
+          "updated_at": "2022-05-18T16:55:33.953Z",
+          "position": 14,
+          "description": "Netlify's hosted Git Gateway service (https://www.netlify.com/docs/git-gateway/)",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
