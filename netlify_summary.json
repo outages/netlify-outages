@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-18T17:23:37.986Z"
+    "updated_at": "2022-05-18T19:23:33.475Z"
   },
   "components": [
     {
@@ -295,9 +295,9 @@
     {
       "id": "j09v23r71736",
       "name": "Git Gateway",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-08-31T16:58:01.661Z",
-      "updated_at": "2022-05-18T16:55:33.953Z",
+      "updated_at": "2022-05-18T19:15:07.816Z",
       "position": 14,
       "description": "Netlify's hosted Git Gateway service (https://www.netlify.com/docs/git-gateway/)",
       "showcase": false,
@@ -331,83 +331,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "sbqtbbg807qf",
-      "name": "Git Gateway connection issues with GitLab",
-      "status": "investigating",
-      "created_at": "2022-05-18T16:55:33.922Z",
-      "updated_at": "2022-05-18T17:12:41.094Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/dzm66m3y02dr",
-      "started_at": "2022-05-18T16:55:33.917Z",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "2c9b92qkp0g7",
-          "status": "investigating",
-          "body": "The team is continuing to investigate the problem.",
-          "incident_id": "sbqtbbg807qf",
-          "created_at": "2022-05-18T17:12:40.712Z",
-          "updated_at": "2022-05-18T17:12:41.086Z",
-          "display_at": "2022-05-18T17:12:40.712Z",
-          "affected_components": [
-            {
-              "code": "j09v23r71736",
-              "name": "Git Gateway",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1526974062416699400
-        },
-        {
-          "id": "554n8rg2z9xq",
-          "status": "investigating",
-          "body": "Git Gateway tokens with GitLab need to be re-issued every 2 hours. The team is investigating this issue. Users of other Git providers like GitHub and Bitbucket should be unaffected.",
-          "incident_id": "sbqtbbg807qf",
-          "created_at": "2022-05-18T16:55:33.993Z",
-          "updated_at": "2022-05-18T16:55:34.456Z",
-          "display_at": "2022-05-18T16:55:33.993Z",
-          "affected_components": [
-            {
-              "code": "j09v23r71736",
-              "name": "Git Gateway",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1526969756514889700
-        }
-      ],
-      "components": [
-        {
-          "id": "j09v23r71736",
-          "name": "Git Gateway",
-          "status": "degraded_performance",
-          "created_at": "2018-08-31T16:58:01.661Z",
-          "updated_at": "2022-05-18T16:55:33.953Z",
-          "position": 14,
-          "description": "Netlify's hosted Git Gateway service (https://www.netlify.com/docs/git-gateway/)",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
