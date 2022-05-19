@@ -4,15 +4,30 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-18T19:23:33.475Z"
+    "updated_at": "2022-05-19T15:50:15.868Z"
   },
   "components": [
     {
+      "id": "45w16bmv4dnb",
+      "name": "Atlassian Bitbucket API",
+      "status": "operational",
+      "created_at": "2018-08-31T16:25:03.742Z",
+      "updated_at": "2022-05-02T21:36:51.591Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "912v4l5dqqhk",
+      "page_id": "83dz7syz0j3x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "8cw12qpb2n72",
       "name": "High-Performance Edge Network",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-08-31T16:08:38.161Z",
-      "updated_at": "2022-05-17T17:27:33.298Z",
+      "updated_at": "2022-05-19T15:50:15.375Z",
       "position": 1,
       "description": "The High-Performance Edge network is available for Enterprise customers to serve web content",
       "showcase": false,
@@ -23,12 +38,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "45w16bmv4dnb",
-      "name": "Atlassian Bitbucket API",
+      "id": "ty69by5298qw",
+      "name": "Atlassian Bitbucket Webhooks",
       "status": "operational",
-      "created_at": "2018-08-31T16:25:03.742Z",
-      "updated_at": "2022-05-02T21:36:51.591Z",
-      "position": 1,
+      "created_at": "2018-08-31T16:25:21.455Z",
+      "updated_at": "2022-04-22T02:49:13.009Z",
+      "position": 2,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -48,21 +63,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
-      "page_id": "83dz7syz0j3x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "ty69by5298qw",
-      "name": "Atlassian Bitbucket Webhooks",
-      "status": "operational",
-      "created_at": "2018-08-31T16:25:21.455Z",
-      "updated_at": "2022-04-22T02:49:13.009Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "912v4l5dqqhk",
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
@@ -98,21 +98,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "ch6wx8lq2pgk",
-      "name": "npm, Inc. Registry Reads",
-      "status": "operational",
-      "created_at": "2018-09-05T15:42:37.547Z",
-      "updated_at": "2022-04-22T02:49:36.839Z",
-      "position": 4,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "912v4l5dqqhk",
-      "page_id": "83dz7syz0j3x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "999zpz7s4z44",
       "name": "Build Pipeline",
       "status": "operational",
@@ -128,12 +113,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "6g1x347jrws4",
-      "name": "GitHub API Requests",
+      "id": "ch6wx8lq2pgk",
+      "name": "npm, Inc. Registry Reads",
       "status": "operational",
-      "created_at": "2019-02-07T22:24:49.584Z",
-      "updated_at": "2022-04-22T02:49:46.937Z",
-      "position": 5,
+      "created_at": "2018-09-05T15:42:37.547Z",
+      "updated_at": "2022-04-22T02:49:36.839Z",
+      "position": 4,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -153,6 +138,21 @@
       "showcase": false,
       "start_date": "2020-09-03",
       "group_id": null,
+      "page_id": "83dz7syz0j3x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "6g1x347jrws4",
+      "name": "GitHub API Requests",
+      "status": "operational",
+      "created_at": "2019-02-07T22:24:49.584Z",
+      "updated_at": "2022-04-22T02:49:46.937Z",
+      "position": 5,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "912v4l5dqqhk",
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
@@ -331,10 +331,63 @@
       ]
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "ywflr21d34sn",
+      "name": "High-Performance Edge Network load balancer issues",
+      "status": "investigating",
+      "created_at": "2022-05-19T15:50:15.343Z",
+      "updated_at": "2022-05-19T15:50:15.861Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/bvbxgj9s7r5l",
+      "started_at": "2022-05-19T15:50:15.338Z",
+      "page_id": "83dz7syz0j3x",
+      "incident_updates": [
+        {
+          "id": "pxlxb4f2gs9z",
+          "status": "investigating",
+          "body": "We are investigating increased latency and errors on our High Performance Edge load balancer.",
+          "incident_id": "ywflr21d34sn",
+          "created_at": "2022-05-19T15:50:15.415Z",
+          "updated_at": "2022-05-19T15:50:15.855Z",
+          "display_at": "2022-05-19T15:50:15.415Z",
+          "affected_components": [
+            {
+              "code": "8cw12qpb2n72",
+              "name": "High-Performance Edge Network",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1527315708647833600
+        }
+      ],
+      "components": [
+        {
+          "id": "8cw12qpb2n72",
+          "name": "High-Performance Edge Network",
+          "status": "partial_outage",
+          "created_at": "2018-08-31T16:08:38.161Z",
+          "updated_at": "2022-05-19T15:50:15.375Z",
+          "position": 1,
+          "description": "The High-Performance Edge network is available for Enterprise customers to serve web content",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
