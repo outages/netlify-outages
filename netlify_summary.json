@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-19T15:50:15.868Z"
+    "updated_at": "2022-05-19T16:31:13.544Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "8cw12qpb2n72",
       "name": "High-Performance Edge Network",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-31T16:08:38.161Z",
-      "updated_at": "2022-05-19T15:50:15.375Z",
+      "updated_at": "2022-05-19T16:05:33.148Z",
       "position": 1,
       "description": "The High-Performance Edge network is available for Enterprise customers to serve web content",
       "showcase": false,
@@ -331,63 +331,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "ywflr21d34sn",
-      "name": "High-Performance Edge Network load balancer issues",
-      "status": "investigating",
-      "created_at": "2022-05-19T15:50:15.343Z",
-      "updated_at": "2022-05-19T15:50:15.861Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/bvbxgj9s7r5l",
-      "started_at": "2022-05-19T15:50:15.338Z",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "pxlxb4f2gs9z",
-          "status": "investigating",
-          "body": "We are investigating increased latency and errors on our High Performance Edge load balancer.",
-          "incident_id": "ywflr21d34sn",
-          "created_at": "2022-05-19T15:50:15.415Z",
-          "updated_at": "2022-05-19T15:50:15.855Z",
-          "display_at": "2022-05-19T15:50:15.415Z",
-          "affected_components": [
-            {
-              "code": "8cw12qpb2n72",
-              "name": "High-Performance Edge Network",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1527315708647833600
-        }
-      ],
-      "components": [
-        {
-          "id": "8cw12qpb2n72",
-          "name": "High-Performance Edge Network",
-          "status": "partial_outage",
-          "created_at": "2018-08-31T16:08:38.161Z",
-          "updated_at": "2022-05-19T15:50:15.375Z",
-          "position": 1,
-          "description": "The High-Performance Edge network is available for Enterprise customers to serve web content",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
