@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-06-08T14:10:44.389Z"
+    "updated_at": "2022-06-08T14:23:38.165Z"
   },
   "components": [
     {
@@ -331,80 +331,7 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "b2lqzqhzj1bz",
-      "name": "Build errors on High-Performance and Standard Builds",
-      "status": "monitoring",
-      "created_at": "2022-06-08T13:59:51.000Z",
-      "updated_at": "2022-06-08T14:10:44.387Z",
-      "monitoring_at": "2022-06-08T14:02:51.000Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/04xtk6vms4qn",
-      "started_at": "2022-06-08T13:59:51.000Z",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "v37l5f1dj4t7",
-          "status": "monitoring",
-          "body": "We’ve mitigated the issue around builds at 13:57 UTC. Our team is monitoring.",
-          "incident_id": "b2lqzqhzj1bz",
-          "created_at": "2022-06-08T14:02:51.439Z",
-          "updated_at": "2022-06-08T14:10:44.376Z",
-          "display_at": "2022-06-08T14:02:51.000Z",
-          "affected_components": [
-            {
-              "code": "999zpz7s4z44",
-              "name": "Build Pipeline",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1534536438003269600
-        },
-        {
-          "id": "49xrybp1wb6t",
-          "status": "investigating",
-          "body": "We’re investigating reports of build errors on High-Performance and Standard Builds which began at 13:42 UTC.",
-          "incident_id": "b2lqzqhzj1bz",
-          "created_at": "2022-06-08T13:59:51.355Z",
-          "updated_at": "2022-06-08T14:09:38.199Z",
-          "display_at": "2022-06-08T13:59:51.000Z",
-          "affected_components": [
-            {
-              "code": "999zpz7s4z44",
-              "name": "Build Pipeline",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1534535687885598700
-        }
-      ],
-      "components": [
-        {
-          "id": "999zpz7s4z44",
-          "name": "Build Pipeline",
-          "status": "operational",
-          "created_at": "2016-08-26T19:06:12.274Z",
-          "updated_at": "2022-06-08T14:02:51.400Z",
-          "position": 4,
-          "description": "The system that builds your source code into websites (for git-backed deployments)",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
