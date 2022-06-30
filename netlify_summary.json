@@ -4,24 +4,9 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-06-30T15:23:35.422Z"
+    "updated_at": "2022-06-30T23:02:04.340Z"
   },
   "components": [
-    {
-      "id": "8cw12qpb2n72",
-      "name": "High-Performance Edge Network",
-      "status": "operational",
-      "created_at": "2018-08-31T16:08:38.161Z",
-      "updated_at": "2022-06-15T01:28:10.258Z",
-      "position": 1,
-      "description": "The High-Performance Edge network is available for Enterprise customers to serve web content",
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "83dz7syz0j3x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "45w16bmv4dnb",
       "name": "Atlassian Bitbucket API",
@@ -33,6 +18,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "912v4l5dqqhk",
+      "page_id": "83dz7syz0j3x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "8cw12qpb2n72",
+      "name": "High-Performance Edge Network",
+      "status": "operational",
+      "created_at": "2018-08-31T16:08:38.161Z",
+      "updated_at": "2022-06-15T01:28:10.258Z",
+      "position": 1,
+      "description": "The High-Performance Edge network is available for Enterprise customers to serve web content",
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
@@ -68,6 +68,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "vtqs0zd7zncc",
+      "name": "Atlassian Bitbucket SSH",
+      "status": "operational",
+      "created_at": "2018-08-31T16:25:05.702Z",
+      "updated_at": "2022-05-23T22:00:29.086Z",
+      "position": 3,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "912v4l5dqqhk",
+      "page_id": "83dz7syz0j3x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "7l9mcmwhp0n4",
       "name": "Origin Servers",
       "status": "operational",
@@ -83,12 +98,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "vtqs0zd7zncc",
-      "name": "Atlassian Bitbucket SSH",
-      "status": "operational",
-      "created_at": "2018-08-31T16:25:05.702Z",
-      "updated_at": "2022-05-23T22:00:29.086Z",
-      "position": 3,
+      "id": "ch6wx8lq2pgk",
+      "name": "npm, Inc. Registry Reads",
+      "status": "partial_outage",
+      "created_at": "2018-09-05T15:42:37.547Z",
+      "updated_at": "2022-06-30T23:02:04.337Z",
+      "position": 4,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -108,21 +123,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
-      "page_id": "83dz7syz0j3x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "ch6wx8lq2pgk",
-      "name": "npm, Inc. Registry Reads",
-      "status": "operational",
-      "created_at": "2018-09-05T15:42:37.547Z",
-      "updated_at": "2022-04-22T02:49:36.839Z",
-      "position": 4,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "912v4l5dqqhk",
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
@@ -158,21 +158,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "595z8vy5n3wm",
-      "name": "GitHub Webhooks",
-      "status": "operational",
-      "created_at": "2019-11-13T21:44:22.950Z",
-      "updated_at": "2022-04-22T02:49:56.247Z",
-      "position": 6,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "912v4l5dqqhk",
-      "page_id": "83dz7syz0j3x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "42cdn8lcw3pr",
       "name": "API",
       "status": "operational",
@@ -183,6 +168,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
+      "page_id": "83dz7syz0j3x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "595z8vy5n3wm",
+      "name": "GitHub Webhooks",
+      "status": "operational",
+      "created_at": "2019-11-13T21:44:22.950Z",
+      "updated_at": "2022-04-22T02:49:56.247Z",
+      "position": 6,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "912v4l5dqqhk",
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
@@ -310,7 +310,7 @@
     {
       "id": "912v4l5dqqhk",
       "name": "Third-Party Services",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2022-04-22T02:49:01.909Z",
       "updated_at": "2022-04-22T02:49:01.909Z",
       "position": 21,
@@ -334,7 +334,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
