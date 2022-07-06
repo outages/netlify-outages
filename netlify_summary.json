@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-03T20:23:35.358Z"
+    "updated_at": "2022-07-06T11:44:30.942Z"
   },
   "components": [
     {
@@ -42,7 +42,7 @@
       "name": "Standard Edge Network",
       "status": "operational",
       "created_at": "2016-08-26T19:03:36.240Z",
-      "updated_at": "2022-07-03T19:36:48.675Z",
+      "updated_at": "2022-07-06T11:34:39.309Z",
       "position": 2,
       "description": "The Standard Edge Network serves web pages for Starter, Pro, and Business accounts",
       "showcase": false,
