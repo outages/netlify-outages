@@ -4,24 +4,9 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-15T08:02:12.448Z"
+    "updated_at": "2022-07-15T17:26:09.930Z"
   },
   "components": [
-    {
-      "id": "45w16bmv4dnb",
-      "name": "Atlassian Bitbucket API",
-      "status": "operational",
-      "created_at": "2018-08-31T16:25:03.742Z",
-      "updated_at": "2022-05-23T22:00:25.490Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "912v4l5dqqhk",
-      "page_id": "83dz7syz0j3x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "8cw12qpb2n72",
       "name": "High-Performance Edge Network",
@@ -33,6 +18,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
+      "page_id": "83dz7syz0j3x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "45w16bmv4dnb",
+      "name": "Atlassian Bitbucket API",
+      "status": "operational",
+      "created_at": "2018-08-31T16:25:03.742Z",
+      "updated_at": "2022-07-15T17:26:09.925Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "912v4l5dqqhk",
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
@@ -98,6 +98,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "ch6wx8lq2pgk",
+      "name": "npm, Inc. Registry Reads",
+      "status": "operational",
+      "created_at": "2018-09-05T15:42:37.547Z",
+      "updated_at": "2022-07-01T09:50:12.790Z",
+      "position": 4,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "912v4l5dqqhk",
+      "page_id": "83dz7syz0j3x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "999zpz7s4z44",
       "name": "Build Pipeline",
       "status": "operational",
@@ -113,12 +128,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "ch6wx8lq2pgk",
-      "name": "npm, Inc. Registry Reads",
+      "id": "6g1x347jrws4",
+      "name": "GitHub API Requests",
       "status": "operational",
-      "created_at": "2018-09-05T15:42:37.547Z",
-      "updated_at": "2022-07-01T09:50:12.790Z",
-      "position": 4,
+      "created_at": "2019-02-07T22:24:49.584Z",
+      "updated_at": "2022-06-29T15:21:28.217Z",
+      "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -138,21 +153,6 @@
       "showcase": false,
       "start_date": "2020-09-03",
       "group_id": null,
-      "page_id": "83dz7syz0j3x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "6g1x347jrws4",
-      "name": "GitHub API Requests",
-      "status": "operational",
-      "created_at": "2019-02-07T22:24:49.584Z",
-      "updated_at": "2022-06-29T15:21:28.217Z",
-      "position": 5,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "912v4l5dqqhk",
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
