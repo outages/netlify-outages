@@ -4,24 +4,9 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-21T08:03:29.405Z"
+    "updated_at": "2022-07-21T23:32:50.280Z"
   },
   "components": [
-    {
-      "id": "45w16bmv4dnb",
-      "name": "Atlassian Bitbucket API",
-      "status": "operational",
-      "created_at": "2018-08-31T16:25:03.742Z",
-      "updated_at": "2022-07-15T17:26:09.925Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "912v4l5dqqhk",
-      "page_id": "83dz7syz0j3x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "8cw12qpb2n72",
       "name": "High-Performance Edge Network",
@@ -38,12 +23,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "ty69by5298qw",
-      "name": "Atlassian Bitbucket Webhooks",
-      "status": "operational",
-      "created_at": "2018-08-31T16:25:21.455Z",
-      "updated_at": "2022-06-22T00:38:48.703Z",
-      "position": 2,
+      "id": "45w16bmv4dnb",
+      "name": "Atlassian Bitbucket API",
+      "status": "under_maintenance",
+      "created_at": "2018-08-31T16:25:03.742Z",
+      "updated_at": "2022-07-21T23:32:50.178Z",
+      "position": 1,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -68,12 +53,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "vtqs0zd7zncc",
-      "name": "Atlassian Bitbucket SSH",
-      "status": "operational",
-      "created_at": "2018-08-31T16:25:05.702Z",
-      "updated_at": "2022-05-23T22:00:29.086Z",
-      "position": 3,
+      "id": "ty69by5298qw",
+      "name": "Atlassian Bitbucket Webhooks",
+      "status": "under_maintenance",
+      "created_at": "2018-08-31T16:25:21.455Z",
+      "updated_at": "2022-07-21T23:31:42.633Z",
+      "position": 2,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -93,6 +78,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
+      "page_id": "83dz7syz0j3x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "vtqs0zd7zncc",
+      "name": "Atlassian Bitbucket SSH",
+      "status": "under_maintenance",
+      "created_at": "2018-08-31T16:25:05.702Z",
+      "updated_at": "2022-07-21T23:31:46.651Z",
+      "position": 3,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "912v4l5dqqhk",
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
@@ -310,7 +310,7 @@
     {
       "id": "912v4l5dqqhk",
       "name": "Third-Party Services",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2022-04-22T02:49:01.909Z",
       "updated_at": "2022-04-22T02:49:01.909Z",
       "position": 21,
@@ -349,7 +349,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
