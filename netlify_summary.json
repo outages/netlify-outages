@@ -4,15 +4,15 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-08-01T09:54:16.431Z"
+    "updated_at": "2022-08-01T10:18:05.902Z"
   },
   "components": [
     {
       "id": "8cw12qpb2n72",
       "name": "High-Performance Edge Network",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-08-31T16:08:38.161Z",
-      "updated_at": "2022-08-01T09:13:17.852Z",
+      "updated_at": "2022-08-01T10:18:05.286Z",
       "position": 1,
       "description": "The High-Performance Edge network is available for Enterprise customers to serve web content",
       "showcase": false,
@@ -55,9 +55,9 @@
     {
       "id": "l65dl1552383",
       "name": "Standard Edge Network",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2016-08-26T19:03:36.240Z",
-      "updated_at": "2022-08-01T09:13:17.880Z",
+      "updated_at": "2022-08-01T10:18:05.302Z",
       "position": 2,
       "description": "The Standard Edge Network serves web pages for Starter, Pro, and Business accounts",
       "showcase": false,
@@ -346,162 +346,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "92wdj5gyqdcn",
-      "name": "Delays in processing site updates",
-      "status": "monitoring",
-      "created_at": "2022-08-01T09:13:17.822Z",
-      "updated_at": "2022-08-01T09:54:16.260Z",
-      "monitoring_at": "2022-08-01T09:54:15.202Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/qlq98jynp54r",
-      "started_at": "2022-08-01T09:13:17.817Z",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "16nk4lppvqcm",
-          "status": "monitoring",
-          "body": "From 8:55 UTC to 9:10 UTC their was delays in processing site updates for the Standard Edge Network and High-Performance Edge Network. Between 9:20 UTC and 9:41 UTC there was an increase in build failures. Also between 9:28 UTC and 9:45 UTC there were delays in running builds. We have mitigated the issues and the team will continue to monitor.",
-          "incident_id": "92wdj5gyqdcn",
-          "created_at": "2022-08-01T09:54:15.202Z",
-          "updated_at": "2022-08-01T09:54:16.248Z",
-          "display_at": "2022-08-01T09:54:15.202Z",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Standard Edge Network",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "8cw12qpb2n72",
-              "name": "High-Performance Edge Network",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1554042821526446000
-        },
-        {
-          "id": "0s5d75dw4ncd",
-          "status": "identified",
-          "body": "We are seeing increased latencies on build scheduling. The team is investigating.",
-          "incident_id": "92wdj5gyqdcn",
-          "created_at": "2022-08-01T09:36:26.807Z",
-          "updated_at": "2022-08-01T09:36:27.407Z",
-          "display_at": "2022-08-01T09:36:26.807Z",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Standard Edge Network",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "8cw12qpb2n72",
-              "name": "High-Performance Edge Network",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1554038338797043700
-        },
-        {
-          "id": "jfz0xyvl20j0",
-          "status": "identified",
-          "body": "The issue has been identified and a solution is in progress.",
-          "incident_id": "92wdj5gyqdcn",
-          "created_at": "2022-08-01T09:21:39.064Z",
-          "updated_at": "2022-08-01T09:21:40.246Z",
-          "display_at": "2022-08-01T09:21:39.064Z",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Standard Edge Network",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "8cw12qpb2n72",
-              "name": "High-Performance Edge Network",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1554034617744646100
-        },
-        {
-          "id": "36l8n7hnzglg",
-          "status": "investigating",
-          "body": "There are delays in processing site updates for the Standard Edge Network and High-Performance Edge Network.",
-          "incident_id": "92wdj5gyqdcn",
-          "created_at": "2022-08-01T09:13:17.914Z",
-          "updated_at": "2022-08-01T09:13:18.333Z",
-          "display_at": "2022-08-01T09:13:17.914Z",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Standard Edge Network",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "8cw12qpb2n72",
-              "name": "High-Performance Edge Network",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1554032512740892700
-        }
-      ],
-      "components": [
-        {
-          "id": "8cw12qpb2n72",
-          "name": "High-Performance Edge Network",
-          "status": "degraded_performance",
-          "created_at": "2018-08-31T16:08:38.161Z",
-          "updated_at": "2022-08-01T09:13:17.852Z",
-          "position": 1,
-          "description": "The High-Performance Edge network is available for Enterprise customers to serve web content",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "l65dl1552383",
-          "name": "Standard Edge Network",
-          "status": "degraded_performance",
-          "created_at": "2016-08-26T19:03:36.240Z",
-          "updated_at": "2022-08-01T09:13:17.880Z",
-          "position": 2,
-          "description": "The Standard Edge Network serves web pages for Starter, Pro, and Business accounts",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
