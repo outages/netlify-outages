@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-08-10T11:23:35.849Z"
+    "updated_at": "2022-08-10T12:27:05.408Z"
   },
   "components": [
     {
@@ -27,7 +27,7 @@
       "name": "High-Performance Edge Network",
       "status": "operational",
       "created_at": "2018-08-31T16:08:38.161Z",
-      "updated_at": "2022-08-01T10:18:05.286Z",
+      "updated_at": "2022-08-10T12:18:04.340Z",
       "position": 1,
       "description": "The High-Performance Edge network is available for Enterprise customers to serve web content",
       "showcase": false,
@@ -98,21 +98,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "999zpz7s4z44",
-      "name": "Build Pipeline",
-      "status": "operational",
-      "created_at": "2016-08-26T19:06:12.274Z",
-      "updated_at": "2022-07-28T18:21:35.989Z",
-      "position": 4,
-      "description": "The system that builds your source code into websites (for git-backed deployments)",
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "83dz7syz0j3x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "ch6wx8lq2pgk",
       "name": "npm, Inc. Registry Reads",
       "status": "operational",
@@ -123,6 +108,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "912v4l5dqqhk",
+      "page_id": "83dz7syz0j3x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "999zpz7s4z44",
+      "name": "Build Pipeline",
+      "status": "operational",
+      "created_at": "2016-08-26T19:06:12.274Z",
+      "updated_at": "2022-07-28T18:21:35.989Z",
+      "position": 4,
+      "description": "The system that builds your source code into websites (for git-backed deployments)",
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
