@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-08-16T08:01:43.863Z"
+    "updated_at": "2022-08-16T14:47:49.887Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "8cw12qpb2n72",
       "name": "High-Performance Edge Network",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2018-08-31T16:08:38.161Z",
-      "updated_at": "2022-08-10T12:18:04.340Z",
+      "updated_at": "2022-08-16T14:47:49.178Z",
       "position": 1,
       "description": "The High-Performance Edge network is available for Enterprise customers to serve web content",
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "l65dl1552383",
       "name": "Standard Edge Network",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2016-08-26T19:03:36.240Z",
-      "updated_at": "2022-08-10T16:43:45.266Z",
+      "updated_at": "2022-08-16T14:47:49.195Z",
       "position": 2,
       "description": "The Standard Edge Network serves web pages for Starter, Pro, and Business accounts",
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "7l9mcmwhp0n4",
       "name": "Origin Servers",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2018-12-17T16:43:22.093Z",
-      "updated_at": "2022-07-28T18:21:35.974Z",
+      "updated_at": "2022-08-16T14:47:49.210Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -115,13 +115,28 @@
     {
       "id": "999zpz7s4z44",
       "name": "Build Pipeline",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2016-08-26T19:06:12.274Z",
-      "updated_at": "2022-07-28T18:21:35.989Z",
+      "updated_at": "2022-08-16T14:47:49.226Z",
       "position": 4,
       "description": "The system that builds your source code into websites (for git-backed deployments)",
       "showcase": false,
       "start_date": null,
+      "group_id": null,
+      "page_id": "83dz7syz0j3x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "y7hq47ts327k",
+      "name": "Netlify Application UI",
+      "status": "major_outage",
+      "created_at": "2020-09-03T23:45:57.385Z",
+      "updated_at": "2022-08-16T14:47:49.242Z",
+      "position": 5,
+      "description": "The web UI for administering your sites at http://app.netlify.com",
+      "showcase": false,
+      "start_date": "2020-09-03",
       "group_id": null,
       "page_id": "83dz7syz0j3x",
       "group": false,
@@ -143,15 +158,15 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y7hq47ts327k",
-      "name": "Netlify Application UI",
+      "id": "42cdn8lcw3pr",
+      "name": "API",
       "status": "operational",
-      "created_at": "2020-09-03T23:45:57.385Z",
-      "updated_at": "2022-03-22T16:27:54.586Z",
-      "position": 5,
-      "description": "The web UI for administering your sites at http://app.netlify.com",
+      "created_at": "2016-08-26T19:05:49.535Z",
+      "updated_at": "2022-06-15T01:28:10.321Z",
+      "position": 6,
+      "description": "Netlify's API configures sites and is needed to receive and process Deploys",
       "showcase": false,
-      "start_date": "2020-09-03",
+      "start_date": null,
       "group_id": null,
       "page_id": "83dz7syz0j3x",
       "group": false,
@@ -168,21 +183,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "912v4l5dqqhk",
-      "page_id": "83dz7syz0j3x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "42cdn8lcw3pr",
-      "name": "API",
-      "status": "operational",
-      "created_at": "2016-08-26T19:05:49.535Z",
-      "updated_at": "2022-06-15T01:28:10.321Z",
-      "position": 6,
-      "description": "Netlify's API configures sites and is needed to receive and process Deploys",
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
@@ -346,10 +346,147 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "pd2zn29f2mcj",
+      "name": "Errors and latencies with Netlify",
+      "status": "investigating",
+      "created_at": "2022-08-16T14:47:49.139Z",
+      "updated_at": "2022-08-16T14:47:49.879Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "critical",
+      "shortlink": "https://stspg.io/cpp9zby034c7",
+      "started_at": "2022-08-16T14:47:49.132Z",
+      "page_id": "83dz7syz0j3x",
+      "incident_updates": [
+        {
+          "id": "czdkbc0tr0f6",
+          "status": "investigating",
+          "body": "We are investigating an issue impacting all services on Netlify.",
+          "incident_id": "pd2zn29f2mcj",
+          "created_at": "2022-08-16T14:47:49.281Z",
+          "updated_at": "2022-08-16T14:47:49.871Z",
+          "display_at": "2022-08-16T14:47:49.281Z",
+          "affected_components": [
+            {
+              "code": "l65dl1552383",
+              "name": "Standard Edge Network",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "999zpz7s4z44",
+              "name": "Build Pipeline",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "8cw12qpb2n72",
+              "name": "High-Performance Edge Network",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "7l9mcmwhp0n4",
+              "name": "Origin Servers",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "y7hq47ts327k",
+              "name": "Netlify Application UI",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1559552516899029000
+        }
+      ],
+      "components": [
+        {
+          "id": "8cw12qpb2n72",
+          "name": "High-Performance Edge Network",
+          "status": "major_outage",
+          "created_at": "2018-08-31T16:08:38.161Z",
+          "updated_at": "2022-08-16T14:47:49.178Z",
+          "position": 1,
+          "description": "The High-Performance Edge network is available for Enterprise customers to serve web content",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "l65dl1552383",
+          "name": "Standard Edge Network",
+          "status": "major_outage",
+          "created_at": "2016-08-26T19:03:36.240Z",
+          "updated_at": "2022-08-16T14:47:49.195Z",
+          "position": 2,
+          "description": "The Standard Edge Network serves web pages for Starter, Pro, and Business accounts",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "7l9mcmwhp0n4",
+          "name": "Origin Servers",
+          "status": "major_outage",
+          "created_at": "2018-12-17T16:43:22.093Z",
+          "updated_at": "2022-08-16T14:47:49.210Z",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "999zpz7s4z44",
+          "name": "Build Pipeline",
+          "status": "major_outage",
+          "created_at": "2016-08-26T19:06:12.274Z",
+          "updated_at": "2022-08-16T14:47:49.226Z",
+          "position": 4,
+          "description": "The system that builds your source code into websites (for git-backed deployments)",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "y7hq47ts327k",
+          "name": "Netlify Application UI",
+          "status": "major_outage",
+          "created_at": "2020-09-03T23:45:57.385Z",
+          "updated_at": "2022-08-16T14:47:49.242Z",
+          "position": 5,
+          "description": "The web UI for administering your sites at http://app.netlify.com",
+          "showcase": false,
+          "start_date": "2020-09-03",
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
