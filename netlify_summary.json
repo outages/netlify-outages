@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-08-16T17:23:32.432Z"
+    "updated_at": "2022-08-16T17:44:01.971Z"
   },
   "components": [
     {
@@ -352,7 +352,7 @@
       "name": "Errors and latencies affecting several services",
       "status": "monitoring",
       "created_at": "2022-08-16T16:35:59.173Z",
-      "updated_at": "2022-08-16T17:00:47.348Z",
+      "updated_at": "2022-08-16T17:44:01.965Z",
       "monitoring_at": "2022-08-16T17:00:46.918Z",
       "resolved_at": null,
       "impact": "major",
@@ -360,6 +360,44 @@
       "started_at": "2022-08-16T16:35:59.165Z",
       "page_id": "83dz7syz0j3x",
       "incident_updates": [
+        {
+          "id": "q6gh7kkdpk7m",
+          "status": "monitoring",
+          "body": "We've implemented a fix and will monitor closely and for longer than usual before resolving the incident.  We mitigated impact for most sites at 16:59 UTC.",
+          "incident_id": "8xdthj3s0554",
+          "created_at": "2022-08-16T17:44:01.541Z",
+          "updated_at": "2022-08-16T17:44:01.960Z",
+          "display_at": "2022-08-16T17:44:01.541Z",
+          "affected_components": [
+            {
+              "code": "l65dl1552383",
+              "name": "Standard Edge Network",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8cw12qpb2n72",
+              "name": "High-Performance Edge Network",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "7l9mcmwhp0n4",
+              "name": "Origin Servers",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "y7hq47ts327k",
+              "name": "Netlify Application UI",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1559596859236032500
+        },
         {
           "id": "7yjgqxslnzfm",
           "status": "monitoring",
