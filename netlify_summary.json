@@ -4,15 +4,15 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-08-20T15:30:12.948Z"
+    "updated_at": "2022-08-20T15:50:52.923Z"
   },
   "components": [
     {
       "id": "8cw12qpb2n72",
       "name": "High-Performance Edge Network",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-08-31T16:08:38.161Z",
-      "updated_at": "2022-08-20T14:35:02.434Z",
+      "updated_at": "2022-08-20T15:50:52.493Z",
       "position": 1,
       "description": "The High-Performance Edge network is available for Enterprise customers to serve web content",
       "showcase": false,
@@ -346,103 +346,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "vz8h1mlzpzgh",
-      "name": "Increased latencies and errors on High Performance Edge Network",
-      "status": "monitoring",
-      "created_at": "2022-08-20T14:35:02.400Z",
-      "updated_at": "2022-08-20T15:30:12.941Z",
-      "monitoring_at": "2022-08-20T15:30:12.475Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/kkzqhlng6j4j",
-      "started_at": "2022-08-20T14:35:02.394Z",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "dg1h8hgpmybd",
-          "status": "monitoring",
-          "body": "The team has pushed some fixes which appear to be working. We'll continue to monitor the results.",
-          "incident_id": "vz8h1mlzpzgh",
-          "created_at": "2022-08-20T15:30:12.475Z",
-          "updated_at": "2022-08-20T15:30:12.935Z",
-          "display_at": "2022-08-20T15:30:12.475Z",
-          "affected_components": [
-            {
-              "code": "8cw12qpb2n72",
-              "name": "High-Performance Edge Network",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1561012734547767300
-        },
-        {
-          "id": "mfy3s7x9hfxc",
-          "status": "identified",
-          "body": "The team has identified the cause of the issue and is working towards a fix.",
-          "incident_id": "vz8h1mlzpzgh",
-          "created_at": "2022-08-20T14:55:21.177Z",
-          "updated_at": "2022-08-20T14:55:21.662Z",
-          "display_at": "2022-08-20T14:55:21.177Z",
-          "affected_components": [
-            {
-              "code": "8cw12qpb2n72",
-              "name": "High-Performance Edge Network",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1561003963301785600
-        },
-        {
-          "id": "85bz5tf51f6d",
-          "status": "investigating",
-          "body": "We're currently experiencing increased latencies, timeouts and errors on our High Performance Edge Network. This is being investigated. Standard Edge Network should be unaffected.",
-          "incident_id": "vz8h1mlzpzgh",
-          "created_at": "2022-08-20T14:35:02.479Z",
-          "updated_at": "2022-08-20T14:35:03.669Z",
-          "display_at": "2022-08-20T14:35:02.479Z",
-          "affected_components": [
-            {
-              "code": "8cw12qpb2n72",
-              "name": "High-Performance Edge Network",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1560998854580809700
-        }
-      ],
-      "components": [
-        {
-          "id": "8cw12qpb2n72",
-          "name": "High-Performance Edge Network",
-          "status": "degraded_performance",
-          "created_at": "2018-08-31T16:08:38.161Z",
-          "updated_at": "2022-08-20T14:35:02.434Z",
-          "position": 1,
-          "description": "The High-Performance Edge network is available for Enterprise customers to serve web content",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
