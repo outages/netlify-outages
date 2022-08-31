@@ -4,24 +4,9 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-08-31T08:06:43.305Z"
+    "updated_at": "2022-08-31T08:39:46.172Z"
   },
   "components": [
-    {
-      "id": "45w16bmv4dnb",
-      "name": "Atlassian Bitbucket API",
-      "status": "operational",
-      "created_at": "2018-08-31T16:25:03.742Z",
-      "updated_at": "2022-07-23T00:11:58.299Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "912v4l5dqqhk",
-      "page_id": "83dz7syz0j3x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "8cw12qpb2n72",
       "name": "High-Performance Edge Network",
@@ -33,6 +18,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
+      "page_id": "83dz7syz0j3x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "45w16bmv4dnb",
+      "name": "Atlassian Bitbucket API",
+      "status": "operational",
+      "created_at": "2018-08-31T16:25:03.742Z",
+      "updated_at": "2022-07-23T00:11:58.299Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "912v4l5dqqhk",
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
@@ -57,7 +57,7 @@
       "name": "Standard Edge Network",
       "status": "operational",
       "created_at": "2016-08-26T19:03:36.240Z",
-      "updated_at": "2022-08-28T01:46:09.671Z",
+      "updated_at": "2022-08-31T08:27:14.261Z",
       "position": 2,
       "description": "The Standard Edge Network serves web pages for Starter, Pro, and Business accounts",
       "showcase": false,
