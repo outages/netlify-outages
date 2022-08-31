@@ -4,24 +4,9 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-08-31T09:23:53.489Z"
+    "updated_at": "2022-08-31T14:59:10.416Z"
   },
   "components": [
-    {
-      "id": "8cw12qpb2n72",
-      "name": "High-Performance Edge Network",
-      "status": "operational",
-      "created_at": "2018-08-31T16:08:38.161Z",
-      "updated_at": "2022-08-30T15:00:02.004Z",
-      "position": 1,
-      "description": "The High-Performance Edge network is available for Enterprise customers to serve web content",
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "83dz7syz0j3x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "45w16bmv4dnb",
       "name": "Atlassian Bitbucket API",
@@ -33,6 +18,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "912v4l5dqqhk",
+      "page_id": "83dz7syz0j3x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "8cw12qpb2n72",
+      "name": "High-Performance Edge Network",
+      "status": "operational",
+      "created_at": "2018-08-31T16:08:38.161Z",
+      "updated_at": "2022-08-30T15:00:02.004Z",
+      "position": 1,
+      "description": "The High-Performance Edge network is available for Enterprise customers to serve web content",
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
@@ -85,10 +85,25 @@
     {
       "id": "vtqs0zd7zncc",
       "name": "Atlassian Bitbucket SSH",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-08-31T16:25:05.702Z",
-      "updated_at": "2022-07-23T00:11:57.496Z",
+      "updated_at": "2022-08-31T14:59:10.411Z",
       "position": 3,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "912v4l5dqqhk",
+      "page_id": "83dz7syz0j3x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "ch6wx8lq2pgk",
+      "name": "npm, Inc. Registry Reads",
+      "status": "operational",
+      "created_at": "2018-09-05T15:42:37.547Z",
+      "updated_at": "2022-07-01T09:50:12.790Z",
+      "position": 4,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -108,21 +123,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
-      "page_id": "83dz7syz0j3x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "ch6wx8lq2pgk",
-      "name": "npm, Inc. Registry Reads",
-      "status": "operational",
-      "created_at": "2018-09-05T15:42:37.547Z",
-      "updated_at": "2022-07-01T09:50:12.790Z",
-      "position": 4,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "912v4l5dqqhk",
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
@@ -310,7 +310,7 @@
     {
       "id": "912v4l5dqqhk",
       "name": "Third-Party Services",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2022-04-22T02:49:01.909Z",
       "updated_at": "2022-04-22T02:49:01.909Z",
       "position": 21,
@@ -349,7 +349,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
