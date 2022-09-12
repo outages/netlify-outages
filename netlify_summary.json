@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-12T13:15:29.327Z"
+    "updated_at": "2022-09-12T14:05:09.710Z"
   },
   "components": [
     {
@@ -115,9 +115,9 @@
     {
       "id": "999zpz7s4z44",
       "name": "Build Pipeline",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2016-08-26T19:06:12.274Z",
-      "updated_at": "2022-09-12T12:06:32.565Z",
+      "updated_at": "2022-09-12T14:05:09.250Z",
       "position": 4,
       "description": "The system that builds your source code into websites (for git-backed deployments)",
       "showcase": false,
@@ -346,83 +346,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "8vt0jnlj9r28",
-      "name": "Increase in Failed Builds",
-      "status": "monitoring",
-      "created_at": "2022-09-12T12:06:32.531Z",
-      "updated_at": "2022-09-12T13:15:29.319Z",
-      "monitoring_at": "2022-09-12T13:15:28.635Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/yqv9d25qy7x9",
-      "started_at": "2022-09-12T12:06:32.526Z",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "7vff9sd5fzzv",
-          "status": "monitoring",
-          "body": "We’re seeing a decrease in failed builds. The team will continue to monitor.",
-          "incident_id": "8vt0jnlj9r28",
-          "created_at": "2022-09-12T13:15:28.635Z",
-          "updated_at": "2022-09-12T13:15:29.313Z",
-          "display_at": "2022-09-12T13:15:28.635Z",
-          "affected_components": [
-            {
-              "code": "999zpz7s4z44",
-              "name": "Build Pipeline",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1569313750188175400
-        },
-        {
-          "id": "d5dt9tgq3m9q",
-          "status": "investigating",
-          "body": "Starting at 11:44 UTC, we’re seeing an increase in failed builds. The team is investigating the issue.",
-          "incident_id": "8vt0jnlj9r28",
-          "created_at": "2022-09-12T12:06:32.622Z",
-          "updated_at": "2022-09-12T12:06:33.171Z",
-          "display_at": "2022-09-12T12:06:32.622Z",
-          "affected_components": [
-            {
-              "code": "999zpz7s4z44",
-              "name": "Build Pipeline",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1569296401959645200
-        }
-      ],
-      "components": [
-        {
-          "id": "999zpz7s4z44",
-          "name": "Build Pipeline",
-          "status": "degraded_performance",
-          "created_at": "2016-08-26T19:06:12.274Z",
-          "updated_at": "2022-09-12T12:06:32.565Z",
-          "position": 4,
-          "description": "The system that builds your source code into websites (for git-backed deployments)",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
