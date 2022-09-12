@@ -4,24 +4,9 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-12T08:04:31.501Z"
+    "updated_at": "2022-09-12T12:23:35.371Z"
   },
   "components": [
-    {
-      "id": "45w16bmv4dnb",
-      "name": "Atlassian Bitbucket API",
-      "status": "operational",
-      "created_at": "2018-08-31T16:25:03.742Z",
-      "updated_at": "2022-07-23T00:11:58.299Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "912v4l5dqqhk",
-      "page_id": "83dz7syz0j3x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "8cw12qpb2n72",
       "name": "High-Performance Edge Network",
@@ -38,16 +23,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "l65dl1552383",
-      "name": "Standard Edge Network",
+      "id": "45w16bmv4dnb",
+      "name": "Atlassian Bitbucket API",
       "status": "operational",
-      "created_at": "2016-08-26T19:03:36.240Z",
-      "updated_at": "2022-08-31T19:53:54.264Z",
-      "position": 2,
-      "description": "The Standard Edge Network serves web pages for Starter, Pro, and Business accounts",
+      "created_at": "2018-08-31T16:25:03.742Z",
+      "updated_at": "2022-07-23T00:11:58.299Z",
+      "position": 1,
+      "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": null,
+      "group_id": "912v4l5dqqhk",
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
@@ -63,6 +48,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "912v4l5dqqhk",
+      "page_id": "83dz7syz0j3x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "l65dl1552383",
+      "name": "Standard Edge Network",
+      "status": "operational",
+      "created_at": "2016-08-26T19:03:36.240Z",
+      "updated_at": "2022-08-31T19:53:54.264Z",
+      "position": 2,
+      "description": "The Standard Edge Network serves web pages for Starter, Pro, and Business accounts",
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
@@ -115,28 +115,13 @@
     {
       "id": "999zpz7s4z44",
       "name": "Build Pipeline",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2016-08-26T19:06:12.274Z",
-      "updated_at": "2022-08-19T15:44:28.441Z",
+      "updated_at": "2022-09-12T12:06:32.565Z",
       "position": 4,
       "description": "The system that builds your source code into websites (for git-backed deployments)",
       "showcase": false,
       "start_date": null,
-      "group_id": null,
-      "page_id": "83dz7syz0j3x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "y7hq47ts327k",
-      "name": "Netlify Application UI",
-      "status": "operational",
-      "created_at": "2020-09-03T23:45:57.385Z",
-      "updated_at": "2022-08-16T17:56:20.934Z",
-      "position": 5,
-      "description": "The web UI for administering your sites at http://app.netlify.com",
-      "showcase": false,
-      "start_date": "2020-09-03",
       "group_id": null,
       "page_id": "83dz7syz0j3x",
       "group": false,
@@ -153,6 +138,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "912v4l5dqqhk",
+      "page_id": "83dz7syz0j3x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "y7hq47ts327k",
+      "name": "Netlify Application UI",
+      "status": "operational",
+      "created_at": "2020-09-03T23:45:57.385Z",
+      "updated_at": "2022-08-16T17:56:20.934Z",
+      "position": 5,
+      "description": "The web UI for administering your sites at http://app.netlify.com",
+      "showcase": false,
+      "start_date": "2020-09-03",
+      "group_id": null,
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
@@ -346,10 +346,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "8vt0jnlj9r28",
+      "name": "Increase in Failed Builds",
+      "status": "investigating",
+      "created_at": "2022-09-12T12:06:32.531Z",
+      "updated_at": "2022-09-12T12:06:33.179Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/yqv9d25qy7x9",
+      "started_at": "2022-09-12T12:06:32.526Z",
+      "page_id": "83dz7syz0j3x",
+      "incident_updates": [
+        {
+          "id": "d5dt9tgq3m9q",
+          "status": "investigating",
+          "body": "Starting at 11:44 UTC, we’re seeing an increase in failed builds. The team is investigating the issue.",
+          "incident_id": "8vt0jnlj9r28",
+          "created_at": "2022-09-12T12:06:32.622Z",
+          "updated_at": "2022-09-12T12:06:33.171Z",
+          "display_at": "2022-09-12T12:06:32.622Z",
+          "affected_components": [
+            {
+              "code": "999zpz7s4z44",
+              "name": "Build Pipeline",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1569296401959645200
+        }
+      ],
+      "components": [
+        {
+          "id": "999zpz7s4z44",
+          "name": "Build Pipeline",
+          "status": "degraded_performance",
+          "created_at": "2016-08-26T19:06:12.274Z",
+          "updated_at": "2022-09-12T12:06:32.565Z",
+          "position": 4,
+          "description": "The system that builds your source code into websites (for git-backed deployments)",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
