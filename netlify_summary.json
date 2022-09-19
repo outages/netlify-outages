@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-19T16:43:57.996Z"
+    "updated_at": "2022-09-19T17:33:56.382Z"
   },
   "components": [
     {
@@ -162,7 +162,7 @@
       "name": "API",
       "status": "degraded_performance",
       "created_at": "2016-08-26T19:05:49.535Z",
-      "updated_at": "2022-09-19T16:43:57.386Z",
+      "updated_at": "2022-09-19T17:33:55.937Z",
       "position": 6,
       "description": "Netlify's API configures sites and is needed to receive and process Deploys",
       "showcase": false,
@@ -352,14 +352,54 @@
       "name": "Hosted DNS records not changeable",
       "status": "identified",
       "created_at": "2022-09-19T16:43:57.348Z",
-      "updated_at": "2022-09-19T16:43:57.990Z",
-      "monitoring_at": null,
+      "updated_at": "2022-09-19T17:33:56.377Z",
+      "monitoring_at": "2022-09-19T17:09:17.575Z",
       "resolved_at": null,
-      "impact": "minor",
+      "impact": "none",
       "shortlink": "https://stspg.io/cl0xhyjkncz3",
       "started_at": "2022-09-19T16:43:57.343Z",
       "page_id": "83dz7syz0j3x",
       "incident_updates": [
+        {
+          "id": "33l60lh4632d",
+          "status": "identified",
+          "body": "We have again deactivated DNS changes as our service provider continues to work to resolve the incident.  Contrary to the prior update, no records have been changed since 21:14 UTC.  We'll post again with an update as soon as the fix is available.",
+          "incident_id": "t8jb5myt2fn2",
+          "created_at": "2022-09-19T17:33:55.969Z",
+          "updated_at": "2022-09-19T17:33:56.374Z",
+          "display_at": "2022-09-19T17:33:55.969Z",
+          "affected_components": [
+            {
+              "code": "42cdn8lcw3pr",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1571915506768289800
+        },
+        {
+          "id": "js7kp53wpxf1",
+          "status": "monitoring",
+          "body": "API requests for DNS record creation or change are succeeding again, and we have processed the backlog of pending changes that we enqueued without returning an error.  In case you received a message about records not being changeable from our UI or API, you should now be able to perform those changes manually.  Our team will continue to monitor until our service provider marks their incident as resolved.",
+          "incident_id": "t8jb5myt2fn2",
+          "created_at": "2022-09-19T17:09:17.575Z",
+          "updated_at": "2022-09-19T17:09:18.467Z",
+          "display_at": "2022-09-19T17:09:17.575Z",
+          "affected_components": [
+            {
+              "code": "42cdn8lcw3pr",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1571909306978795500
+        },
         {
           "id": "7hmzl14bx9yc",
           "status": "identified",
@@ -387,7 +427,7 @@
           "name": "API",
           "status": "degraded_performance",
           "created_at": "2016-08-26T19:05:49.535Z",
-          "updated_at": "2022-09-19T16:43:57.386Z",
+          "updated_at": "2022-09-19T17:33:55.937Z",
           "position": 6,
           "description": "Netlify's API configures sites and is needed to receive and process Deploys",
           "showcase": false,
