@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-25T21:34:52.455Z"
+    "updated_at": "2022-09-25T22:00:37.644Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "45w16bmv4dnb",
       "name": "Atlassian Bitbucket API",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-31T16:25:03.742Z",
-      "updated_at": "2022-09-25T15:49:35.994Z",
+      "updated_at": "2022-09-25T22:00:36.079Z",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "vtqs0zd7zncc",
       "name": "Atlassian Bitbucket SSH",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-31T16:25:05.702Z",
-      "updated_at": "2022-09-25T15:49:37.871Z",
+      "updated_at": "2022-09-25T22:00:37.639Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -310,7 +310,7 @@
     {
       "id": "912v4l5dqqhk",
       "name": "Third-Party Services",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2022-04-22T02:49:01.909Z",
       "updated_at": "2022-04-22T02:49:01.909Z",
       "position": 21,
@@ -349,7 +349,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
