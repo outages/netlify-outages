@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-04T15:33:38.733Z"
+    "updated_at": "2022-10-04T18:03:45.500Z"
   },
   "components": [
     {
@@ -333,9 +333,9 @@
     {
       "id": "y4nk0cx6qf7g",
       "name": "Edge Functions",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2022-07-18T01:14:39.088Z",
-      "updated_at": "2022-10-04T15:14:42.895Z",
+      "updated_at": "2022-10-04T18:03:45.036Z",
       "position": 22,
       "description": "https://docs.netlify.com/netlify-labs/experimental-features/edge-functions/",
       "showcase": false,
@@ -346,137 +346,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "727j2f6njsfz",
-      "name": "Intermittent errors for sites using Edge Functions",
-      "status": "investigating",
-      "created_at": "2022-10-04T15:14:42.841Z",
-      "updated_at": "2022-10-04T15:33:38.722Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/ptjg7zwlc4tq",
-      "started_at": "2022-10-04T15:14:42.836Z",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "x38qd73yd9lt",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "727j2f6njsfz",
-          "created_at": "2022-10-04T15:33:37.112Z",
-          "updated_at": "2022-10-04T15:33:38.575Z",
-          "display_at": "2022-10-04T15:33:37.112Z",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Standard Edge Network",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            },
-            {
-              "code": "8cw12qpb2n72",
-              "name": "High-Performance Edge Network",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            },
-            {
-              "code": "y4nk0cx6qf7g",
-              "name": "Edge Functions",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1577321051155222500
-        },
-        {
-          "id": "rsnpx26h195c",
-          "status": "investigating",
-          "body": "Starting at 13:15 UTC we're seeing intermittent errors for sites using Edge Functions, including ones on the High-Performance Edge network.",
-          "incident_id": "727j2f6njsfz",
-          "created_at": "2022-10-04T15:14:42.922Z",
-          "updated_at": "2022-10-04T15:14:44.251Z",
-          "display_at": "2022-10-04T15:14:42.922Z",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Standard Edge Network",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "8cw12qpb2n72",
-              "name": "High-Performance Edge Network",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "y4nk0cx6qf7g",
-              "name": "Edge Functions",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1577316293392609300
-        }
-      ],
-      "components": [
-        {
-          "id": "8cw12qpb2n72",
-          "name": "High-Performance Edge Network",
-          "status": "operational",
-          "created_at": "2018-08-31T16:08:38.161Z",
-          "updated_at": "2022-10-04T15:33:37.068Z",
-          "position": 1,
-          "description": "The High-Performance Edge network is available for Enterprise customers to serve web content",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "l65dl1552383",
-          "name": "Standard Edge Network",
-          "status": "operational",
-          "created_at": "2016-08-26T19:03:36.240Z",
-          "updated_at": "2022-10-04T15:33:37.084Z",
-          "position": 2,
-          "description": "The Standard Edge Network serves web pages for Starter, Pro, and Business accounts",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "y4nk0cx6qf7g",
-          "name": "Edge Functions",
-          "status": "degraded_performance",
-          "created_at": "2022-07-18T01:14:39.088Z",
-          "updated_at": "2022-10-04T15:14:42.895Z",
-          "position": 22,
-          "description": "https://docs.netlify.com/netlify-labs/experimental-features/edge-functions/",
-          "showcase": false,
-          "start_date": "2022-07-18",
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
