@@ -4,9 +4,24 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-03T08:07:35.704Z"
+    "updated_at": "2022-10-04T07:36:27.696Z"
   },
   "components": [
+    {
+      "id": "45w16bmv4dnb",
+      "name": "Atlassian Bitbucket API",
+      "status": "major_outage",
+      "created_at": "2018-08-31T16:25:03.742Z",
+      "updated_at": "2022-10-04T07:36:27.692Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "912v4l5dqqhk",
+      "page_id": "83dz7syz0j3x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
     {
       "id": "8cw12qpb2n72",
       "name": "High-Performance Edge Network",
@@ -23,12 +38,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "45w16bmv4dnb",
-      "name": "Atlassian Bitbucket API",
+      "id": "ty69by5298qw",
+      "name": "Atlassian Bitbucket Webhooks",
       "status": "operational",
-      "created_at": "2018-08-31T16:25:03.742Z",
-      "updated_at": "2022-09-25T22:00:36.079Z",
-      "position": 1,
+      "created_at": "2018-08-31T16:25:21.455Z",
+      "updated_at": "2022-07-22T01:30:50.746Z",
+      "position": 2,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -48,21 +63,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
-      "page_id": "83dz7syz0j3x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "ty69by5298qw",
-      "name": "Atlassian Bitbucket Webhooks",
-      "status": "operational",
-      "created_at": "2018-08-31T16:25:21.455Z",
-      "updated_at": "2022-07-22T01:30:50.746Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "912v4l5dqqhk",
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
@@ -98,21 +98,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "999zpz7s4z44",
-      "name": "Build Pipeline",
-      "status": "operational",
-      "created_at": "2016-08-26T19:06:12.274Z",
-      "updated_at": "2022-09-12T14:05:09.250Z",
-      "position": 4,
-      "description": "The system that builds your source code into websites (for git-backed deployments)",
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "83dz7syz0j3x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "ch6wx8lq2pgk",
       "name": "npm, Inc. Registry Reads",
       "status": "operational",
@@ -123,6 +108,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "912v4l5dqqhk",
+      "page_id": "83dz7syz0j3x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "999zpz7s4z44",
+      "name": "Build Pipeline",
+      "status": "operational",
+      "created_at": "2016-08-26T19:06:12.274Z",
+      "updated_at": "2022-09-12T14:05:09.250Z",
+      "position": 4,
+      "description": "The system that builds your source code into websites (for git-backed deployments)",
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
@@ -310,7 +310,7 @@
     {
       "id": "912v4l5dqqhk",
       "name": "Third-Party Services",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2022-04-22T02:49:01.909Z",
       "updated_at": "2022-04-22T02:49:01.909Z",
       "position": 21,
@@ -349,7 +349,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
