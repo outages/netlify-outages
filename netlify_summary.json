@@ -4,15 +4,15 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-06T16:48:55.199Z"
+    "updated_at": "2022-10-06T17:37:41.434Z"
   },
   "components": [
     {
       "id": "8cw12qpb2n72",
       "name": "High-Performance Edge Network",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-08-31T16:08:38.161Z",
-      "updated_at": "2022-10-06T16:39:22.177Z",
+      "updated_at": "2022-10-06T17:37:32.373Z",
       "position": 1,
       "description": "The High-Performance Edge network is available for Enterprise customers to serve web content",
       "showcase": false,
@@ -55,9 +55,9 @@
     {
       "id": "l65dl1552383",
       "name": "Standard Edge Network",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2016-08-26T19:03:36.240Z",
-      "updated_at": "2022-10-06T16:39:22.192Z",
+      "updated_at": "2022-10-06T17:37:41.432Z",
       "position": 2,
       "description": "The Standard Edge Network serves web pages for Starter, Pro, and Business accounts",
       "showcase": false,
@@ -346,89 +346,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "s5vnbtdtxwrl",
-      "name": "Problem serving some Next.js images in recent builds",
-      "status": "monitoring",
-      "created_at": "2022-10-06T16:39:22.146Z",
-      "updated_at": "2022-10-06T16:48:55.024Z",
-      "monitoring_at": "2022-10-06T16:48:53.708Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/7ct73z00fdst",
-      "started_at": "2022-10-06T16:39:22.140Z",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "4rld7s7nqd45",
-          "status": "monitoring",
-          "body": "We've released v 4.24.3 of our Next.js runtime with a fix, and it will be automatically used for all new deploys.  Our team will continue to monitor.",
-          "incident_id": "s5vnbtdtxwrl",
-          "created_at": "2022-10-06T16:48:53.708Z",
-          "updated_at": "2022-10-06T16:48:55.015Z",
-          "display_at": "2022-10-06T16:48:53.708Z",
-          "affected_components": [
-            {
-              "code": "999zpz7s4z44",
-              "name": "Build Pipeline",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1578064769986486300
-        },
-        {
-          "id": "04d92mzh50s7",
-          "status": "identified",
-          "body": "In version 4.24.2 of the Next.js runtime, there is an issue with local images served by next/image from outside /_next/static/media. This will manifest in the error Invalid source image path. This can be worked around by rolling back to the previous deploy, or upgrading to version 4.24.3, when we finish releasing it shortly.",
-          "incident_id": "s5vnbtdtxwrl",
-          "created_at": "2022-10-06T16:39:22.230Z",
-          "updated_at": "2022-10-06T16:39:22.733Z",
-          "display_at": "2022-10-06T16:39:22.230Z",
-          "affected_components": [
-            {
-              "code": "l65dl1552383",
-              "name": "Standard Edge Network",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "8cw12qpb2n72",
-              "name": "High-Performance Edge Network",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1578062369884102700
-        }
-      ],
-      "components": [
-        {
-          "id": "999zpz7s4z44",
-          "name": "Build Pipeline",
-          "status": "operational",
-          "created_at": "2016-08-26T19:06:12.274Z",
-          "updated_at": "2022-09-12T14:05:09.250Z",
-          "position": 4,
-          "description": "The system that builds your source code into websites (for git-backed deployments)",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
