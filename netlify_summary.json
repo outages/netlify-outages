@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-12T17:19:28.735Z"
+    "updated_at": "2022-10-12T18:29:41.003Z"
   },
   "components": [
     {
@@ -352,7 +352,7 @@
       "name": "Increased errors and latency on the Standard and High Performance Edge for uncached content",
       "status": "identified",
       "created_at": "2022-10-12T14:48:32.442Z",
-      "updated_at": "2022-10-12T17:19:28.726Z",
+      "updated_at": "2022-10-12T18:29:40.994Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -360,6 +360,38 @@
       "started_at": "2022-10-12T14:48:32.436Z",
       "page_id": "83dz7syz0j3x",
       "incident_updates": [
+        {
+          "id": "5g148skd1jmm",
+          "status": "identified",
+          "body": "We have deployed a fix to address an issue with Origin. We continue to work on mitigating a remaining issue with increased latencies.",
+          "incident_id": "pg3nm4y1n63t",
+          "created_at": "2022-10-12T18:27:02.095Z",
+          "updated_at": "2022-10-12T18:29:40.988Z",
+          "display_at": "2022-10-12T18:27:02.000Z",
+          "affected_components": [
+            {
+              "code": "l65dl1552383",
+              "name": "Standard Edge Network",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "8cw12qpb2n72",
+              "name": "High-Performance Edge Network",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "7l9mcmwhp0n4",
+              "name": "Origin Servers",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1580263791258128400
+        },
         {
           "id": "3v2bzmvcnvgr",
           "status": "identified",
