@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-31T12:13:03.298Z"
+    "updated_at": "2022-10-31T16:24:39.292Z"
   },
   "components": [
     {
@@ -350,16 +350,29 @@
     {
       "id": "w9t39ncp59wm",
       "name": "SSL/TLS provisioning issue",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2022-10-31T05:26:11.367Z",
-      "updated_at": "2022-10-31T12:13:03.292Z",
-      "monitoring_at": null,
+      "updated_at": "2022-10-31T16:24:39.285Z",
+      "monitoring_at": "2022-10-31T16:24:38.933Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/c714v20t188s",
       "started_at": "2022-10-31T05:26:11.359Z",
       "page_id": "83dz7syz0j3x",
       "incident_updates": [
+        {
+          "id": "5cxx9f7mhspf",
+          "status": "monitoring",
+          "body": "We are successfully provisioning a majority of new and existing SSL certificates. Additionally, we are monitoring our SSL provisioning while Let's Encrypt completes a planned network maintenance at this time.",
+          "incident_id": "w9t39ncp59wm",
+          "created_at": "2022-10-31T16:24:38.933Z",
+          "updated_at": "2022-10-31T16:24:39.279Z",
+          "display_at": "2022-10-31T16:24:38.933Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1587118361045274600
+        },
         {
           "id": "g4tk956628l9",
           "status": "identified",
