@@ -4,15 +4,15 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-11-04T08:06:18.527Z"
+    "updated_at": "2022-11-04T13:42:22.940Z"
   },
   "components": [
     {
       "id": "8cw12qpb2n72",
       "name": "High-Performance Edge Network",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-08-31T16:08:38.161Z",
-      "updated_at": "2022-10-12T15:07:59.146Z",
+      "updated_at": "2022-11-04T13:33:12.199Z",
       "position": 1,
       "description": "The High-Performance Edge network is available for Enterprise customers to serve web content",
       "showcase": false,
@@ -38,6 +38,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "l65dl1552383",
+      "name": "Standard Edge Network",
+      "status": "degraded_performance",
+      "created_at": "2016-08-26T19:03:36.240Z",
+      "updated_at": "2022-11-04T13:33:12.219Z",
+      "position": 2,
+      "description": "The Standard Edge Network serves web pages for Starter, Pro, and Business accounts",
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "83dz7syz0j3x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "ty69by5298qw",
       "name": "Atlassian Bitbucket Webhooks",
       "status": "operational",
@@ -48,21 +63,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "912v4l5dqqhk",
-      "page_id": "83dz7syz0j3x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "l65dl1552383",
-      "name": "Standard Edge Network",
-      "status": "operational",
-      "created_at": "2016-08-26T19:03:36.240Z",
-      "updated_at": "2022-10-12T15:07:59.163Z",
-      "position": 2,
-      "description": "The Standard Edge Network serves web pages for Starter, Pro, and Business accounts",
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
@@ -85,9 +85,9 @@
     {
       "id": "7l9mcmwhp0n4",
       "name": "Origin Servers",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-12-17T16:43:22.093Z",
-      "updated_at": "2022-10-12T22:26:29.613Z",
+      "updated_at": "2022-11-04T13:33:12.239Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "999zpz7s4z44",
       "name": "Build Pipeline",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2016-08-26T19:06:12.274Z",
-      "updated_at": "2022-09-12T14:05:09.250Z",
+      "updated_at": "2022-11-04T13:33:12.260Z",
       "position": 4,
       "description": "The system that builds your source code into websites (for git-backed deployments)",
       "showcase": false,
@@ -128,21 +128,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y7hq47ts327k",
-      "name": "Netlify Application UI",
-      "status": "operational",
-      "created_at": "2020-09-03T23:45:57.385Z",
-      "updated_at": "2022-08-16T17:56:20.934Z",
-      "position": 5,
-      "description": "The web UI for administering your sites at http://app.netlify.com",
-      "showcase": false,
-      "start_date": "2020-09-03",
-      "group_id": null,
-      "page_id": "83dz7syz0j3x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "6g1x347jrws4",
       "name": "GitHub API Requests",
       "status": "operational",
@@ -153,6 +138,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "912v4l5dqqhk",
+      "page_id": "83dz7syz0j3x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "y7hq47ts327k",
+      "name": "Netlify Application UI",
+      "status": "degraded_performance",
+      "created_at": "2020-09-03T23:45:57.385Z",
+      "updated_at": "2022-11-04T13:33:12.280Z",
+      "position": 5,
+      "description": "The web UI for administering your sites at http://app.netlify.com",
+      "showcase": false,
+      "start_date": "2020-09-03",
+      "group_id": null,
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
@@ -175,9 +175,9 @@
     {
       "id": "42cdn8lcw3pr",
       "name": "API",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2016-08-26T19:05:49.535Z",
-      "updated_at": "2022-09-19T18:56:04.959Z",
+      "updated_at": "2022-11-04T13:33:12.301Z",
       "position": 6,
       "description": "Netlify's API configures sites and is needed to receive and process Deploys",
       "showcase": false,
@@ -346,10 +346,218 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "cj8fsjv5d5q6",
+      "name": "Errors and latencies across several services",
+      "status": "identified",
+      "created_at": "2022-11-04T13:33:12.143Z",
+      "updated_at": "2022-11-04T13:42:22.930Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/8xwyl2bldp7c",
+      "started_at": "2022-11-04T13:33:12.134Z",
+      "page_id": "83dz7syz0j3x",
+      "incident_updates": [
+        {
+          "id": "xvffvrh0z1sw",
+          "status": "identified",
+          "body": "Since 13:13 UTC we have experienced increased errors with API requests and uncached CDN content across all tiers. We have identified the issue and are working to fully recover our systems.",
+          "incident_id": "cj8fsjv5d5q6",
+          "created_at": "2022-11-04T13:42:22.192Z",
+          "updated_at": "2022-11-04T13:42:22.923Z",
+          "display_at": "2022-11-04T13:42:22.192Z",
+          "affected_components": [
+            {
+              "code": "l65dl1552383",
+              "name": "Standard Edge Network",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "42cdn8lcw3pr",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "999zpz7s4z44",
+              "name": "Build Pipeline",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "8cw12qpb2n72",
+              "name": "High-Performance Edge Network",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7l9mcmwhp0n4",
+              "name": "Origin Servers",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "y7hq47ts327k",
+              "name": "Netlify Application UI",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1588527074964537300
+        },
+        {
+          "id": "0mjgvch4rnsg",
+          "status": "investigating",
+          "body": "We are currently investigating errors and latencies across several services starting 13:13 UTC.",
+          "incident_id": "cj8fsjv5d5q6",
+          "created_at": "2022-11-04T13:33:12.349Z",
+          "updated_at": "2022-11-04T13:33:13.066Z",
+          "display_at": "2022-11-04T13:33:12.349Z",
+          "affected_components": [
+            {
+              "code": "l65dl1552383",
+              "name": "Standard Edge Network",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "42cdn8lcw3pr",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "999zpz7s4z44",
+              "name": "Build Pipeline",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "8cw12qpb2n72",
+              "name": "High-Performance Edge Network",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7l9mcmwhp0n4",
+              "name": "Origin Servers",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "y7hq47ts327k",
+              "name": "Netlify Application UI",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1588524768986554400
+        }
+      ],
+      "components": [
+        {
+          "id": "8cw12qpb2n72",
+          "name": "High-Performance Edge Network",
+          "status": "degraded_performance",
+          "created_at": "2018-08-31T16:08:38.161Z",
+          "updated_at": "2022-11-04T13:33:12.199Z",
+          "position": 1,
+          "description": "The High-Performance Edge network is available for Enterprise customers to serve web content",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "l65dl1552383",
+          "name": "Standard Edge Network",
+          "status": "degraded_performance",
+          "created_at": "2016-08-26T19:03:36.240Z",
+          "updated_at": "2022-11-04T13:33:12.219Z",
+          "position": 2,
+          "description": "The Standard Edge Network serves web pages for Starter, Pro, and Business accounts",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "7l9mcmwhp0n4",
+          "name": "Origin Servers",
+          "status": "degraded_performance",
+          "created_at": "2018-12-17T16:43:22.093Z",
+          "updated_at": "2022-11-04T13:33:12.239Z",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "999zpz7s4z44",
+          "name": "Build Pipeline",
+          "status": "degraded_performance",
+          "created_at": "2016-08-26T19:06:12.274Z",
+          "updated_at": "2022-11-04T13:33:12.260Z",
+          "position": 4,
+          "description": "The system that builds your source code into websites (for git-backed deployments)",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "y7hq47ts327k",
+          "name": "Netlify Application UI",
+          "status": "degraded_performance",
+          "created_at": "2020-09-03T23:45:57.385Z",
+          "updated_at": "2022-11-04T13:33:12.280Z",
+          "position": 5,
+          "description": "The web UI for administering your sites at http://app.netlify.com",
+          "showcase": false,
+          "start_date": "2020-09-03",
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "42cdn8lcw3pr",
+          "name": "API",
+          "status": "degraded_performance",
+          "created_at": "2016-08-26T19:05:49.535Z",
+          "updated_at": "2022-11-04T13:33:12.301Z",
+          "position": 6,
+          "description": "Netlify's API configures sites and is needed to receive and process Deploys",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
