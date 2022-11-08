@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-11-08T08:03:24.161Z"
+    "updated_at": "2022-11-08T10:27:11.849Z"
   },
   "components": [
     {
@@ -346,7 +346,37 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "v8xcpdrc3qqp",
+      "name": "Accounts incorrectly marked as overdue",
+      "status": "investigating",
+      "created_at": "2022-11-08T10:27:11.339Z",
+      "updated_at": "2022-11-08T10:27:11.843Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/h9k170jf2rzr",
+      "started_at": "2022-11-08T10:27:11.333Z",
+      "page_id": "83dz7syz0j3x",
+      "incident_updates": [
+        {
+          "id": "dy6kfp96b4wb",
+          "status": "investigating",
+          "body": "We’re investigating an issue with our payment system that is incorrectly considering accounts as overdue",
+          "incident_id": "v8xcpdrc3qqp",
+          "created_at": "2022-11-08T10:27:11.377Z",
+          "updated_at": "2022-11-08T10:27:11.837Z",
+          "display_at": "2022-11-08T10:27:11.377Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1589927506878271500
+        }
+      ],
+      "components": []
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
