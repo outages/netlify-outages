@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-11-16T08:06:15.182Z"
+    "updated_at": "2022-11-17T01:52:27.910Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "999zpz7s4z44",
       "name": "Build Pipeline",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2016-08-26T19:06:12.274Z",
-      "updated_at": "2022-11-04T14:11:30.929Z",
+      "updated_at": "2022-11-17T01:52:27.015Z",
       "position": 4,
       "description": "The system that builds your source code into websites (for git-backed deployments)",
       "showcase": false,
@@ -346,10 +346,103 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "dw7y0c33z4g9",
+      "name": "Build Failures",
+      "status": "monitoring",
+      "created_at": "2022-11-17T01:11:52.126Z",
+      "updated_at": "2022-11-17T01:52:27.902Z",
+      "monitoring_at": "2022-11-17T01:18:44.958Z",
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/rylpjr8kdll1",
+      "started_at": "2022-11-17T01:11:52.121Z",
+      "page_id": "83dz7syz0j3x",
+      "incident_updates": [
+        {
+          "id": "pnv1gl6cp2bh",
+          "status": "monitoring",
+          "body": "We are continuing to closely monitor the recovery of our build pipeline. Some builds may still be impacted and will need to be re-run if failed.",
+          "incident_id": "dw7y0c33z4g9",
+          "created_at": "2022-11-17T01:52:27.059Z",
+          "updated_at": "2022-11-17T01:52:27.897Z",
+          "display_at": "2022-11-17T01:52:27.059Z",
+          "affected_components": [
+            {
+              "code": "999zpz7s4z44",
+              "name": "Build Pipeline",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1593059460888809500
+        },
+        {
+          "id": "86lhckvdc6w5",
+          "status": "monitoring",
+          "body": "Our system self-recovered and we are currently monitoring our build pipeline recovery.",
+          "incident_id": "dw7y0c33z4g9",
+          "created_at": "2022-11-17T01:18:44.958Z",
+          "updated_at": "2022-11-17T01:18:45.461Z",
+          "display_at": "2022-11-17T01:18:44.958Z",
+          "affected_components": [
+            {
+              "code": "999zpz7s4z44",
+              "name": "Build Pipeline",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1593050978403881000
+        },
+        {
+          "id": "cnlhdnl3q42k",
+          "status": "investigating",
+          "body": "We are currently investigating an issue causing some builds to fail.",
+          "incident_id": "dw7y0c33z4g9",
+          "created_at": "2022-11-17T01:11:52.192Z",
+          "updated_at": "2022-11-17T01:11:53.698Z",
+          "display_at": "2022-11-17T01:11:52.192Z",
+          "affected_components": [
+            {
+              "code": "999zpz7s4z44",
+              "name": "Build Pipeline",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1593049251176943600
+        }
+      ],
+      "components": [
+        {
+          "id": "999zpz7s4z44",
+          "name": "Build Pipeline",
+          "status": "partial_outage",
+          "created_at": "2016-08-26T19:06:12.274Z",
+          "updated_at": "2022-11-17T01:52:27.015Z",
+          "position": 4,
+          "description": "The system that builds your source code into websites (for git-backed deployments)",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
