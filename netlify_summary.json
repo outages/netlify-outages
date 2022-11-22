@@ -4,15 +4,15 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-11-22T08:05:34.249Z"
+    "updated_at": "2022-11-22T20:10:47.683Z"
   },
   "components": [
     {
       "id": "45w16bmv4dnb",
       "name": "Atlassian Bitbucket API",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-08-31T16:25:03.742Z",
-      "updated_at": "2022-11-22T07:08:59.352Z",
+      "updated_at": "2022-11-22T20:10:46.680Z",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -68,21 +68,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "vtqs0zd7zncc",
-      "name": "Atlassian Bitbucket SSH",
-      "status": "operational",
-      "created_at": "2018-08-31T16:25:05.702Z",
-      "updated_at": "2022-09-25T22:00:37.639Z",
-      "position": 3,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "912v4l5dqqhk",
-      "page_id": "83dz7syz0j3x",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "7l9mcmwhp0n4",
       "name": "Origin Servers",
       "status": "operational",
@@ -98,16 +83,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "999zpz7s4z44",
-      "name": "Build Pipeline",
-      "status": "operational",
-      "created_at": "2016-08-26T19:06:12.274Z",
-      "updated_at": "2022-11-18T09:08:12.531Z",
-      "position": 4,
-      "description": "The system that builds your source code into websites (for git-backed deployments)",
+      "id": "vtqs0zd7zncc",
+      "name": "Atlassian Bitbucket SSH",
+      "status": "partial_outage",
+      "created_at": "2018-08-31T16:25:05.702Z",
+      "updated_at": "2022-11-22T20:10:47.674Z",
+      "position": 3,
+      "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": null,
+      "group_id": "912v4l5dqqhk",
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
@@ -123,6 +108,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "912v4l5dqqhk",
+      "page_id": "83dz7syz0j3x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "999zpz7s4z44",
+      "name": "Build Pipeline",
+      "status": "operational",
+      "created_at": "2016-08-26T19:06:12.274Z",
+      "updated_at": "2022-11-18T09:08:12.531Z",
+      "position": 4,
+      "description": "The system that builds your source code into websites (for git-backed deployments)",
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
@@ -310,7 +310,7 @@
     {
       "id": "912v4l5dqqhk",
       "name": "Third-Party Services",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2022-04-22T02:49:01.909Z",
       "updated_at": "2022-04-22T02:49:01.909Z",
       "position": 21,
@@ -349,7 +349,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
