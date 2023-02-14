@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-02-14T08:09:30.605Z"
+    "updated_at": "2023-02-14T17:11:29.126Z"
   },
   "components": [
     {
@@ -356,6 +356,21 @@
       "description": "https://docs.netlify.com/netlify-labs/experimental-features/edge-functions/",
       "showcase": false,
       "start_date": "2022-07-18",
+      "group_id": null,
+      "page_id": "83dz7syz0j3x",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "bmy0vgv9lvv8",
+      "name": "NS1 API",
+      "status": "operational",
+      "created_at": "2023-02-14T17:11:29.123Z",
+      "updated_at": "2023-02-14T17:11:29.123Z",
+      "position": 23,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
       "group_id": null,
       "page_id": "83dz7syz0j3x",
       "group": false,
