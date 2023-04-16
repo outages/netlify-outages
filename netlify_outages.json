@@ -1,0 +1,13 @@
+{
+  "page": {
+    "id": "83dz7syz0j3x",
+    "name": "Netlify",
+    "url": "https://www.netlifystatus.com",
+    "time_zone": "Etc/UTC",
+    "updated_at": "2023-04-16T07:47:01.204Z"
+  },
+  "status": {
+    "indicator": "none",
+    "description": "All Systems Operational"
+  }
+}
