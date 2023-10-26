@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-10-26T18:45:42.939Z"
+    "updated_at": "2023-10-26T18:59:54.769Z"
   },
   "components": [
     {
@@ -280,9 +280,9 @@
     {
       "id": "slkrr5915mm4",
       "name": "Netlify Functions",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-12-03T18:50:03.807Z",
-      "updated_at": "2023-10-26T17:19:28.733Z",
+      "updated_at": "2023-10-26T18:59:54.073Z",
       "position": 10,
       "description": "Serverless functions open a world of possibilities for running on-demand, server-side code without having to run a dedicated server.",
       "showcase": false,
@@ -440,79 +440,6 @@
           "description": "The High-Performance Edge network is available for Enterprise customers to serve web content",
           "showcase": true,
           "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    },
-    {
-      "id": "fx1wnd52qsvr",
-      "name": "Increase in Functions failures",
-      "status": "monitoring",
-      "created_at": "2023-10-26T17:19:28.712Z",
-      "updated_at": "2023-10-26T17:46:40.592Z",
-      "monitoring_at": "2023-10-26T17:46:40.106Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/n9qs5g73dfjr",
-      "started_at": "2023-10-26T17:19:28.696Z",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "lymmh7spx14h",
-          "status": "monitoring",
-          "body": "We have determined the impact of this incident was to a very small subset of customers, to whom we are reaching out to facilitate a fix to the affected functions.  We do not expect new occurrences before our longer term fix is implemented.  However, in case you see sudden lambda HTTP 500 errors please reach out to our Support team for advice.",
-          "incident_id": "fx1wnd52qsvr",
-          "created_at": "2023-10-26T17:46:40.106Z",
-          "updated_at": "2023-10-26T17:46:40.581Z",
-          "display_at": "2023-10-26T17:46:40.106Z",
-          "affected_components": [
-            {
-              "code": "slkrr5915mm4",
-              "name": "Netlify Functions",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1717598633925964300
-        },
-        {
-          "id": "vjds5my80kkh",
-          "status": "investigating",
-          "body": "We have seen an increase in failures for Functions invocations starting at 11:30 UTC. Our team is investigating.",
-          "incident_id": "fx1wnd52qsvr",
-          "created_at": "2023-10-26T17:19:28.763Z",
-          "updated_at": "2023-10-26T17:19:29.535Z",
-          "display_at": "2023-10-26T17:19:28.763Z",
-          "affected_components": [
-            {
-              "code": "slkrr5915mm4",
-              "name": "Netlify Functions",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1717591792768729300
-        }
-      ],
-      "components": [
-        {
-          "id": "slkrr5915mm4",
-          "name": "Netlify Functions",
-          "status": "degraded_performance",
-          "created_at": "2020-12-03T18:50:03.807Z",
-          "updated_at": "2023-10-26T17:19:28.733Z",
-          "position": 10,
-          "description": "Serverless functions open a world of possibilities for running on-demand, server-side code without having to run a dedicated server.",
-          "showcase": false,
-          "start_date": "2020-12-03",
           "group_id": null,
           "page_id": "83dz7syz0j3x",
           "group": false,
