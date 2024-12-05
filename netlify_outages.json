@@ -4,10 +4,10 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-12-05T11:41:30.284Z"
+    "updated_at": "2024-12-05T20:37:12.577Z"
   },
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
