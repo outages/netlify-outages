@@ -4,15 +4,15 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-09-02T12:28:05.553Z"
+    "updated_at": "2025-09-02T12:39:06.746Z"
   },
   "components": [
     {
       "id": "8cw12qpb2n72",
       "name": "High-Performance Edge Network",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-31T16:08:38.161Z",
-      "updated_at": "2025-09-02T12:26:48.475Z",
+      "updated_at": "2025-09-02T12:39:06.319Z",
       "position": 1,
       "description": "The High-Performance Edge network is available for Enterprise customers to serve web content",
       "showcase": true,
@@ -560,84 +560,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "m7sg2frht5hk",
-      "name": "Increased errors on HP Edge Network",
-      "status": "monitoring",
-      "created_at": "2025-09-02T12:26:48.445Z",
-      "updated_at": "2025-09-02T12:28:05.548Z",
-      "monitoring_at": "2025-09-02T12:28:05.257Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/ynmk9xgk4v6v",
-      "started_at": "2025-09-02T12:26:48.441Z",
-      "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "gjk4tcl5p6xb",
-          "status": "monitoring",
-          "body": "We have identified the cause, implemented a fix, and are now monitoring results.",
-          "incident_id": "m7sg2frht5hk",
-          "created_at": "2025-09-02T12:28:05.257Z",
-          "updated_at": "2025-09-02T12:28:05.544Z",
-          "display_at": "2025-09-02T12:28:05.257Z",
-          "affected_components": [
-            {
-              "code": "8cw12qpb2n72",
-              "name": "High-Performance Edge Network",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1962855044770062728
-        },
-        {
-          "id": "4gf7ppltfj7s",
-          "status": "investigating",
-          "body": "We see an increase in errors serving content on HP Edge across several regions starting at 12:15 UTC.",
-          "incident_id": "m7sg2frht5hk",
-          "created_at": "2025-09-02T12:26:48.510Z",
-          "updated_at": "2025-09-02T12:26:48.846Z",
-          "display_at": "2025-09-02T12:26:48.510Z",
-          "affected_components": [
-            {
-              "code": "8cw12qpb2n72",
-              "name": "High-Performance Edge Network",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1962854723050262961
-        }
-      ],
-      "components": [
-        {
-          "id": "8cw12qpb2n72",
-          "name": "High-Performance Edge Network",
-          "status": "partial_outage",
-          "created_at": "2018-08-31T16:08:38.161Z",
-          "updated_at": "2025-09-02T12:26:48.475Z",
-          "position": 1,
-          "description": "The High-Performance Edge network is available for Enterprise customers to serve web content",
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
