@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-09-15T06:24:05.408Z"
+    "updated_at": "2025-09-15T06:25:32.143Z"
   },
   "components": [
     {
@@ -564,9 +564,9 @@
       "name": "Legacy Edge Network (Equinix)",
       "status": "partial_outage",
       "created_at": "2025-09-11T14:27:44.449Z",
-      "updated_at": "2025-09-15T06:24:04.961Z",
+      "updated_at": "2025-09-15T06:25:32.139Z",
       "position": 27,
-      "description": "Netlify's Legacy load balancer. Planned to be decommissioned on 09/15/2025.",
+      "description": "Legacy load balancer. Planned to be decommissioned on 09/15/2025.",
       "showcase": false,
       "start_date": "2025-09-11",
       "group_id": null,
@@ -616,9 +616,9 @@
           "name": "Legacy Edge Network (Equinix)",
           "status": "partial_outage",
           "created_at": "2025-09-11T14:27:44.449Z",
-          "updated_at": "2025-09-15T06:24:04.961Z",
+          "updated_at": "2025-09-15T06:25:32.139Z",
           "position": 27,
-          "description": "Netlify's Legacy load balancer. Planned to be decommissioned on 09/15/2025.",
+          "description": "Legacy load balancer. Planned to be decommissioned on 09/15/2025.",
           "showcase": false,
           "start_date": "2025-09-11",
           "group_id": null,
