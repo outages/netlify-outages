@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-05-25T10:18:36.628Z"
+    "updated_at": "2026-05-25T15:31:06.360Z"
   },
   "components": [
     {
@@ -505,9 +505,9 @@
     {
       "id": "ty3v83kprpr0",
       "name": "Netlify Helpdesk",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2025-03-27T15:39:15.792Z",
-      "updated_at": "2026-01-07T10:53:08.063Z",
+      "updated_at": "2026-05-25T15:31:06.311Z",
       "position": 24,
       "description": "Submissions coming from https://netlify.com/support",
       "showcase": false,
@@ -620,10 +620,64 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "94zmzfqkmr16",
+      "name": "Support Communication Delivery Issues",
+      "status": "identified",
+      "created_at": "2026-05-25T15:31:06.274Z",
+      "updated_at": "2026-05-25T15:31:06.357Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/34wqr6lchx5c",
+      "started_at": "2026-05-25T15:31:06.266Z",
+      "page_id": "83dz7syz0j3x",
+      "incident_updates": [
+        {
+          "id": "5bwh1spz7xgy",
+          "status": "identified",
+          "body": "We are currently investigating an issue affecting outbound email delivery for some Netlify services, including support-related communications. Our team is working with our email provider to restore service as quickly as possible",
+          "incident_id": "94zmzfqkmr16",
+          "created_at": "2026-05-25T15:31:06.354Z",
+          "updated_at": "2026-05-25T15:31:06.354Z",
+          "display_at": "2026-05-25T15:31:06.354Z",
+          "affected_components": [
+            {
+              "code": "ty3v83kprpr0",
+              "name": "Netlify Helpdesk",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "ty3v83kprpr0",
+          "name": "Netlify Helpdesk",
+          "status": "partial_outage",
+          "created_at": "2025-03-27T15:39:15.792Z",
+          "updated_at": "2026-05-25T15:31:06.311Z",
+          "position": 24,
+          "description": "Submissions coming from https://netlify.com/support",
+          "showcase": false,
+          "start_date": "2025-03-27",
+          "group_id": null,
+          "page_id": "83dz7syz0j3x",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
