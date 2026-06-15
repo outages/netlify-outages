@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-06-15T15:39:16.376Z"
+    "updated_at": "2026-06-15T18:49:03.537Z"
   },
   "components": [
     {
@@ -175,9 +175,9 @@
     {
       "id": "595z8vy5n3wm",
       "name": "GitHub Webhooks",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-11-13T21:44:22.950Z",
-      "updated_at": "2026-06-15T15:37:37.172Z",
+      "updated_at": "2026-06-15T16:39:53.517Z",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -535,7 +535,7 @@
     {
       "id": "912v4l5dqqhk",
       "name": "Third-Party Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2022-04-22T02:49:01.909Z",
       "updated_at": "2026-01-07T10:53:08.120Z",
       "position": 26,
@@ -623,7 +623,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
