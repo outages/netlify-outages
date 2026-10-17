@@ -4,7 +4,7 @@
     "name": "Netlify",
     "url": "https://www.netlifystatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-10-17T05:03:56.536Z"
+    "updated_at": "2026-10-17T08:59:27.158Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "999zpz7s4z44",
       "name": "Build Pipeline",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2016-08-26T19:06:12.274Z",
-      "updated_at": "2026-10-17T05:03:55.772Z",
+      "updated_at": "2026-10-17T05:55:38.560Z",
       "position": 4,
       "description": "The system that builds your source code into websites (for git-backed deployments)",
       "showcase": false,
@@ -618,66 +618,27 @@
       "page_id": "83dz7syz0j3x",
       "group": false,
       "only_show_if_degraded": false
-    }
-  ],
-  "incidents": [
+    },
     {
-      "id": "1vw7z81c7bq9",
-      "name": "Elevated Build Errors",
-      "status": "identified",
-      "created_at": "2026-10-17T05:03:55.706Z",
-      "updated_at": "2026-10-17T05:03:56.525Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/xzy1f9cp68hk",
-      "started_at": "2026-10-17T05:03:55.697Z",
+      "id": "fgk9t14x2dz9",
+      "name": "Netlify Database",
+      "status": "operational",
+      "created_at": "2026-10-17T05:20:17.717Z",
+      "updated_at": "2026-10-17T05:20:17.717Z",
+      "position": 31,
+      "description": null,
+      "showcase": true,
+      "start_date": "2026-10-17",
+      "group_id": null,
       "page_id": "83dz7syz0j3x",
-      "incident_updates": [
-        {
-          "id": "xt6bnpwjsqr4",
-          "status": "identified",
-          "body": "We have identified an issue with a third-party service used by our build system. Builds started on or after 21:10 UTC that use the CSP extension may experience increased errors.",
-          "incident_id": "1vw7z81c7bq9",
-          "created_at": "2026-10-17T05:03:55.825Z",
-          "updated_at": "2026-10-17T05:03:56.515Z",
-          "display_at": "2026-10-17T05:03:55.825Z",
-          "affected_components": [
-            {
-              "code": "999zpz7s4z44",
-              "name": "Build Pipeline",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 2111322295373545514
-        }
-      ],
-      "components": [
-        {
-          "id": "999zpz7s4z44",
-          "name": "Build Pipeline",
-          "status": "degraded_performance",
-          "created_at": "2016-08-26T19:06:12.274Z",
-          "updated_at": "2026-10-17T05:03:55.772Z",
-          "position": 4,
-          "description": "The system that builds your source code into websites (for git-backed deployments)",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "83dz7syz0j3x",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
+      "group": false,
+      "only_show_if_degraded": false
     }
   ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
